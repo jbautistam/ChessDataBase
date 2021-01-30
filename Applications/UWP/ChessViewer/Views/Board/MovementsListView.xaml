@@ -1,0 +1,64 @@
+﻿<UserControl
+    x:Class="ChessViewer.Views.Board.MovementsListView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ChessViewer.Views.Board"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewModels="using:Bau.Libraries.LibChessGame.ViewModels.Board.Movements"
+	xmlns:templateSelector="using:ChessViewer.Views.Board.Templates"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="400">
+	<UserControl.Resources>
+        <!-- Plantilla de datos para el tipo para MovementFigureViewModel -->
+		<DataTemplate x:Key="MovementFigureDoubleTemplate" x:DataType="viewModels:MovementFigureDoubleViewModel">
+			<Grid HorizontalAlignment="Stretch">
+				<Grid.RowDefinitions>
+					<RowDefinition Height="Auto" />
+				</Grid.RowDefinitions>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="Auto" />
+					<ColumnDefinition Width="*" />
+					<ColumnDefinition Width="*" />
+				</Grid.ColumnDefinitions>
+				<TextBlock Grid.Row="0" Grid.Column="0" Text="{Binding Path=MovementNumber}" 
+						Margin="0" VerticalAlignment="Center" Foreground="{Binding Path=Foreground,Converter={StaticResource MvvmColorConverter}}" 
+						FontSize="20" FontWeight="Bold" />
+				<local:MovementFigureView Grid.Row="0" Grid.Column="1" Movement="{Binding Path=WhiteMovement}" HorizontalAlignment="Stretch" />
+				<local:MovementFigureView Grid.Row="0" Grid.Column="2" Movement="{Binding Path=BlackMovement}" HorizontalAlignment="Stretch" />
+			</Grid>
+		</DataTemplate>
+		<!-- Plantilla de datos para el tipo para MovementRemarkViewModel -->
+		<DataTemplate x:Key="MovementRemarksTemplate" x:DataType="viewModels:MovementRemarkViewModel">
+			<StackPanel Orientation="Horizontal">
+				<TextBlock Text="{Binding Path=Text}" Margin="5" VerticalAlignment="Center" HorizontalAlignment="Stretch" FontSize="12" />
+			</StackPanel>
+		</DataTemplate>
+		<!-- Plantilla de datos para el tipo para MovementGameEndViewModel -->
+		<DataTemplate x:Key="MovementGameEndTemplate" x:DataType="viewModels:MovementGameEndViewModel">
+			<TextBlock Text="{Binding Path=Text}" Margin="5" VerticalAlignment="Center" HorizontalAlignment="Stretch"
+						HorizontalTextAlignment="Center" FontSize="16" FontWeight="Bold"/>
+		</DataTemplate>
+		<templateSelector:MovementTemplateSelector x:Key="MovementTemplateSelector" 
+					MovementFigureDoubleTemplate="{StaticResource MovementFigureDoubleTemplate}"
+					MovementFigureEndGameTemplate="{StaticResource MovementGameEndTemplate}"
+					MovementRemarksTemplate="{StaticResource MovementRemarksTemplate}"
+					/>
+	</UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+		<Border Grid.Row="0" Grid.Column="0" Margin="2" Padding="5" BorderBrush="Black" BorderThickness="1">
+			<ListView ItemsSource="{Binding Path=MovementsList.Movements}" SelectedItem="{Binding Path=MovementsList.SelectedMovement}" 
+				HorizontalContentAlignment="Stretch" SelectionChanged="lstMovements_SelectionChanged" ItemTemplateSelector="{StaticResource MovementTemplateSelector}">
+			</ListView>
+		</Border>
+		<ScrollViewer VerticalScrollBarVisibility="Visible" Grid.Row="1" Grid.Column="0" Margin="2" Padding="5" 
+							BorderBrush="Black" BorderThickness="1" >
+			<TextBlock Text="{Binding Path=MovementsList.ActualMovement.RemarksText}" FontSize="16" TextWrapping="WrapWholeWords"/>
+		</ScrollViewer>
+    </Grid>
+</UserControl>
