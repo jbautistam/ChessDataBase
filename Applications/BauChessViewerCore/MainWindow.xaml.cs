@@ -1,0 +1,120 @@
+﻿using System;
+using System.Threading.Tasks;
+using System.Windows;
+
+using Bau.Libraries.LibChessGame.ViewModels;
+
+namespace Bau.ChessDataBase
+{
+	/// <summary>
+	///		Ventana principal
+	/// </summary>
+	public partial class MainWindow : Window
+	{
+		public MainWindow()
+		{
+			InitializeComponent();
+			//DataContext = ViewModel = new ChessGameViewModel(new Controllers.ChessDataBaseController
+			//													("Bau.ChessDataBase",
+			//													 System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData)), 
+			//													 this));
+		}
+
+		/// <summary>
+		///		Inicializa el formulario
+		/// </summary>
+		private async Task InitFormAsync()
+		{
+			// Inicializa el viewModel principal
+			ViewModel.Init();
+			// Inicializa el tablero
+			udtListMovements.ViewModel = ViewModel.GameBoardViewModel;
+			udtMovementInfoView.Init(ViewModel.GameBoardViewModel);
+			udtBoard.Init(ViewModel.GameBoardViewModel);
+			// Carga el archivo inicial
+			if (!string.IsNullOrEmpty(Properties.Settings.Default.Game))
+				await LoadGameAsync(Properties.Settings.Default.Game);
+			// Inicia los directorios de imágenes
+			if (!string.IsNullOrEmpty(Properties.Settings.Default.PathBoardImages))
+				ViewModel.ComboPathBoard.SelectedPath = Properties.Settings.Default.PathBoardImages;
+			if (!string.IsNullOrEmpty(Properties.Settings.Default.PathPieceImages))
+				ViewModel.ComboPathPieces.SelectedPath = Properties.Settings.Default.PathPieceImages;
+			// Asigna el resto de las propiedades
+			ViewModel.MustShowAnimation = Properties.Settings.Default.MustShowAnimations;
+		}
+
+		/// <summary>
+		///		Carga un juego
+		/// </summary>
+		private async Task LoadGameAsync(string fileName)
+		{
+			(bool isLoaded, string error) = await ViewModel.PgnLibraryViewModel.LoadAsync(fileName);
+
+				if (isLoaded)
+				{
+					Properties.Settings.Default.Game = fileName;
+					Properties.Settings.Default.Save();
+				}
+				else
+					MessageBox.Show(error);
+		}
+
+		/// <summary>
+		///		Graba la configuración
+		/// </summary>
+		private void SaveConfiguration()
+		{
+			Properties.Settings.Default.PathBoardImages = ViewModel.ComboPathBoard.SelectedPath;
+			Properties.Settings.Default.PathPieceImages = ViewModel.ComboPathPieces.SelectedPath;
+			Properties.Settings.Default.MustShowAnimations = ViewModel.MustShowAnimation;
+			if (!string.IsNullOrWhiteSpace(ViewModel?.PgnLibraryViewModel?.FullFileName))
+				Properties.Settings.Default.Game = ViewModel.PgnLibraryViewModel.FullFileName;
+			Properties.Settings.Default.Save();
+		}
+
+		/// <summary>
+		///		Muestra el archivo
+		/// </summary>
+		private void ShowFile()
+		{
+			if (string.IsNullOrWhiteSpace(ViewModel.PgnLibraryViewModel.FullFileName))
+				MessageBox.Show("Select a file");
+			else
+			{
+				Views.ShowFilePgnView fileView = new Views.ShowFilePgnView();
+
+					// Carga el archivo
+					fileView.ShowFile(ViewModel.PgnLibraryViewModel.FullFileName);
+					// Muestra la ventana
+					fileView.Owner = this;
+					fileView.Show();
+			}
+		}
+
+		/// <summary>
+		///		ViewModel para el juego
+		/// </summary>
+		public ChessGameViewModel ViewModel { get; }
+
+		private async void Window_Loaded(object sender, RoutedEventArgs e)
+		{
+			await InitFormAsync();
+		}
+
+		private void lstMovements_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
+		{
+			if (sender is System.Windows.Controls.ListBox lstView && ViewModel.GameBoardViewModel?.MovementsList?.SelectedMovement != null)
+				lstView.ScrollIntoView(ViewModel.GameBoardViewModel.MovementsList.SelectedMovement);
+		}
+
+		private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+		{
+			SaveConfiguration();
+		}
+
+		private void cmdShowFile_Click(object sender, RoutedEventArgs e)
+		{
+			ShowFile();
+		}
+	}
+}

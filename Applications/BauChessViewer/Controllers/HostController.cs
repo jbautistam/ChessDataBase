@@ -30,7 +30,7 @@ namespace BauChessViewer.Controllers
 				await Task.Delay(1);
 				// Asigna las propiedades
 				file.Multiselect = false;
-				file.InitialDirectory = System.IO.Path.Combine(PathBase, "Data\\Samples");
+				file.InitialDirectory = Path.Combine(PathBase, "Data\\Samples");
 				// file.FileName = defaultFileName;
 				file.DefaultExt = "pgn";
 				file.Filter = "Archivos PGN (*.pgn)|*.pgn|Todos los archivos|*.*";
@@ -68,7 +68,7 @@ namespace BauChessViewer.Controllers
 		/// </summary>
 		public async Task<List<string>> GetPathsBoardAsync()
 		{
-			return await GetSubPaths(Path.Combine(PathBase, SubPathBoard));
+			return await GetSubPathsAsync(Path.Combine(PathBase, SubPathBoard));
 		}
 
 		/// <summary>
@@ -76,13 +76,13 @@ namespace BauChessViewer.Controllers
 		/// </summary>
 		public async Task<List<string>> GetPathsPiecesAsync()
 		{
-			return await GetSubPaths(Path.Combine(PathBase, SubPathPiecess));
+			return await GetSubPathsAsync(Path.Combine(PathBase, SubPathPiecess));
 		}
 
 		/// <summary>
 		///		Obtiene los subdirectorios de un directorio
 		/// </summary>
-		private async Task<List<string>> GetSubPaths(string path)
+		private async Task<List<string>> GetSubPathsAsync(string path)
 		{
 			List<string> directories = new List<string>();
 

@@ -7,7 +7,7 @@ namespace Bau.Libraries.LibChessGame.ViewModels.Pgn
 	/// <summary>
 	///		ViewModel con los datos de un juego
 	/// </summary>
-	public class PgnGameInfoViewModel : Mvvm.BaseObservableObject
+	public class PgnGameInfoViewModel : BauMvvm.ViewModels.BaseObservableObject
 	{
 		// Variables privadas
 		private string _event, _round, _site, _whitePlayer, _blackPlayer, _title;

@@ -1,0 +1,685 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>Bau.ChessDataBase</AssemblyName>
+    <RootNamespace>Bau.ChessDataBase</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Images\Accept.png" />
+    <None Remove="Resources\Images\ArrowFirst.png" />
+    <None Remove="Resources\Images\ArrowLast.png" />
+    <None Remove="Resources\Images\ArrowNext.png" />
+    <None Remove="Resources\Images\ArrowPrevious.png" />
+    <None Remove="Resources\Images\BishopBlack.gif" />
+    <None Remove="Resources\Images\BishopWhite.gif" />
+    <None Remove="Resources\Images\Blog.png" />
+    <None Remove="Resources\Images\BoardDark.gif" />
+    <None Remove="Resources\Images\BoardLight.gif" />
+    <None Remove="Resources\Images\Close.png" />
+    <None Remove="Resources\Images\Copy.png" />
+    <None Remove="Resources\Images\Cut.png" />
+    <None Remove="Resources\Images\DefaultCover.png" />
+    <None Remove="Resources\Images\Delete.png" />
+    <None Remove="Resources\Images\Document.png" />
+    <None Remove="Resources\Images\Download.png" />
+    <None Remove="Resources\Images\EntryInteresting.png" />
+    <None Remove="Resources\Images\EntryNotRead.png" />
+    <None Remove="Resources\Images\EntryRead.png" />
+    <None Remove="Resources\Images\Exit.png" />
+    <None Remove="Resources\Images\File.png" />
+    <None Remove="Resources\Images\Folder.png" />
+    <None Remove="Resources\Images\Image.png" />
+    <None Remove="Resources\Images\KingBlack.gif" />
+    <None Remove="Resources\Images\KingWhite.gif" />
+    <None Remove="Resources\Images\KnightBlack.gif" />
+    <None Remove="Resources\Images\KnightWhite.gif" />
+    <None Remove="Resources\Images\NewItem.png" />
+    <None Remove="Resources\Images\News.png" />
+    <None Remove="Resources\Images\NextAction.png" />
+    <None Remove="Resources\Images\NextPage.png" />
+    <None Remove="Resources\Images\PageBase.png" />
+    <None Remove="Resources\Images\Paste.png" />
+    <None Remove="Resources\Images\PawnBlack.gif" />
+    <None Remove="Resources\Images\PawnWhite.gif" />
+    <None Remove="Resources\Images\Play.png" />
+    <None Remove="Resources\Images\PreviousPage.png" />
+    <None Remove="Resources\Images\Process.png" />
+    <None Remove="Resources\Images\Project.png" />
+    <None Remove="Resources\Images\Properties.gif" />
+    <None Remove="Resources\Images\QueenBlack.gif" />
+    <None Remove="Resources\Images\QueenWhite.gif" />
+    <None Remove="Resources\Images\Reference.png" />
+    <None Remove="Resources\Images\Refresh.png" />
+    <None Remove="Resources\Images\RookBlack.gif" />
+    <None Remove="Resources\Images\RookWhite.gif" />
+    <None Remove="Resources\Images\Save.png" />
+    <None Remove="Resources\Images\SaveAs.png" />
+    <None Remove="Resources\Images\Section.png" />
+    <None Remove="Resources\Images\Solution.png" />
+    <None Remove="Resources\Images\Tag.png" />
+    <None Remove="Resources\Images\Template.png" />
+    <None Remove="Resources\Images\WebBrowser.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Libraries\Architecture\Mvvm\src\BauMvvm.Views.Wpf\BauMvvm.Views.Wpf.csproj" />
+    <ProjectReference Include="..\..\..\..\Libraries\Architecture\Mvvm\src\BauMvvm.Views\BauMvvm.Views.csproj" />
+    <ProjectReference Include="..\..\Libraries\LibChessGame.ViewModels\LibChessGame.ViewModels.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Images\Accept.png" />
+    <Resource Include="Resources\Images\ArrowFirst.png" />
+    <Resource Include="Resources\Images\ArrowLast.png" />
+    <Resource Include="Resources\Images\ArrowNext.png" />
+    <Resource Include="Resources\Images\ArrowPrevious.png" />
+    <Resource Include="Resources\Images\BishopBlack.gif" />
+    <Resource Include="Resources\Images\BishopWhite.gif" />
+    <Resource Include="Resources\Images\Blog.png" />
+    <Resource Include="Resources\Images\BoardDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Images\BoardLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Images\Close.png" />
+    <Resource Include="Resources\Images\Copy.png" />
+    <Resource Include="Resources\Images\Cut.png" />
+    <Resource Include="Resources\Images\DefaultCover.png" />
+    <Resource Include="Resources\Images\Delete.png" />
+    <Resource Include="Resources\Images\Document.png" />
+    <Resource Include="Resources\Images\Download.png" />
+    <Resource Include="Resources\Images\EntryInteresting.png" />
+    <Resource Include="Resources\Images\EntryNotRead.png" />
+    <Resource Include="Resources\Images\EntryRead.png" />
+    <Resource Include="Resources\Images\Exit.png" />
+    <Resource Include="Resources\Images\File.png" />
+    <Resource Include="Resources\Images\Folder.png" />
+    <Resource Include="Resources\Images\Image.png" />
+    <Resource Include="Resources\Images\KingBlack.gif" />
+    <Resource Include="Resources\Images\KingWhite.gif" />
+    <Resource Include="Resources\Images\KnightBlack.gif" />
+    <Resource Include="Resources\Images\KnightWhite.gif" />
+    <Resource Include="Resources\Images\NewItem.png" />
+    <Resource Include="Resources\Images\News.png" />
+    <Resource Include="Resources\Images\NextAction.png" />
+    <Resource Include="Resources\Images\NextPage.png" />
+    <Resource Include="Resources\Images\PageBase.png" />
+    <Resource Include="Resources\Images\Paste.png" />
+    <Resource Include="Resources\Images\PawnBlack.gif" />
+    <Resource Include="Resources\Images\PawnWhite.gif" />
+    <Resource Include="Resources\Images\Play.png" />
+    <Resource Include="Resources\Images\PreviousPage.png" />
+    <Resource Include="Resources\Images\Process.png" />
+    <Resource Include="Resources\Images\Project.png" />
+    <Resource Include="Resources\Images\Properties.gif" />
+    <Resource Include="Resources\Images\QueenBlack.gif" />
+    <Resource Include="Resources\Images\QueenWhite.gif" />
+    <Resource Include="Resources\Images\Reference.png" />
+    <Resource Include="Resources\Images\Refresh.png" />
+    <Resource Include="Resources\Images\RookBlack.gif" />
+    <Resource Include="Resources\Images\RookWhite.gif" />
+    <Resource Include="Resources\Images\Save.png" />
+    <Resource Include="Resources\Images\SaveAs.png" />
+    <Resource Include="Resources\Images\Section.png" />
+    <Resource Include="Resources\Images\Solution.png" />
+    <Resource Include="Resources\Images\Tag.png" />
+    <Resource Include="Resources\Images\Template.png" />
+    <Resource Include="Resources\Images\WebBrowser.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="App.xaml.cs">
+      <SubType>Code</SubType>
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="MainWindow.xaml.cs">
+      <SubType>Code</SubType>
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Controls\ChessBoardView.xaml.cs">
+      <DependentUpon>ChessBoardView.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Controls\MovementFigureView.xaml.cs">
+      <DependentUpon>MovementFigureView.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Controls\MovementInfoView.xaml.cs">
+      <DependentUpon>MovementInfoView.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Controls\MovementsListView.xaml.cs">
+      <DependentUpon>MovementsListView.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\ShowFilePgnView.xaml.cs">
+      <DependentUpon>ShowFilePgnView.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="Data\Graphics\Boards\Aquamarine\BoardDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Aquamarine\BoardLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Aquamarine\ErrorDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Aquamarine\ErrorLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Aquamarine\IndicatorDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Aquamarine\IndicatorLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Aquamarine\SelectedDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Aquamarine\SelectedLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Brushed steel\BoardDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Brushed steel\BoardLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Brushed steel\ErrorDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Brushed steel\ErrorLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Brushed steel\IndicatorDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Brushed steel\IndicatorLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Brushed steel\SelectedDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Brushed steel\SelectedLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Chrome plate\BoardDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Chrome plate\BoardLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Chrome plate\ErrorDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Chrome plate\ErrorLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Chrome plate\IndicatorDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Chrome plate\IndicatorLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Chrome plate\SelectedDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Chrome plate\SelectedLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Classic brown\BoardDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Classic brown\BoardLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Classic brown\ErrorDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Classic brown\ErrorLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Classic brown\IndicatorDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Classic brown\IndicatorLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Classic brown\SelectedDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Classic brown\SelectedLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\High contrast\BoardDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\High contrast\BoardLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\High contrast\ErrorDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\High contrast\ErrorLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\High contrast\IndicatorDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\High contrast\IndicatorLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\High contrast\SelectedDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\High contrast\SelectedLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Luxury teak\BoardDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Luxury teak\BoardLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Luxury teak\ErrorDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Luxury teak\ErrorLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Luxury teak\IndicatorDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Luxury teak\IndicatorLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Luxury teak\SelectedDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Luxury teak\SelectedLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Marble tile\BoardDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Marble tile\BoardLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Marble tile\ErrorDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Marble tile\ErrorLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Marble tile\IndicatorDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Marble tile\IndicatorLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Marble tile\SelectedDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Marble tile\SelectedLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Purple haze\BoardDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Purple haze\BoardLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Purple haze\ErrorDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Purple haze\ErrorLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Purple haze\IndicatorDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Purple haze\IndicatorLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Purple haze\SelectedDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Purple haze\SelectedLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Sand storm\BoardDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Sand storm\BoardLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Sand storm\ErrorDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Sand storm\ErrorLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Sand storm\IndicatorDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Sand storm\IndicatorLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Sand storm\SelectedDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Sand storm\SelectedLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Wood block\BoardDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Wood block\BoardLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Wood block\ErrorDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Wood block\ErrorLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Wood block\IndicatorDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Wood block\IndicatorLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Wood block\SelectedDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Wood block\SelectedLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Wood tile\BoardDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Wood tile\BoardLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Wood tile\ErrorDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Wood tile\ErrorLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Wood tile\IndicatorDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Wood tile\IndicatorLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Wood tile\SelectedDark.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Boards\Wood tile\SelectedLight.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\Aha-Soft Standard\BishopBlack.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\Aha-Soft Standard\BishopWhite.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\Aha-Soft Standard\KingBlack.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\Aha-Soft Standard\KingWhite.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\Aha-Soft Standard\KnightBlack.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\Aha-Soft Standard\KnightWhite.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\Aha-Soft Standard\PawnBlack.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\Aha-Soft Standard\PawnWhite.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\Aha-Soft Standard\QueenBlack.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\Aha-Soft Standard\QueenWhite.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\Aha-Soft Standard\RookBlack.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\Aha-Soft Standard\RookWhite.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\DreamQuest Porcelain\BishopBlack.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\DreamQuest Porcelain\BishopWhite.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\DreamQuest Porcelain\KingBlack.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\DreamQuest Porcelain\KingWhite.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\DreamQuest Porcelain\KnightBlack.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\DreamQuest Porcelain\KnightWhite.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\DreamQuest Porcelain\PawnBlack.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\DreamQuest Porcelain\PawnWhite.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\DreamQuest Porcelain\QueenBlack.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\DreamQuest Porcelain\QueenWhite.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\DreamQuest Porcelain\RookBlack.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\DreamQuest Porcelain\RookWhite.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\DreamQuest Standard\BishopBlack.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\DreamQuest Standard\BishopWhite.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\DreamQuest Standard\KingBlack.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\DreamQuest Standard\KingWhite.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\DreamQuest Standard\KnightBlack.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\DreamQuest Standard\KnightWhite.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\DreamQuest Standard\PawnBlack.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\DreamQuest Standard\PawnWhite.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\DreamQuest Standard\QueenBlack.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\DreamQuest Standard\QueenWhite.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\DreamQuest Standard\RookBlack.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\DreamQuest Standard\RookWhite.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\New Dimension Raised\BishopBlack.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\New Dimension Raised\BishopWhite.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\New Dimension Raised\KingBlack.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\New Dimension Raised\KingWhite.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\New Dimension Raised\KnightBlack.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\New Dimension Raised\KnightWhite.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\New Dimension Raised\PawnBlack.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\New Dimension Raised\PawnWhite.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\New Dimension Raised\QueenBlack.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\New Dimension Raised\QueenWhite.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\New Dimension Raised\RookBlack.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\New Dimension Raised\RookWhite.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\Newspaper\BishopBlack.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\Newspaper\BishopWhite.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\Newspaper\KingBlack.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\Newspaper\KingWhite.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\Newspaper\KnightBlack.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\Newspaper\KnightWhite.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\Newspaper\PawnBlack.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\Newspaper\PawnWhite.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\Newspaper\QueenBlack.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\Newspaper\QueenWhite.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\Newspaper\RookBlack.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Graphics\Pieces\Newspaper\RookWhite.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Samples\111probs.pgn">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Samples\chess-informant-sample.pgn">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Samples\demoGames.pgn">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Samples\empty-file.pgn">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Samples\Fischer.pgn">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Samples\lon09r5.pgn">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Samples\simple-game.pgn">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Samples\Tarrasch.pgn">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Samples\TestEnPassant.pgn">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Samples\tilb98r2.pgn">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Samples\time-annotated-games.pgn">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Samples\with-comments.pgn">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Update="Views\Controls\ChessBoardView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Controls\MovementFigureView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Controls\MovementInfoView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Controls\MovementsListView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ShowFilePgnView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+
+</Project>

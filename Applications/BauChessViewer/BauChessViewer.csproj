@@ -56,9 +56,6 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Controllers\HostController.cs" />
-    <Compile Include="Converters\MvvmColorConverter.cs" />
-    <Compile Include="Converters\ObjectToVisibilityConverter.cs" />
-    <Compile Include="Converters\BoolToVisibilityConverter.cs" />
     <Compile Include="Converters\FileIconConverter.cs" />
     <Compile Include="Views\Controls\ChessBoardView.xaml.cs">
       <DependentUpon>ChessBoardView.xaml</DependentUpon>
@@ -709,6 +706,14 @@
     </Resource>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Libraries\Architecture\Mvvm\src\BauMvvm.Views.Wpf\BauMvvm.Views.Wpf.csproj">
+      <Project>{1f3062a6-bb42-4c98-b69d-5600137b3e62}</Project>
+      <Name>BauMvvm.Views.Wpf</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Libraries\Architecture\Mvvm\src\BauMvvm.Views\BauMvvm.Views.csproj">
+      <Project>{3b1184b3-fb80-45a3-aba8-b1def1bbaecf}</Project>
+      <Name>BauMvvm.Views</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Libraries\LibChessGame.Models\LibChessGame.Models.csproj">
       <Project>{d5822e1d-2b88-4eb6-9a6c-3eca22baa694}</Project>
       <Name>LibChessGame.Models</Name>

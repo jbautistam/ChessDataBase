@@ -1,0 +1,622 @@
+[Event "Third Rosenwald Trophy"]
+[Site "New York, NY USA"]
+[Date "1956.10.17"]
+[EventDate "1956.10.07"]
+[Round "8"]
+[Result "0-1"]
+[White "Donald Byrne"]
+[Black "Robert James Fischer"]
+[ECO "D92"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "82"]
+
+1. Nf3 Nf6 2. c4 g6 3. Nc3 Bg7 4. d4 O-O 5. Bf4 d5 6. Qb3 dxc4 7. Qxc4 c6 8. e4
+Nbd7 9. Rd1 Nb6 10. Qc5 Bg4 11. Bg5 {11. Be2 followed by 12. O-O would have
+been more prudent. The bishop move played allows a sudden crescendo of tactical
+points to be uncovered by Fischer. -- Wade} 11... Na4 $1 12. Qa3 {On 12. Nxa4
+Nxe4 and White faces considerable difficulties.} 12... Nxc3 {At first glance,
+one might think that this move only helps White create a stronger pawn center;
+however, Fischer's plan is quite the opposite. By eliminating the Knight on c3,
+it becomes possible to sacrifice the exchange via Nxe4 and smash White's
+center, while the King remains trapped in the center.} 13. bxc3 Nxe4 {The
+natural continuation of Black's plan.} 14. Bxe7 Qb6 15. Bc4 Nxc3 16. Bc5 Rfe8+
+17. Kf1 Be6 $3 {If this is the game of the century, then 17. . . Be6!! must be
+the counter of the century. Fischer offers his queen in exchange for a fierce
+attack with his minor pieces. Declining this offer is not so easy: 18. Bxe6
+leads to a 'Philidor Mate' (smothered mate) with . . . Qb5+ 19. Kg1 Ne2+ 20.
+Kf1 Ng3+ 21. Kg1 Qf1+ 22. Rxf1 Ne2#. Other ways to decline the queen also run
+into trouble: e. g. , 18. Qxc3 Qxc5} 18. Bxb6 Bxc4+ 19. Kg1 Ne2+ 20. Kf1 Nxd4+
+{This tactical scenario, where a king is repeatedly revealed to checks, is
+sometimes called a "windmill."} 21. Kg1 Ne2+ 22. Kf1 Nc3+ 23. Kg1 axb6 24. Qb4
+Ra4 25. Qxb6 Nxd1 26. h3 Rxa2 27. Kh2 Nxf2 28. Re1 Rxe1 29. Qd8+ Bf8 30. Nxe1
+Bd5 31. Nf3 Ne4 32. Qb8 b5 {Every piece and pawn of the black camp is defended.
+The white queen has nothing to do.} 33. h4 h5 34. Ne5 Kg7 35. Kg1 Bc5+ 36. Kf1
+Ng3+ {Now Byrne is hopelessly entangled in Fischer's mating net.} 37. Ke1 Bb4+
+38. Kd1 Bb3+ 39. Kc1 Ne2+ 40. Kb1 Nc3+ 41. Kc1 Rc2# 0-1
+
+[Event "Stockholm Interzonal"]
+[Site "Stockholm SWE"]
+[Date "1962.03.03"]
+[EventDate "1962.??.??"]
+[Round "21"]
+[Result "1-0"]
+[White "Robert James Fischer"]
+[Black "Julio Bolbochan"]
+[ECO "B90"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "73"]
+
+1. e4 {Notes by Bobby Fischer} 1... c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3
+a6 6. h3 Nc6 7. g4 Nxd4 8. Qxd4 e5 9. Qd3 Be7 {More accurate is 9. . . Be6
+immediately. --Fischer} 10. g5 Nd7 11. Be3 Nc5 12. Qd2 Be6 13. O-O-O O-O 14. f3
+Rc8 15. Kb1 {Amateurs are often puzzled by this apparent loss of time. Actually
+it is a handy defensive move, getting out of the pin on the c file which could
+become annoying after pawn to b5 and b4. One never knows when lightning will
+strike! -- Fischer} 15... Nd7 16. h4 b5 17. Bh3 Bxh3 18. Rxh3 Nb6 19. Bxb6 Qxb6
+20. Nd5 {White has a strategically won game; his Knight cannot be dislodged. --
+Fischer} 20... Qd8 21. f4 exf4 22. Qxf4 Qd7 23. Qf5 Rcd8 24. Ra3 Qa7 25. Rc3 g6
+26. Qg4 Qd7 27. Qf3 Qe6 28. Rc7 Rde8 29. Nf4 Qe5 30. Rd5 Qh8 31. a3 h6 32. gxh6
+Qxh6 33. h5 Bg5 34. hxg6 fxg6 35. Qb3 {The coup de grace.--Fischer} 35... Rxf4
+36. Re5+ Kf8 37. Rxe8+ {Black resigns. After 37. . . Kxe8  38 Qe6+ Kf8  39.Qc8+
+mates. --Fischer} 1-0
+
+[Event "Varna ol (Men) fin-A"]
+[Site "Varna BUL"]
+[Date "1962.10.04"]
+[EventDate "?"]
+[Round "7"]
+[Result "0-1"]
+[White "Wolfgang Unzicker"]
+[Black "Robert James Fischer"]
+[ECO "B92"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "52"]
+
+1. e4 {Notes by Bobby Fischer} 1... c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3
+a6 6. Be2 {On and off, White resorts to this solid and still respected system
+(championed by Smyslov) whenever the sharper tries fail.} 6... e5 {Black's
+expectation in this Najdorf Variation is that his control of important central
+squares, with possibilities of Q-side expansion, will more than compensate for
+the slight weakness of his backward QP.} 7. Nb3 Be6 {To provoke f4-5 weakening
+White's KP.} 8. O-O Nbd7 9. f4 Qc7 10. f5 Bc4 11. a4 {To hinder ...b5.} 11...
+Be7 {Better than 11...Rc8 12 a5 Be7 13 Bxc4 Qxc4 14 Ra4 Qc7 15 Be3 h6 16 Rf2
+with a bind. (Schmid-Evans, Varna 1962)} 12. Be3 O-O 13. a5 {A critical
+alternative is 13 g4 d5! 14 exd5 (if 14 g5 d4! or 14 Nxd5 Nxd5 15 exd5 Nf6 16
+d6? Bxd6 17 Bxc4 Qxc4 18 Qxd6? Qxg4+ 19 Kh1 Qe4+), Bb4 15 g5 Bxc3 16 gxf6 Bxb2
+17 fxg7 Rfd8 18 Rb1 Bc3. White's Pawns are overextended and his King is
+exposed.} 13... b5 {Too passive is 13...h6 14 g4 Nh7 15 Bf2 followed by h4.}
+14. axb6 Nxb6 15. Bxb6 {? At Curacao 1962, Geller had found the right line : 15
+Kh1! Rfc8 16 Bxb6 Qxb6 17 Bxc4 Rxc4 18 Qe2 Rb4 19 Ra2! and Black is
+hard-pressed to defend his a-pawn, but 19...h6! 20 Rfa1 Bf8 21 Rxa6 Rxa6 22
+Rxa6 Qb7 23 Na5 Qc7 24 Nb3 Qb7 (Zuckerman)=.} 15... Qxb6+ 16. Kh1 Bb5 {!
+Intending ...Bc6 followed by a5.} 17. Bxb5 {White has alredy dissipated his
+theoretical advantage. He should settle for 17 Nxb5 axb5 18 Qd3 with opposite
+colored Bishops.} 17... axb5 18. Nd5 Nxd5 19. Qxd5 Ra4 {! Avoids conceding the
+a-file and puts pressure on the KP.} 20. c3 Qa6 21. h3 {It's hard for White to
+hit upon a constructive plan. At Curacao 1962, Tal played against me 21 Rad1
+Rc8 22 Nc1 b4 23 Nd3!? (White's in a bad way anyhow) bxc3 24 bxc3 and now
+...Rxc3 (instead of my ...Ra5 lemon) wins outright. If 25 Nxe5 dxe5 26 Qxe5
+(Qd8+ Bf8!) Bb4! 27 Qxc3 Qxf1+! (Kmoch).} 21... Rc8 22. Rfe1 h6 {! A handy
+'luft', as becomes apparent later.} 23. Kh2 Bg5 24. g3 {? Creating more K-side
+weaknesses. Better is 24 Rad1.} 24... Qa7 25. Kg2 Ra2 26. Kf1 {What else? On 26
+Rxa2 Qxa2 27 Re2 Rxc3! Now Black has a decisive shot.} 26... Rxc3 {! On 27 Rxa2
+(27 bxc3 Qf2 mate) Rf3+ 28 Ke2 Rf2+ 29 Kd3 Qxa2 30 Ra1 Qxb2 wins. Black's first
+rank is no longer vulnerable since the King can escape to h7 on the check.} 0-1
+
+[Event "US Championship 1963/64"]
+[Site "New York, NY USA"]
+[Date "1963.12.18"]
+[EventDate "1963.??.??"]
+[Round "3"]
+[Result "0-1"]
+[White "Robert Eugene Byrne"]
+[Black "Robert James Fischer"]
+[ECO "E60"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "42"]
+
+1. d4 {Notes from various sources.} 1... Nf6 2. c4 g6 3. g3 c6 4. Bg2 d5 5.
+cxd5 {5.Qb3 maintains more tension. -- Fischer} 5... cxd5 6. Nc3 Bg7 7. e3 O-O
+8. Nge2 Nc6 9. O-O b6 10. b3 {It's hard for either side to introduce an
+imbalance into this essentially symmetrical variation. Deadeye equality also
+ensues afer 10.Nf4 e6 11.b3 Ba6 12.Re1 Rc8 13.Ba3 Re8 14.Rc1 (Stahlberg-Flohr,
+Kemeri 1937) -- Fischer} 10... Ba6 11. Ba3 {After White's 11th move I should
+adjudicate his position as slightly superior, and at worst completely safe. To
+turn this into a mating position in eleven more moves is more witchcraft than
+chess! Quite honestly, I do not see the man who can stop Bobby at this time. --
+K.F. Kirby, South African Chess Quarterly} 11... Re8 12. Qd2 e5 {! I was a bit
+worried about weakening my QP, but felt that the tremendous activity obtained
+by my minor pieces would permit White no time to exploit it. 12...e6 would
+probably lead to a draw. -- Fischer} 13. dxe5 Nxe5 14. Rfd1 {"Add another to
+those melancholy case histories entitled: The Wrong Rook." -- Fischer ~ "This
+is very much a case of 'the wrong rook'. One can understand Byrne's desire to
+break the pin on the e2-knight, but this turns out to be less important than
+other considerations. Fischer spends a lot of time and energy analysing the
+superior 14. Rad1!, but still comes to the conclusion that Black can keep the
+advantage." -- John Nunn} 14... Nd3 {Now it's all systems go for the Fischer
+rocket. -- Robert Wade} 15. Qc2 {There is hardly any other defense to the
+threat of ...Ne4. -- Fischer} 15... Nxf2 {! The key to Black's previous play.
+The complete justification for this sac does not become apparent until White
+resigns! -- Fischer} 16. Kxf2 Ng4+ 17. Kg1 Nxe3 18. Qd2 {Byrne: As I sat
+pondering why Fischer would choose such a line, because it was so obviously
+lost for Black, there suddenly comes...} 18... Nxg2 {!! This dazzling move came
+as the shocker... the culminating combination is of such depth that, even at
+the very moment at which I resigned, both grandmasters who were commenting on
+the play for the spectators in a separate room believed I had a won game! --
+Robert Byrne} 19. Kxg2 d4 {!} 20. Nxd4 Bb7+ {The King is at Black's mercy. --
+Fischer} 21. Kf1 {In a room set aside for commentaries on the games in
+progress, two grandmasters were stating, for the benefit of the spectators,
+that Byrne had a won game. Byrne's reply to Fischer's next move must have been
+jaw dropping! -- Wade} 21... Qd7 {And White resigns. Fischer writes: "A bitter
+disappointment. I'd hoped for 22.Qf2 Qh3+ 23.Kg1 Re1+!! 24.Rxe1 Bxd4 with mate
+to follow shortly."} 0-1
+
+[Event "New York"]
+[Site "New York, NY USA"]
+[Date "1968.11.??"]
+[EventDate "?"]
+[Round "?"]
+[Result "0-1"]
+[White "Anthony Saidy"]
+[Black "Robert James Fischer"]
+[ECO "A25"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "70"]
+
+1. c4 {Notes by Wade.} 1... e5 2. Nc3 Nc6 3. g3 f5 4. Bg2 Nf6 5. d3 Bc5 6. e3
+f4 {A sacrifice. The soundness of the move is questioned, but there is no doubt
+it leads to lively play.} 7. exf4 O-O 8. Nge2 Qe8 9. O-O d6 10. Na4 Bd4 11.
+Nxd4 exd4 12. h3 h5 13. a3 a5 14. b3 Qg6 15. Nb2 Bf5 16. Qc2 Nd7 17. Re1 Nc5
+18. Bf1 Ra6 {A good move (!). Fischer is trying to use every piece to exert
+pressure against White's position. This move seems to carry it to an extreme,
+as it requires great judgement to sense that the rook is not being put out of
+play.} 19. Bd2 Rb6 20. Bxa5 Rxb3 21. Bd2 Ra8 22. a4 Ra6 23. a5 Kh7 24. Red1 b6
+25. Be1 bxa5 26. Na4 Rxd3 27. Bxd3 Bxd3 28. Qa2 Nb4 29. Qa3 Nc2 30. Qb2 Nxa1
+31. Rxa1 Nxa4 32. Rxa4 Qe4 33. Bxa5 {A mistake; although if 33. Bd2 Rb6 is
+still hopeless.} 33... Rxa5 34. Rxa5 Qe1+ 35. Kh2 Qxa5 0-1
+
+[Event "Herceg Novi blitz"]
+[Site "Herceg Novi blitz"]
+[Date "1970.04.08"]
+[EventDate "?"]
+[Round "6.2"]
+[Result "1-0"]
+[White "Robert James Fischer"]
+[Black "Tigran Vartanovich Petrosian"]
+[ECO "C18"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "81"]
+
+1. e4 {Notes by Bobby Fischer.} 1... e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3
+Bxc3+ 6. bxc3 Qc7 7. Nf3 {I could have played Qg4 but was influenced against it
+because Petrosian as Black had recently beaten Diez Del Corral at Palma de
+Mallorca in this line.} 7... Ne7 8. a4 Bd7 {An interesting idea, Black plays
+his Bishop to c6 the knight's square and his Knight to d7, the Bishop's
+square.} 9. Bd3 Bc6 10. O-O Nd7 11. Ba3 {To prevent 11...Nb6. But clearly 11
+Ng5! offered excellent prospects on the King's flank for White, ie: 11...h6 12
+Qh5 g6 (or 12...O-O? 13 Nh7 Re8 14 Nf6+ gxf 15 Qh6 f5 16 Bg5! and wins) 13 Qh3
+or Qh4.} 11... h6 12. Re1 b6 13. Nd2 $5 {A standard way of indirectly
+protecting the a-Pawn.} 13... Bxa4 $2 {Risky.} 14. dxc5 {Possible also was 14
+Qg4 and if 14...c4 15 Bxc4! dxc4 16 Bxe7 with advantage to White. But a better
+chance for Black is 14...O-O 15 dxc5 b5 16 c6 Nxc6! 17 Bxf8 Rxf8 with
+compensation for the exchange.} 14... bxc5 $2 {I was afraid of 14. . . Nxe5 
+15.cxb6 axb6  16.Bf1  (White is not without some compensation for the Pawn, ie:
+16. . . Qxc3?  17.Re3 Qc7  18.Bb2 or 16. . . Ne5g6  17.c4 but best for Black is
+16. . . Bc6!} 15. Qg4 $1 Bc6 16. Qxg7 Rg8 17. Qxh6 Nxe5 18. Bxc5 $2 {Qf4 was
+crushing as after 18. . . c4! (only move) 19 Bf1 Ne7g6 18 Qg5 Black is
+practically in zuzwang and white threatens 19 h4 and h5.} 18... d4 19. Be4 dxc3
+20. Bxc6+ N7xc6 $4 {Of course 20. . . Qxc6! 21 Ne4 Nf3+ 22 Kh1 (22 Kf1 Nd2+ 23
+Nxd2 cxd2 wins a piece) Nxe1 23 Rxe1 O-O-O! and Black should win because 24
+Bxe7 is met by 24. . . Qxe4!! and mate in four moves - For 23 Nf6+ Kd8 24 Bxe7+
+Kxe7 25 Nxg8+ Rxg8 26 f3! Nxf3 27 Rxa7+ Kd6 28 Qf4+ Ne5 and Black should win
+after some more checks. If 26 Ra7+ at once Ke8 27 f3 Qc4 mates quickly} 21. Ne4
+O-O-O {21...Nf3+ 22 Kh1 Nxe1 23 Nf6+ and Nxg8 wins.} 22. Red1 {Many other moves
+were more tenacious.} 22... Ng4 $2 {A pleasant surprise; 22. . . Nf3+ 23 Kh1
+(23 Kf1 Nxh2+ Ke2 Qe5 etc. ) 23. . . Rh8! 24 Bd6 Rh6 25 Bc7 Kc7 26 gxf Rdh8
+with good chances for Black.} 23. Qh4 {White plays on Black's weak d6 square
+and a safe King position. White takes over the initiative.} 23... Rxd1+ 24.
+Rxd1 f5 25. Nd6+ Kb8 26. Nb5 Qg7 {or 26...Qa5 27 Qh7!} 27. Bd6+ Kb7 28. Rb1 Kc8
+29. Qg3 {Bg3! was crushing.} 29... Qb7 $2 {. . . Nf6 gave more chances for
+saving the game.} 30. Nxc3 {Maybe Black was playing for traps, ie: 30 Bf4 Rd8!
+and 31 Nd6+? Rxd6 or 31 h3? Qxb5! or 31 Nxc3? Qxb1+ etc. } 30... Qa6 31. h3 {31
+Qf3!} 31... Nf6 32. Qh4 {Qf3 was better.} 32... Nd7 33. Qh7 Rd8 34. Qf7 Qc4 35.
+Rb3 Qd4 {?? ...Nd4!} 36. Qxe6 {The rest is simple enough.} 36... Qf6 37. Qd5
+Nde5 38. Nb5 Qf7 39. Qc5 Nf3+ 40. Rxf3 Kd7 41. Rd3 1-0
+
+[Event "Herceg Novi blitz"]
+[Site "Herceg Novi MNE"]
+[Date "1970.04.08"]
+[EventDate "?"]
+[Round "11.1"]
+[Result "1-0"]
+[White "Robert James Fischer"]
+[Black "Milan Matulovic"]
+[ECO "C63"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "65"]
+
+1. e4 {Notes by Bobby Fischer} 1... e5 2. Nf3 Nc6 3. Bb5 f5 {This is
+Matulovic's specialty the same as his gambit in the Sicilian defence. In blitz
+games there is no problems for White because of the Black King's weaknesses. I
+know this variation very well and because of that I was surprised at
+Matulovic's choice.} 4. Nc3 fxe4 5. Nxe4 d5 6. Nxe5 dxe4 7. Nxc6 Qg5 {7. . .Qd5
+gives probably more problems for White.} 8. Qe2 Nf6 9. f4 Qxf4 10. d4 Qh4+ 11.
+g3 Qh3 {The same was played in the game Gheorghiu-Maric, Skopge 1968. Georghiu
+played 12. Na7+ but he did not get any advantage in this position. I analyzed
+this position all night with Robatch and Gheorghiu in Vinkovci. Gheorghiu
+showed me that game against Maric and it was very interesting for me. Our idea
+was 12.Bg5} 12. Bg5 a6 13. Ba4 Bd7 14. Bxf6 gxf6 15. Qxe4+ Kf7 16. Ne5+ fxe5
+17. Rf1+ Ke7 {Black has many problems. If 17. . . Kg8  18.Rf6! Re8  (if 18. . .
+Bxa4 19 Qd5+ with Qf7 mate) 19.Bb3+ Kg7  20.Rf7+ Kh6  21.dxe5 with a winning
+attack. If 17. . . Qxf1  18.Kxf1 Bxa4  19.Qf5+ wins.} 18. Bxd7 Kxd7 {If
+18...Qxd7 19 O-O-O and Black's King and Queen are attacked.} 19. Rf7+ Ke8 $4 {.
+. .Be7!!  gave good chances for a successful defence.} 20. Rxc7 Bd6 21. Rxb7
+Rc8 22. O-O-O Qxh2 23. dxe5 Be7 24. Rxe7+ {After this move Black has no hope.
+Maybe I had an easier way to win, but thought I had not enough time. As a
+matter of fact I had three minutes.} 24... Kxe7 25. Qb7+ Ke6 26. Qd7+ Kxe5 27.
+Qd5+ Kf6 28. Rf1+ Kg6 29. Qf5+ Kh6 30. Qe6+ Kh5 31. Rf5+ Kg4 32. Rf4+ Kxg3 33.
+Qg4# 1-0
+
+[Event "Herceg Novi blitz"]
+[Site "Herceg Novi MNE"]
+[Date "1970.04.08"]
+[EventDate "?"]
+[Round "8.2"]
+[Result "1-0"]
+[White "Robert James Fischer"]
+[Black "Predrag Ostojic"]
+[ECO "B32"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "103"]
+
+1. e4 {Notes by Bobby Fischer} 1... c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3
+g6 {A risky continuation.} 6. Nxc6 $1 bxc6 {on 6...dxc6 7 Qxd8 Kxd8 8 Bc4
+White's advantage is clear.} 7. e5 $1 Ng8 8. Bc4 Bg7 9. Bf4 Qa5 10. O-O Bxe5
+11. Bxe5 {Other possibilities for the initiative are 11 Re1!? Bxf4 12 Qd4 f6
+(possible is 12...d5!?) 13 Qxf4 d5 14 Qd6 or 11 b4!? Qc7 12 Nd5 cxd5 13 Qd5 Nf6
+14 Qf7+ Kd8 15 Rfe1 d6 16 Bxe5 dxe5 17 Rad1+ Bd7 18 Be6 Rb8 and the game ended
+in a draw eventually after an interesting struggle, Kurajica-Ostojic, Skopje
+1970.} 11... Qxe5 12. Re1 Qc7 $4 {Better was 12. . . Qg7 13 Ne4 d5 14 Bxd5 cxd5
+15 Qxd5 Rb8 16 Rad1 with an unclear position according to Kurajica. Also 12. .
+. Qf4! is a tough defence.} 13. Qd4 f6 14. Bxg8 Rxg8 15. Qxf6 $1 {Nb5! cxb5 16
+Qd5 forking the Rooks was another road to victory.} 15... d5 {Slightly better
+was 15...d6 but after 16 Re3 and 17.Rae1 Black's position was hopeless. Or if
+15...e6 16 Ne4.} 16. Re2 $2 {16.Rxe7+ Qxe7  17.Qxc6+ Kf7  18.Qxa8 won easily.}
+16... Ba6 $2 {More tenacious was 16. . . e6 17 Rae1 Qf7!} 17. Nxd5 cxd5 18.
+Qxa6 Rf8 19. Rae1 Rf7 20. Qe6 {20 Qa4+! and 21 Qd4 won easily. Now White must
+be satisfied with grounding out a long win with a Pawn ahead endgame.} 20...
+Rd8 21. c3 Kf8 22. g3 d4 23. cxd4 Rxd4 24. Qe5 Qxe5 25. Rxe5 Rd2 26. R1e2 Rxe2
+27. Rxe2 Rf6 28. Kf1 Rc6 29. Ke1 e6 30. Kd2 Ke7 31. Re4 Rb6 32. b3 Ra6 33. a4
+Kd6 34. Rh4 h5 35. Rd4+ Ke7 {More active was 35...Ke5.} 36. Kc3 Rc6+ 37. Rc4
+Ra6 38. Rc7+ Kf6 39. Kb4 {threatening 40 a5! and 41 Kb5.} 39... Rb6+ 40. Kc4 a6
+41. a5 Rd6 42. b4 Rd2 43. Kc5 Rxf2 44. Kb6 e5 45. Kxa6 e4 46. b5 e3 47. Rc1 Ke5
+48. b6 Rg2 49. b7 Rb2 50. Ka7 g5 51. b8=Q+ Rxb8 52. Kxb8 1-0
+
+[Event "Herceg Novi blitz"]
+[Site "Herceg Novi MNE"]
+[Date "1970.04.08"]
+[EventDate "?"]
+[Round "9.1"]
+[Result "1-0"]
+[White "Robert James Fischer"]
+[Black "Wolfgang Uhlmann"]
+[ECO "C15"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "57"]
+
+1. e4 {Notes by Bobby Fischer} 1... e6 2. d4 d5 3. Nc3 Bb4 4. a3 {I chose
+Alekhine's move inspite of the fact that 4 e5 was a safer move.} 4... Bxc3+ 5.
+bxc3 dxe4 6. Qg4 Nf6 {Alekhine recommended 6...Kf8 but after 7 Qxe4, White has
+a big advantage.} 7. Qxg7 Rg8 8. Qh6 Rg6 {Usually it is better to play this
+move later, 8...Nbd7 played Kovacevic against me at "Turnir mira" in Zagreb. I
+played 9 Ne2 b6 10 Bg5 Qe7 threatening ...Ng4, 11 Qh4 Bb7 with difficult play.}
+9. Qe3 Nc6 10. Bb2 b6 {At "Turnir mira" Zagreb, 1970, Uhlman played 10...Qd6
+but after 11 O-O-O Bd7 12 f3 White had a big advantage.} 11. O-O-O Bb7 12. h3
+h5 $2 {Weak move because the Pawn at that place is weak and it is loss of time
+but Black wanted to prevent g4.} 13. c4 Qd6 14. Ne2 O-O-O 15. Nf4 Rgg8 {If
+15...e5 16 Nxg6 exd4 White has many interesting possibilities the most sure is
+17 Nf4 dxe3 18 Rxd6 Rxd6 19 fxe3 h4 20 Be2 with a winning position in the
+endgame with two strong Bishops.} 16. Be2 Qe7 {If 16...Na5 which is more active
+17 g3.} 17. d5 exd5 18. cxd5 Ne5 {If 18...Na5 19 c4 Ba6 20 Qc3 with good play.}
+19. c4 Ba6 20. Qc3 Nfd7 {If 20...Rge8 21 Kb1 and White is safe because on
+21...Qc5 White has many moves; Black's Knight on f6 is under attack. Maybe also
+22 Rd4.} 21. d6 $1 cxd6 $2 {Black overlooked a piece. Black has got to play 21.
+. . Qg5 then 22 g3 is possibly better for White.} 22. c5 $3 Bxe2 $4 {Uhllman
+was surprised by the last move and he made a mistake taking White's bishop on
+e2 - He had to play 22. . . Nxc5 trying for compensation on the Queen's side.
+If 22. . . Nc5 23 Bxa6+ Kb8 24 Bb5 a). . . Ncd3+ 25 Nxd3 Rc8 26 Nxe5 with a
+winning position b) 24. . . a6 25 Be2 Rc8 26 Kb1 Ncd3 27 Qd4 Nxf4 28 Bxa6 Rc5
+29 Qxe4 with a probably winning position. Possible is also 27 Nd5.} 23. cxd6+
+Nc5 24. dxe7 Rxd1+ 25. Rxd1 Bxd1 26. Qxe5 Ba4 27. Kb1 Bc6 28. Nd5 Bxd5 29. Qxd5
+1-0
+
+[Event "Herceg Novi blitz"]
+[Site "Herceg Novi MNE"]
+[Date "1970.04.08"]
+[EventDate "?"]
+[Round "1.2"]
+[Result "1-0"]
+[White "Robert James Fischer"]
+[Black "Mikhail Tal"]
+[ECO "A00"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "89"]
+
+1. g3 {Notes by Bobby Fischer} 1... g6 2. Bg2 Bg7 3. Nf3 c5 4. c3 Nf6 5. O-O
+O-O 6. d4 {I played this opening in Benko's style.} 6... d6 $2 {The ensuing
+endgame is clearly better for White because his Bishop on g2 is more active
+than Black's on g7 and Black has weaker squares. Neither is particularly
+recommendable 6. . . Qb6!? 7 d5! as in Benko-Fischer, Curacao 1962, when
+Black's Queen on b6 was misplaced. Correct for Black was 6. . . cxd 7 cxd d5!
+with an equal game as in Smyslov-Fischer in this same Blitz tournament.} 7.
+dxc5 dxc5 8. Qxd8 Rxd8 9. Be3 Na6 10. Na3 Nd5 11. Rfd1 Bg4 12. Bd2 h6 {To keep
+White out of g5; if 12...Nac7 but after 13 Nc4 b6? (otherwise 14 Na5 with
+pressure) 14 Nce5 Be6 (14...Bxe5 Nxe5 Bxe2 16 Re1 Ba6 17 c4 Nf6 18 Bc3
+threatening 19 Nc6 and 19 Ba8 should win) 15 e4 Nf6 16 Nc6! Re8 17 Bf4 Na6 18
+Bf1 c4 19 Ng5, Black is lost.} 13. h3 {Nb5, or Re1 were probably more exact.}
+13... Be6 14. Nb5 Ndc7 {14...Nb6 gave more counter play.} 15. a4 Bb3 16. Rdc1
+Nxb5 17. axb5 Nc7 18. Be3 $1 Nxb5 19. Bxc5 b6 {?? It was not necessary to give
+away a Pawn. Correct was 19...e6 still after 20 e3 threatening Nd4, White keeps
+an edge.} 20. Bxe7 Re8 21. Ba3 Rad8 {21...Rxe2 22 Bf1! wins the exchange.} 22.
+e3 {A Pawn up and a powerful square on d4, the position is easily winning for
+White.} 22... a5 23. Nd4 Nxa3 24. Rxa3 Bc4 25. Bf1 Bd5 26. Bg2 Bc4 27. Ra4 Bd3
+28. b4 $1 axb4 29. Rxb4 Rd6 30. Rd1 Bc2 31. Rd2 Bf5 32. Rdb2 Rc8 {32...Rb8
+ofcourse was slightly more tenacious, but after 33 Nxf5 gxf5, Black's pawn
+structure on the King side is hopeless.} 33. Rxb6 Rxb6 34. Rxb6 Rxc3 35. Nxf5
+gxf5 36. Bd5 {Rb5 was more precise.} 36... Rc7 37. Rb5 Re7 38. Bc4 Re5 $2
+{Better to give up the Pawn on f5 with 38. . . f4 or Bf8 it is just a matter of
+time in any case.} 39. Rb7 Kh7 40. Rxf7 Kg6 41. Rc7 Bf8 42. Rc6+ Kg7 43. Bd3
+Be7 44. Bc2 Ra5 45. Kg2 1-0
+
+[Event "Herceg Novi blitz"]
+[Site "Herceg Novi MNE"]
+[Date "1970.04.08"]
+[EventDate "?"]
+[Round "3.1"]
+[Result "0-1"]
+[White "Vasily Smyslov"]
+[Black "Robert James Fischer"]
+[ECO "D79"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "92"]
+
+1. c4 {Notes by Bobby Fischer} 1... g6 2. g3 Bg7 3. Bg2 Nf6 4. Nf3 O-O 5. O-O
+c6 6. d4 d5 7. cxd5 cxd5 8. Nc3 {Theory says that Black equalizes easily
+against this move. The sharper 8 Ne5 is answered satisfactorily by 8...Bf5 as
+in the Botvinnik-Smyslov match 1957, and also in a later game Benko-Fischer.}
+8... Ne4 9. Qb3 Nc6 $1 10. Be3 {Of course Black's d-Pawn was taboo.} 10... Na5
+11. Qd1 $2 {Allows a very bad Pawn formation. Correct was 11 Qb4.} 11... Nxc3
+12. bxc3 b6 13. Ne5 Ba6 {Black has ideal play against White's backward c-Pawn.}
+14. Re1 Rc8 15. Bd2 e6 16. e4 Bb7 $1 {Of course trading white squared Bishops
+highlights White weaknesses on the white squares.} 17. exd5 Bxd5 18. Bxd5 Qxd5
+19. Qe2 Rfd8 {19...Nc4! was simpler.} 20. Ng4 $5 Nc4 $2 {20. . . h5  21.Ne3
+Qd7, with a clear advantage.} 21. Bh6 $1 {Suddenly White has counterplay; 21. .
+. Bxh6 is impossible because of 22 Nf6+.} 21... f5 22. Bxg7 Kxg7 23. Ne3 Nxe3
+24. Qxe3 Rc6 25. Rac1 Rdc8 26. c4 $2 {Better was Qd2.} 26... Rxc4 27. Rxc4 Rxc4
+28. Qxe6 Qxe6 29. Rxe6 Kf7 $1 30. Re3 $4 {30.d5 gave real chances for a draw,
+the rest is easy.} 30... Rxd4 31. Ra3 a5 32. Rc3 Ke6 33. Kg2 Kd6 34. h4 Ra4 35.
+Rc2 b5 36. Kf3 b4 37. Ke3 Kd5 38. f3 Ra3+ 39. Kf4 a4 40. g4 fxg4 41. fxg4 b3
+42. axb3 axb3 43. Rc7 Ra4+ 44. Kg5 Rb4 45. Rc1 Kd4 46. Kh6 Rb7 {Because Black
+by approaching with his king can win White's Rook for the b-Pawn without losing
+his own h-Pawn.} 0-1
+
+[Event "Herceg Novi blitz"]
+[Site "Herceg Novi MNE"]
+[Date "1970.04.08"]
+[EventDate "?"]
+[Round "5.2"]
+[Result "0-1"]
+[White "Vlastimil Hort"]
+[Black "Robert James Fischer"]
+[ECO "A48"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "68"]
+
+1. d4 {Notes by Bobby Fischer} 1... Nf6 2. Nf3 g6 3. Bg5 h6 {Forcing White to
+decide at once on which diagonal to place his Queen's Bishop.} 4. Bh4 Bg7 5.
+Nbd2 g5 6. Bg3 Nh5 7. e4 d6 8. Bd3 $2 {Five minute chess. . . Better was 8 c3.}
+8... g4 $1 {Wins a Pawn.} 9. Nh4 Bxd4 10. c3 Bf6 11. Nf5 Nxg3 {But not 11...e6
+12 Qg4 and White regains his Pawn.} 12. fxg3 {Dubious since it cedes control of
+the e5-square to Black. Apparently White was not interested in positional fine
+points at this stage. But in any event after 12 hxg3, ...h5 or ...e6, white
+would be a Pawn down without any initiative. Now at least White has the f-file
+to work with.} 12... e6 13. Ne3 h5 14. O-O Nd7 15. Qe2 Qe7 16. Rae1 Ne5 17.
+Ndc4 Bd7 18. Na5 $5 b6 {But not ...O-O-O?? 19 Ba6! Bc6 20 Nxc6 Nxc6 21 Bxb7+!
+etc.} 19. Nac4 {Maybe 19 Nb3 gave more tactical chances for White.} 19... O-O-O
+20. Nxe5 Bxe5 21. Ba6+ Kb8 22. Nc4 Bg7 23. a4 $5 {White offers his a-Pawn for
+the initiative.} 23... h4 $5 {Black offers his g-Pawn for the initiative! All
+very interesting.} 24. a5 hxg3 25. hxg3 {White had no time to open tha a-file,
+ie: 25 axb6 Rxh2 26 bxc7+ (or 26 bxa7+ Ka8! not ...Kxa7 27 Qe3+! and 28 Qxg3
+etc.) Kxc7 27 Qg4 Rg8! 28 Qxg3 Be5! 29 Qxg8 Qh4 and wins.} 25... b5 26. Ne3 c6
+27. c4 $4 {Weakens d4 irretrievably, he should take the g-Pawn.} 27... b4 28.
+c5 Bd4 $1 29. cxd6 Qxd6 30. Rf4 Rh5 31. Rd1 $4 Bxe3+ 32. Qxe3 Qxd1+ 33. Rf1 Qd6
+34. Rc1 c5 0-1
+
+[Event "Herceg Novi blitz"]
+[Site "Herceg Novi MNE"]
+[Date "1970.04.08"]
+[EventDate "?"]
+[Round "10.1"]
+[Result "0-1"]
+[White "Viktor Korchnoi"]
+[Black "Robert James Fischer"]
+[ECO "E97"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "62"]
+
+1. d4 {Notes by Bobby Fischer} 1... Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Be2 O-O
+6. Nf3 e5 7. O-O Nc6 8. d5 Ne7 9. Nd2 {This move is apparently considered best
+by the Russians. In the "Turner Mira" 1970, Petrosian played 9 b4 Nh5 10 Nd2!?
+Nf4 11 a4, but without great success against Gligoric.} 9... c5 {I think this
+is a logical move. Black takes a tempo from his King side play to slow down
+White's Queen side initiative which usually comes quite quickly with b4, c5,
+etc.} 10. a3 Ne8 11. b4 b6 12. Rb1 f5 $1 {Having made all the necessary
+precautions on the Queen's side Black is now ready to attack on the King's
+flank.} 13. f3 {Maybe better is 13 Nb3 as in the game Gligoric-Tringov,
+Belgrade, 1969.} 13... f4 14. a4 g5 15. a5 Rf6 $1 16. bxc5 $2 {This is, as
+Korchnoi pointed out afterwards, a "terrible mistake" because now it is
+impossible for White to get any initiative on the Queen side.} 16... bxc5 17.
+Nb3 Rg6 18. Bd2 Nf6 {or ...h5!} 19. Kh1 g4 {Maybe more exact was 19...h5} 20.
+fxg4 {Forced because of the threat of 20...g3 and then white cannot play 21 h3
+because of 21...Bxh3 etc.} 20... Nxg4 21. Rf3 $2 {21 Bf3! was better, with a
+more tenacious defence. .} 21... Rh6 22. h3 Ng6 23. Kg1 Nf6 24. Be1 Nh8 {!!
+This attacking manouver is decisive.} 25. Rd3 Nf7 26. Bf3 {h4!? held out a
+little longer.} 26... Ng5 27. Qe2 Rg6 28. Kf1 {Or 28 Kh2 Qd7 threatens
+29...Nxh3 etc.} 28... Nxh3 29. gxh3 Bxh3+ 30. Kf2 {At this moment my hand
+hovered over White's Pawn on e4, but at the last second I realized that
+30...Nxe4 is answered by 31 Qxe4 and White wins.} 30... Ng4+ 31. Bxg4 Bxg4 {And
+here Korchnoi thought for about a minute and a half and not seeing a defence to
+the double threat of 31...Bxe2 and 32...Qh4+ resigned.} 0-1
+
+[Event "Herceg Novi blitz"]
+[Site "Herceg Novi MNE"]
+[Date "1970.04.08"]
+[EventDate "?"]
+[Round "6.1"]
+[Result "0-1"]
+[White "Tigran Vartanovich Petrosian"]
+[Black "Robert James Fischer"]
+[ECO "E77"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "84"]
+
+1. c4 {Notes by Bobby Fischer} 1... Nf6 2. Nc3 g6 3. d4 d6 4. e4 Bg7 5. Bd3
+{This is not the best move, but Petrosian did not like to play blitz games
+according to the analyses. He left the analyses for the tournament games.} 5...
+c5 6. d5 O-O 7. Nge2 e6 8. Bg5 {Uhlman used to be fond of this system many
+years ago.} 8... h6 $1 9. Bd2 {More consistent was 10 Bh4.} 9... Nbd7 10. b3
+{With b3 White weakens the diagonal a1-h8, If 10 f4 e5! 11 f5 gxf5 12 exf5 e4!
+with good play for Black.} 10... exd5 11. cxd5 a6 12. O-O b5 13. f4 $2 {A bad
+move.} 13... c4 $1 14. bxc4 Nc5 15. Bc2 {15 Qc2 is better, when Black has
+compensation for the Pawn.} 15... b4 16. e5 $1 dxe5 17. fxe5 Ng4 18. Na4 Nxa4
+19. Bxa4 Bxe5 {White has no hope.} 20. Bf4 Qb6+ {Black threatens on both
+sides.} 21. Kh1 Bxa1 {Better is 21...Bxf4 22 Rxf4 Nf2+ winning easily} 22. Qxa1
+Nf2+ $6 {22. . . g5 is better, this way White has got a chance.} 23. Rxf2 Qxf2
+24. Bxh6 f6 25. Bxf8 Kxf8 26. Ng1 Bg4 $2 {A bad move because after h3 the
+bishop has to move back.} 27. Qb1 {h3 was also sharp.} 27... Kg7 28. h3 Bf5 29.
+Qxb4 Ra7 30. Bd1 Qxa2 31. Bf3 a5 32. Qc5 Rb7 33. d6 Rb1 34. d7 Bxd7 35. Qe7+
+Kh6 36. Qxd7 {!??} 36... Qf2 { White could make a draw with Qf8+ or Qf6.} 37.
+Kh2 Qxg1+ 38. Kg3 Qe1+ 39. Kh2 Qe5+ 40. g3 Rb2+ 41. Bg2 Qe4 42. Qd5 Rxg2+ 0-1
+
+[Event "Herceg Novi blitz"]
+[Site "Herceg Novi MNE"]
+[Date "1970.04.08"]
+[EventDate "?"]
+[Round "4"]
+[Result "1/2-1/2"]
+[White "Samuel Reshevsky"]
+[Black "Robert James Fischer"]
+[ECO "E92"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "93"]
+
+1. d4 {Notes by Bobby Fischer} 1... Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 O-O 5. Be2 d6
+6. Nf3 e5 7. Be3 $5 {Reshevsky likes this flexible system.} 7... c6 {7...Qe7 is
+the sharpest here. A game Gligoric-Fischer, Monaco 1967 continued 8 d5 Ne8 9 h4
+f5 10 h5 f4 11Bd2 g5 12h6 Bf6, etc.} 8. O-O Ng4 9. Bg5 f6 {or 9...Qb6 10 h3!
+exd4? 11 Na4!} 10. Bc1 f5 11. h3 exd4 12. Nxd4 Ne5 13. exf5 gxf5 14. f4 Qb6 $5
+15. Be3 $1 {or 15 Kh1 Nf7 equalizes, (not 15. . . Nxc4?? Bc4+ or 15. . . Ng4??
+16 Nxf5 Nf2+ 17 Rxf2 Qxf2 18 Be3} 15... Ng6 $2 {After this move Black is
+busted. More enterprising was 15. . . Qxb2! 16 Na4 Qa3 17 Bc1 Qg3 18 fxe5 Bxe5
+19 Rf3 Qh2+ 20 Kf2 Nd7 with play.} 16. Nxf5 Qxb2 17. Nxg7 Qxc3 18. Bd4 Qa5 19.
+Bg4 {Simple but effective, 19 c5 was snappier though.} 19... Na6 20. Bxc8 Raxc8
+21. Qg4 $1 {White's threats are proliferating chiefly 22 Qe6+, but other less
+brutal moves like 22 Ne6 or Nh5 or 22 f5 were not pretty tp contemplate. Also
+the fact that Reshevsky had a good 3. 5 to 4 minutes to polish me off was not
+to pleasing. I decided here to opt for the endgame.} 21... Rc7 22. Ne6 {22 f5
+was more aggresive keeping the Queens.} 22... Qf5 $1 23. Nxf8 {Of course more
+aggressive was 23 Qxf5 Rxf5 24 g4.} 23... Qxg4 24. hxg4 Nxf8 25. f5 {25 Bxa7
+was easier, ie 25...b5 26 Bb6 Rb7 27 cxb5 Rxb6 28 bxa6 Rxa6 29 a4 Ra5 30 Rc1 c5
+31 Rb1 etc.} 25... c5 26. Bc3 Rd7 27. Rad1 Nc7 28. Rfe1 Kf7 29. Re3 b5 30. Red3
+{Ba5!} 30... bxc4 31. Rxd6 Rxd6 32. Rxd6 Nb5 33. Rf6+ Ke7 34. Rc6 $4 {As
+Reshevsky pointed out immediately after the game 34 Ba1! c3 Rc6! Nd7 36 Re6+
+Kf7 37 Re1 won.} 34... Nxc3 35. Rxc5 Nxa2 36. Rxc4 Nd7 37. Ra4 Nc3 38. Rxa7 Ne4
+39. Kh2 Kd6 40. Kh3 Ndf6 41. Kh4 h6 $1 42. Rg7 Ke5 43. Rg6 Kf4 44. g3+ Kf3 45.
+Rxh6 Nxg4 46. Rg6 Nxg3 47. Rxg4 {And here Reshevsky proposed a draw and I
+accepted.} 1/2-1/2
+
+[Event "Herceg Novi blitz"]
+[Site "Herceg Novi MNE"]
+[Date "1970.04.08"]
+[EventDate "?"]
+[Round "7.1"]
+[Result "1/2-1/2"]
+[White "Robert James Fischer"]
+[Black "David Bronstein"]
+[ECO "C16"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "93"]
+
+1. e4 {Notes by Bobby Fischer} 1... e6 2. d4 d5 3. Nc3 Bb4 4. e5 b6 5. a3 Bf8
+{For a time Robert Byrne, the American grandmaster, enjoyed considerable
+success with 5...Bxc3+ 6 bxc3 Ne7 7 Qg4 but apparently he found a clear
+refutation because this sharp defence has dissappeared from his opening
+repertory. "Undeveloping" pieces though as with 5...Bf8?! has little to
+recomend it.} 6. f4 Nc6 {Intending to castle Queenside. If 6...c5 7 Nf3 Nc6 8
+Ne2?! gives White a clear advantage.} 7. Nf3 Nh6 8. Bd3 {Bb5 was more precise.}
+8... Nf5 9. Ne2 h5 {...Nh4!? was a good chance to free Black's game slightly.}
+10. g3 Bb7 11. c3 Qd7 12. Qc2 O-O-O 13. b4 f6 14. Bd2 Kb8 15. O-O Nfe7 {Better
+was 15...Be7 and White would answer 16 a4.} 16. Rfb1 h4 {Black takes a last
+chance for counterplay.} 17. Nxh4 g5 $1 18. fxg5 fxe5 19. Rf1 $1 exd4 20. cxd4
+Bg7 21. Bc3 e5 22. Rf7 exd4 23. Rxg7 {Bb2!} 23... Rxh4 {Correct was 23...dxc3
+with good chances for black.} 24. gxh4 Qg4+ 25. Ng3 dxc3 26. Qxc3 d4 27. Qd2
+Ne5 28. Rf1 Nd5 29. Bf5 $2 {Qe2 with a winning endgame in sight.} 29... Nf3+
+30. Rxf3 Qxf3 31. Be4 Qxa3 32. Qxd4 Qc1+ 33. Kf2 Rf8+ 34. Nf5 Nc3 $2 {34. . .
+Qf4+ and 35. . . Rf5 wins for Black.} 35. Bxb7 Rxf5+ 36. Bf3 Nd5 {36...Qc2+ 37
+Ke1 Rxf3?? 38 Qd8+ Kb7 39 Qxc7+ Ka6 40 Qc4+ Nb5 41 Qc8 mate.} 37. Rg8+ Kb7 38.
+Qe4 Qd2+ 39. Kg3 c6 40. Qxf5 $4 {Rg7+ Ka6 41 Qc4+ forced mate.} 40... Qe1+ {A
+very clever trap considering it was 5 minute chess.} 41. Kg4 {or 41 Kh3 Qf1+ 42
+Kg3 Qe1 and draws. But being ahead on time I decided to play for a win.} 41...
+Ne3+ 42. Kf4 Nxf5 43. Kxf5 Qxb4 44. Rg7+ Kc8 {44...Ka6 gave Black more chances
+for a win.} 45. Be4 Qf8+ 46. Kg6 Qe8+ 47. Kf5 1/2-1/2
+
+[Event "Herceg Novi blitz"]
+[Site "Herceg Novi blitz"]
+[Date "1970.04.08"]
+[EventDate "?"]
+[Round "4.2"]
+[Result "1-0"]
+[White "Robert James Fischer"]
+[Black "Samuel Reshevsky"]
+[ECO "B40"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[PlyCount "119"]
+
+1. e4 {Notes by Bobby Fischer} 1... c5 2. Nf3 e6 3. c4 Nc6 4. Nc3 Nf6 5. g3 g6
+{5...d5 equalizes} 6. Bg2 Bg7 7. O-O O-O 8. d3 {if 8 d4? cxd4 9 Nxd4 Nxe4! wins
+a Pawn.} 8... d6 9. h3 e5 {Weaker is 9...b6? 10d4 with an advantage for White
+as in the game Smyslov-Reshevsky, the match of the century, Belgrade 1970. Now
+the position is symmetrical with White two tempi ahead.} 10. a3 a5 11. Rb1 Bd7
+12. Bd2 Ne8 13. Nd5 Ne7 14. b4 Nxd5 15. cxd5 $4 {Very anti-positional. Correct
+of course was 15 exd5. Now Black gets a strong passed a-Pawn, also White's
+b-Pawn is isolated.} 15... cxb4 16. axb4 a4 17. b5 $6 {Otherwise 17. . .
+Nc7-b5. White sacrifices a Pawn for complications.} 17... Nc7 18. b6 Nb5 19.
+Rb4 Qxb6 20. Qa1 a3 21. Rfb1 {If 20 Rxa4?,... Nc3 wins the exchange.} 21...
+Rfc8 $1 22. Bf1 Rc2 23. d4 a2 24. R1b3 exd4 25. Bxb5 Bxb5 $2 {25. . . d3! won
+by force. For example a) 26 Bd7 Ba1 27 Rxb6 Bb2 or . . . Bd4 etc. b) 26 e5 Rd2!
+27 Nd2 Be5 28 Bd7 Ba1 29 Rb6 Bd4 etc.} 26. Rxb5 Qd8 27. Rd3 Qe7 28. Ne1 Qxe4
+29. Rbb3 Rxd2 $1 30. Rxd2 d3 31. Rxa2 $5 {A last swindle try.} 31... Bxa1 $4
+{31. . . Ra2!  won easily 32.Qxa2 Qe1+  33.Kg2 d2, But as Dr. Tarrasch said
+"You must see it"} 32. Rxa8+ Kg7 33. Rxa1 d2 34. Ng2 Qxd5 35. Rbb1 b5 36. Rd1
+b4 37. Ne3 Qd3 38. Nf1 b3 39. Rab1 b2 40. Rxb2 d5 41. Rdxd2 Qc3 42. Ne3 d4 43.
+Nd1 Qc4 44. Rb1 h5 45. h4 f5 46. Rdb2 f4 47. Rb3 fxg3 48. Rxg3 Qc2 49. Rb7+ Kh6
+50. Nb2 Qe4 51. Rb6 Qe1+ 52. Kg2 Qe4+ 53. Kf1 Qb1+ 54. Ke2 Qc2+ 55. Ke1 Qe4+
+56. Kd1 Qf5 57. Rbxg6+ Qxg6 58. Rxg6+ Kxg6 59. Ke2 Kf5 60. Kf3 1-0
+

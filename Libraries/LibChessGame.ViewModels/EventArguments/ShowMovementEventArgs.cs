@@ -8,10 +8,10 @@ namespace Bau.Libraries.LibChessGame.ViewModels.EventArguments
 	/// </summary>
 	public class ShowMovementEventArgs : EventArgs
 	{
-		public ShowMovementEventArgs(List<Board.Actions.ActionBaseModel> actions, bool showAnimation)
+		public ShowMovementEventArgs(List<Board.Actions.ActionBaseModel> actions, bool disableAnimations)
 		{
 			Actions = actions;
-			ShowAnimation = showAnimation;
+			DisableAnimations = disableAnimations;
 		}
 
 		/// <summary>
@@ -20,8 +20,8 @@ namespace Bau.Libraries.LibChessGame.ViewModels.EventArguments
 		public List<Board.Actions.ActionBaseModel> Actions { get; }
 
 		/// <summary>
-		///		Indica si se debe mostrar la animación
+		///		Indica si se deben desactivar las animaciones
 		/// </summary>
-		public bool ShowAnimation { get; }
+		public bool DisableAnimations { get; }
 	}
 }

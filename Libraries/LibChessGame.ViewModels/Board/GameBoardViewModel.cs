@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
+using Bau.Libraries.BauMvvm.ViewModels;
 using Bau.Libraries.LibChessGame.Models.Board.Movements;
 using Bau.Libraries.LibChessGame.Models.Games;
 using Bau.Libraries.LibChessGame.ViewModels.Board.Actions;
@@ -11,7 +12,7 @@ namespace Bau.Libraries.LibChessGame.ViewModels.Board
 	/// <summary>
 	///		ViewModel del tablero de juego con la partida
 	/// </summary>
-	public class GameBoardViewModel : Mvvm.BaseObservableObject
+	public class GameBoardViewModel : BaseObservableObject
 	{
 		// Eventos públicos
 		public event EventHandler ResetGame;
@@ -23,25 +24,22 @@ namespace Bau.Libraries.LibChessGame.ViewModels.Board
 		private MovementFigureModel _actualMovement;
 		private bool _isAtVariation, _isMoving;
 
-		public GameBoardViewModel(MainViewModel mainViewModel)
+		public GameBoardViewModel(ChessGameViewModel chessGameViewModel)
 		{
 			// Inicializa los objetos
-			MainViewModel = mainViewModel;
+			ChessGameMainViewModel = chessGameViewModel;
 			Scapes = new Scapes.ScapesBoardViewModel(this);
 			MovementsList = new MovementListViewModel(this);
 			// Inicializa los comandos
-			NextMovementCommand = new Mvvm.BaseCommand(parameter => GoNextMovement(),
-													   parameter => CanGoMovement(true))
+			NextMovementCommand = new BaseCommand(_ => GoNextMovement(), _ => CanGoMovement(true))
 										.AddListener(this, nameof(ActualMovementIndex))
 										.AddListener(this, nameof(IsMoving))
 										.AddListener(this, nameof(IsAtVariation));
-			PreviousMovementCommand = new Mvvm.BaseCommand(parameter => GoPreviousMovement(),
-														   parameter => CanGoMovement(false))
+			PreviousMovementCommand = new BaseCommand(_ => GoPreviousMovement(), _ => CanGoMovement(false))
 										.AddListener(this, nameof(ActualMovementIndex))
 										.AddListener(this, nameof(IsMoving))
 										.AddListener(this, nameof(IsAtVariation));
-			VariationExitCommand = new Mvvm.BaseCommand(parameter => ExitVariation(),
-														parameter => CanExitVariation())
+			VariationExitCommand = new BaseCommand(_ => ExitVariation(), _ => CanExitVariation())
 										.AddListener(this, nameof(ActualMovementIndex))
 										.AddListener(this, nameof(IsMoving))
 										.AddListener(this, nameof(IsAtVariation));
@@ -119,7 +117,7 @@ namespace Bau.Libraries.LibChessGame.ViewModels.Board
 				if (movement != null)
 				{
 					// Ejecuta el movimiento
-					RaiseEventShowMovements(MakeMovement(movement), MainViewModel.MustShowAnimation);
+					RaiseEventShowMovements(MakeMovement(movement), false);
 					// Lo muestra en la lista
 					MovementsList.SelectMovement(movement);
 				}
@@ -203,7 +201,7 @@ namespace Bau.Libraries.LibChessGame.ViewModels.Board
 						}
 				}
 				// Ejecuta las acciones
-				RaiseEventShowMovements(actions, false);
+				RaiseEventShowMovements(actions, true);
 		}
 
 		/// <summary>
@@ -232,7 +230,7 @@ namespace Bau.Libraries.LibChessGame.ViewModels.Board
 				IsMoving = true;
 				// Lanza las acciones
 				if (raiseActions)
-					RaiseEventShowMovements(actions, MainViewModel.MustShowAnimation);
+					RaiseEventShowMovements(actions, false);
 				// Ejecuta el movimiento sobre el tablero
 				Board.Undo(movement);
 		}
@@ -309,18 +307,18 @@ namespace Bau.Libraries.LibChessGame.ViewModels.Board
 		/// <summary>
 		///		Lanza el evento con las acciones de movimiento
 		/// </summary>
-		private void RaiseEventShowMovements(List<ActionBaseModel> actions, bool showAnimations)
+		private void RaiseEventShowMovements(List<ActionBaseModel> actions, bool disableAnimations)
 		{
 			// Indica que está movimiento
 			IsMoving = true;
 			// Lanza el evento
-			ShowMovements?.Invoke(this, new EventArguments.ShowMovementEventArgs(actions, showAnimations));
+			ShowMovements?.Invoke(this, new EventArguments.ShowMovementEventArgs(actions, disableAnimations));
 		}
 
 		/// <summary>
 		///		ViewModel de la ventana principal
 		/// </summary>
-		public MainViewModel MainViewModel { get; }
+		public ChessGameViewModel ChessGameMainViewModel { get; }
 
 		/// <summary>
 		///		Juego cargado
@@ -404,16 +402,16 @@ namespace Bau.Libraries.LibChessGame.ViewModels.Board
 		/// <summary>
 		///		Comando de siguiente movimiento
 		/// </summary>
-		public Mvvm.BaseCommand NextMovementCommand { get; }
+		public BaseCommand NextMovementCommand { get; }
 
 		/// <summary>
 		///		Comando de movimiento anterior
 		/// </summary>
-		public Mvvm.BaseCommand PreviousMovementCommand { get; }
+		public BaseCommand PreviousMovementCommand { get; }
 
 		/// <summary>
 		///		Comando para salir de la variación
 		/// </summary>
-		public Mvvm.BaseCommand VariationExitCommand { get; }
+		public BaseCommand VariationExitCommand { get; }
 	}
 }

@@ -8,7 +8,7 @@ namespace Bau.Libraries.LibChessGame.ViewModels.Board.Movements
 	/// <summary>
 	///		Lista de selección de variaciones
 	/// </summary>
-	public class MovementListSelectVariationViewModel : Bau.Libraries.LibChessGame.Mvvm.BaseObservableObject
+	public class MovementListSelectVariationViewModel : BauMvvm.ViewModels.BaseObservableObject
 	{
 		// Variables privadas
 		private ObservableCollection<MovementSelectVariationViewModel> _variations;

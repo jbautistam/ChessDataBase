@@ -27,14 +27,12 @@ namespace BauChessViewer.Converters
 		/// </summary>
 		private string GetIcon(MovementFigureModel movement)
 		{	
-			string nameColor = "";
-			string namePiece = "";
+			string nameColor = "Black";
+			string namePiece = string.Empty;
 
 				// Obtiene el nombre del color
 				if (movement.Color == PieceBaseModel.PieceColor.White)
 					nameColor = "White";
-				else
-					nameColor = "Black";
 				// Obtiene el nombre de la pieza
 				switch (movement.OriginPiece)
 				{ 

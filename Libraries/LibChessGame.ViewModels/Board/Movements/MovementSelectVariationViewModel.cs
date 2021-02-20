@@ -1,5 +1,6 @@
 ﻿using System;
 
+using Bau.Libraries.BauMvvm.ViewModels;
 using Bau.Libraries.LibChessGame.Models.Board.Movements;
 using Bau.Libraries.LibChessGame.Models.Pieces;
 
@@ -27,7 +28,7 @@ namespace Bau.Libraries.LibChessGame.ViewModels.Board.Movements
 			Color = movement.Color;
 			Text = movement.Content;
 			// Inicializa los comandos
-			SelectMovementCommand = new Mvvm.BaseCommand(parameter => ExecuteMovement(), parameter => CanExecuteMovement());
+			SelectMovementCommand = new BaseCommand(_ => ExecuteMovement(), _ => CanExecuteMovement());
 		}
 
 		/// <summary>
@@ -95,6 +96,6 @@ namespace Bau.Libraries.LibChessGame.ViewModels.Board.Movements
 		/// <summary>
 		///		Comando para selección del movimiento
 		/// </summary>
-		public Mvvm.BaseCommand SelectMovementCommand { get; }
+		public BaseCommand SelectMovementCommand { get; }
 	}
 }

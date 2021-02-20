@@ -8,7 +8,7 @@ namespace Bau.Libraries.LibChessGame.ViewModels.Board.Scapes
 	/// <summary>
 	///		Escaques del tablero
 	/// </summary>
-	public class ScapesBoardViewModel : Mvvm.BaseObservableObject
+	public class ScapesBoardViewModel : BauMvvm.ViewModels.BaseObservableObject
 	{
 		public ScapesBoardViewModel(GameBoardViewModel viewModel)
 		{

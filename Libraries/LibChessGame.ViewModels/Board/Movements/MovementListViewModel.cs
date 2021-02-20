@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
+using Bau.Libraries.BauMvvm.ViewModels;
 using Bau.Libraries.LibChessGame.Models.Board.Movements;
 
 namespace Bau.Libraries.LibChessGame.ViewModels.Board.Movements
@@ -9,7 +10,7 @@ namespace Bau.Libraries.LibChessGame.ViewModels.Board.Movements
 	/// <summary>
 	///		Lista de movimientos
 	/// </summary>
-	public class MovementListViewModel : Mvvm.BaseObservableObject
+	public class MovementListViewModel : BaseObservableObject
 	{
 		// Variables privadas
 		private BaseMovementViewModel _selectedMovement;

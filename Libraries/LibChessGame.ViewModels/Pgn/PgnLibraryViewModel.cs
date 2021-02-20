@@ -2,15 +2,15 @@
 using System.Collections.ObjectModel;
 using System.Threading.Tasks;
 
+using Bau.Libraries.BauMvvm.ViewModels;
 using Bau.Libraries.LibChessGame.Models.Games;
-using Bau.Libraries.LibChessGame.Mvvm;
 
 namespace Bau.Libraries.LibChessGame.ViewModels.Pgn
 {
 	/// <summary>
 	///		ViewModel para un <see cref="LibraryModel"/>
 	/// </summary>
-	public class PgnLibraryViewModel : Mvvm.BaseObservableObject
+	public class PgnLibraryViewModel : BaseObservableObject
 	{
 		// Variables privadas
 		private string _fileName;
@@ -20,11 +20,9 @@ namespace Bau.Libraries.LibChessGame.ViewModels.Pgn
 		{
 			GameBoardViewModel = gameBoardViewModel;
 			Init();
-			NextGameCommand = new BaseCommand(parameter => GoGame(true),
-											  parameter => CanGoGame(true))
+			NextGameCommand = new BaseCommand(_ => GoGame(true), _ => CanGoGame(true))
 									.AddListener(this, FileName);
-			PreviousGameCommand = new BaseCommand(parameter => GoGame(false),
-												  parameter => CanGoGame(false))
+			PreviousGameCommand = new BaseCommand(_ => GoGame(false), _ => CanGoGame(false))
 									.AddListener(this, FileName);
 		}
 
@@ -51,14 +49,11 @@ namespace Bau.Libraries.LibChessGame.ViewModels.Pgn
 					// Carga el juego
 					try
 					{
-						using (System.IO.StreamReader reader = await MainViewModel.HostController.GetStreamReaderAsync(fileName))
-						{
-							// Carga el juego
-							Library = LoadLibrary(reader);
-							// Asigna el nombre de archivo
-							FullFileName = fileName;
-							FileName = System.IO.Path.GetFileName(fileName);
-						}
+						// Carga el juego
+						Library = LoadLibrary(fileName);
+						// Asigna el nombre de archivo
+						FullFileName = fileName;
+						FileName = System.IO.Path.GetFileName(fileName);
 					}
 					catch (Exception exception)
 					{
@@ -76,9 +71,9 @@ namespace Bau.Libraries.LibChessGame.ViewModels.Pgn
 		/// <summary>
 		///		Carga la librería de un archivo PGN
 		/// </summary>
-		private LibraryModel LoadLibrary(System.IO.StreamReader reader)
+		private LibraryModel LoadLibrary(string fileName)
 		{
-			LibPgnReader.Models.LibraryPgnModel libraryPgn = new LibPgnReader.GamePgnParser().Read(reader);
+			LibPgnReader.Models.LibraryPgnModel libraryPgn = new LibPgnReader.GamePgnParser().Read(fileName);
 
 				// Convierte los datos del archivo PGN
 				return new LibPgn.Conversor.GamePgnConversor().Convert(libraryPgn);

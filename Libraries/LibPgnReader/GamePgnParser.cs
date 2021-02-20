@@ -70,8 +70,17 @@ namespace Bau.Libraries.LibPgnReader
 							game.Headers.Add(new HeaderPgnModel(sentenceTag.Tag, sentenceTag.Content));
 						// Lee las cabeceras
 						lastSentence = ReadHeaders(sentenceEnumerator, game);
+						// Si es un salto de línea, obtiene la siguiente sentencia
+						if (lastSentence is SentenceEmptyLine)
+							lastSentence = GetNextSentence(sentenceEnumerator);
+						// Si es un comentario, lee el comentario
+						if (lastSentence is SentenceCommentModel)
+							lastSentence = ReadComments(lastSentence, sentenceEnumerator, game);
+						// Si es un salto de línea, obtiene la siguiente sentencia
+						if (lastSentence is SentenceEmptyLine)
+							lastSentence = GetNextSentence(sentenceEnumerator);
 						// Añade los moviemientos
-						if (lastSentence is SentenceTurnNumberModel)
+						if (lastSentence is SentenceTurnNumberModel || lastSentence is SentenceTurnPlayModel)
 						{
 							// Lee los movimientos
 							lastSentence = ReadMovements(sentenceEnumerator, lastSentence, game.Movements);
@@ -109,9 +118,29 @@ namespace Bau.Libraries.LibPgnReader
 					// Pasa a la siguiente sentencia
 					sentence = GetNextSentence(sentenceEnumerator);
 				}
-				while (!(sentence is SentenceEndModel) && !(sentence is SentenceErrorModel) && !(sentence is SentenceTurnNumberModel));
+				while (!(sentence is SentenceEndModel) && !(sentence is SentenceErrorModel) && 
+					   !(sentence is SentenceTurnNumberModel) && !(sentence is SentenceEmptyLine));
 				// Devuelve la última sentencia leída
 				return sentence;
+		}
+
+		/// <summary>
+		///		Lee los comentarios
+		/// </summary>
+		private SentenceBaseModel ReadComments(SentenceBaseModel sentence, IEnumerator<SentenceBaseModel> sentenceEnumerator, GamePgnModel game)
+		{
+			// Lee los comentarios
+			do
+			{
+				// Trata la sentencia
+				if (sentence is SentenceCommentModel sentenceComment)
+					game.Comments.Add(sentenceComment.Content);
+				// Pasa a la siguiente sentencia
+				sentence = GetNextSentence(sentenceEnumerator);
+			}
+			while (!(sentence is SentenceEndModel) && (sentence is SentenceCommentModel || sentence is SentenceUnknownModel));
+			// Devuelve la última sentencia leída
+			return sentence;
 		}
 
 		/// <summary>
@@ -135,6 +164,23 @@ namespace Bau.Libraries.LibPgnReader
 								lastTurn = new TurnModel(sentenceTurn.Content, TurnModel.TurnType.White);
 							break;
 						case SentenceTurnPlayModel sentencePlay:
+								// Si no había separador entre el turno y el movimiento, leemos "1.d4", separamos el turno del movimiento
+								if (sentencePlay.Content.IndexOf(".") >= 0)
+								{
+									string [] parts = sentencePlay.Content.Split('.');
+
+										if (parts.Length == 2)
+										{
+											// Crea el movimiento
+											lastMovement = null;
+											lastTurn = new TurnModel(parts[0], TurnModel.TurnType.White);
+											// Deja el contenido sin el número inicial
+											sentencePlay = new SentenceTurnPlayModel(parts[1]);
+										}
+										else
+											sentence = new SentenceErrorModel($"Unknow movement found: {sentencePlay.Content}");
+								}
+								// Creamos el movimiento
 								if (lastTurn == null)
 									sentence = new SentenceErrorModel($"There is not turn to add the play {sentencePlay.Content}");
 								else

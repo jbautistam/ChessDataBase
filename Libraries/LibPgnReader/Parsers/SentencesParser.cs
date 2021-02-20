@@ -59,6 +59,8 @@ namespace Bau.Libraries.LibPgnReader.Parsers
 						return new SentenceTurnEndVariationModel();
 					case TokenModel.TokenType.Unknown:
 						return ReadGameSentence(token);
+					case TokenModel.TokenType.EmptyLine:
+						return new SentenceEmptyLine();
 					case TokenModel.TokenType.EoF:
 						return new SentenceEndModel();
 					default:

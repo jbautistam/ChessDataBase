@@ -2,13 +2,18 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:BauChessViewer"
-			 xmlns:converter="clr-namespace:BauChessViewer.Converters"
+			 xmlns:converter="clr-namespace:Bau.Libraries.BauMvvm.Views.Converters;assembly=BauMvvm.Views"
+			 xmlns:converterLocal="clr-namespace:BauChessViewer.Converters"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
 		<!-- Conversores -->
-		<converter:FileIconConverter x:Key="FileIconConverter" />
+		<converterLocal:FileIconConverter x:Key="FileIconConverter" />
+		<!-- Conversores -->
+		<converter:InverseBooleanConverter x:Key="InverseBooleanConverter" />
+		<converter:BoolToFontWeightConverter x:Key="BoolToFontWeightConverter" />
 		<converter:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter" />
+		<converter:InverseBoolToVisibilityConverter x:Key="InverseBoolToVisibilityConverter" />
+		<converter:MVVMColorConverter x:Key="MVVMColorConverter" />
 		<converter:ObjectToVisibilityConverter x:Key="ObjectToVisibilityConverter" />
-		<converter:MvvmColorConverter x:Key="MvvmColorConverter" />
 	</Application.Resources>
 </Application>

@@ -71,6 +71,7 @@ namespace Bau.Libraries.LibPgnReader.Parsers
 							break;
 						case CharFileReader.CharType.EoL:
 						case CharFileReader.CharType.EoF:
+						case CharFileReader.CharType.EmptyLine:
 								specialChar = true;
 							break;
 					}
@@ -83,6 +84,9 @@ namespace Bau.Libraries.LibPgnReader.Parsers
 						// Devuelve un token con el carácter especial
 						switch (readed.type)
 						{
+							case CharFileReader.CharType.EmptyLine:
+									yield return new TokenModel(TokenModel.TokenType.EmptyLine, string.Empty);
+								break;
 							case CharFileReader.CharType.EoL:
 									yield return new TokenModel(TokenModel.TokenType.EoL, string.Empty);
 								break;

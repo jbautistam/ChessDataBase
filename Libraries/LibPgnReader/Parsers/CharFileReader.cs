@@ -18,7 +18,9 @@ namespace Bau.Libraries.LibPgnReader.Parsers
 			/// <summary>Final de línea</summary>
 			EoL,
 			/// <summary>Final de archivo</summary>
-			EoF
+			EoF,
+			/// <summary>Línea vacía</summary>
+			EmptyLine
 		}
 
 		internal CharFileReader(System.IO.StreamReader streamReader)
@@ -38,7 +40,7 @@ namespace Bau.Libraries.LibPgnReader.Parsers
 				{ 
 					// Lee los caracteres de las líneas
 					if (string.IsNullOrWhiteSpace(line))
-						yield return (CharType.EoL, ' ');
+						yield return (CharType.EmptyLine, ' ');
 					else
 					{
 						// Lee los caracteres

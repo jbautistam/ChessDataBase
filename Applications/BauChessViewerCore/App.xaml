@@ -1,0 +1,19 @@
+﻿<Application x:Class="Bau.ChessDataBase.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Bau.ChessDataBase"
+			 xmlns:converter="clr-namespace:Bau.Libraries.BauMvvm.Views.Converters;assembly=BauMvvm.Views"
+			 xmlns:converterLocal="clr-namespace:Bau.ChessDataBase.Converters"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+		<!-- Conversores -->
+		<converterLocal:FileChessPieceConverter x:Key="FileChessPieceConverter" />
+		<!-- Conversores -->
+		<converter:InverseBooleanConverter x:Key="InverseBooleanConverter" />
+		<converter:BoolToFontWeightConverter x:Key="BoolToFontWeightConverter" />
+		<converter:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter" />
+		<converter:InverseBoolToVisibilityConverter x:Key="InverseBoolToVisibilityConverter" />
+		<converter:MVVMColorConverter x:Key="MVVMColorConverter" />
+		<converter:ObjectToVisibilityConverter x:Key="ObjectToVisibilityConverter" />
+	</Application.Resources>
+</Application>

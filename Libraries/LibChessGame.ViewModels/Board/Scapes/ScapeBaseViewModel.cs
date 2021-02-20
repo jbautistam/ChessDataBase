@@ -5,7 +5,7 @@ namespace Bau.Libraries.LibChessGame.ViewModels.Board.Scapes
 	/// <summary>
 	///		Base para los escaques del tablero
 	/// </summary>
-	public class ScapeBaseViewModel : Mvvm.BaseObservableObject
+	public class ScapeBaseViewModel : BauMvvm.ViewModels.BaseObservableObject
 	{
 		// Variables privadas
 		public int _row, _column;

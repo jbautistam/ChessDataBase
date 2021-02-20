@@ -5,7 +5,7 @@ namespace Bau.Libraries.LibChessGame.ViewModels.Pgn
 	/// <summary>
 	///		ViewModel para los elementos de <see cref="PgnGameInfoTagListViewModel"/>
 	/// </summary>
-	public class PgnGameInfoTagItemListViewModel : Mvvm.BaseObservableObject
+	public class PgnGameInfoTagItemListViewModel : BauMvvm.ViewModels.BaseObservableObject
 	{
 		// Variables privadas
 		private string _header, _text;

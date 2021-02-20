@@ -41,7 +41,9 @@ namespace Bau.Libraries.LibPgnReader.Parsers.Tokens
 			/// <summary>Comienzo de una cadena de expansión</summary>
 			StartExpansion,
 			/// <summary>Fin de una cadena de expansión</summary>
-			EndExpansion
+			EndExpansion,
+			/// <summary>Línea vacía</summary>
+			EmptyLine
 		}
 
 		internal TokenModel(TokenType type, string content)

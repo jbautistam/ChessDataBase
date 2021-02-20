@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections.ObjectModel;
 
-using Bau.Libraries.LibChessGame.Mvvm.Media;
+using Bau.Libraries.BauMvvm.ViewModels;
+using Bau.Libraries.BauMvvm.ViewModels.Media;
 using Bau.Libraries.LibChessGame.Models.Board.Movements;
 using Bau.Libraries.LibChessGame.Models.Pieces;
 
@@ -46,7 +47,7 @@ namespace Bau.Libraries.LibChessGame.ViewModels.Board.Movements
 			// Inicializa la forma en que se debe ver el movimiento en la lista (tamaños de fuente, tamaños de imagen...)
 			AssignViewSizes();
 			// Inicializa los comandos
-			SelectMovementCommand = new Mvvm.BaseCommand(parameter => ExecuteMovement(), parameter => CanExecuteMovement());
+			SelectMovementCommand = new BaseCommand(_ => ExecuteMovement(), _ => CanExecuteMovement());
 		}
 
 		/// <summary>
@@ -212,6 +213,6 @@ namespace Bau.Libraries.LibChessGame.ViewModels.Board.Movements
 		/// <summary>
 		///		Comando para selección del movimiento
 		/// </summary>
-		public Mvvm.BaseCommand SelectMovementCommand { get; }
+		public BaseCommand SelectMovementCommand { get; }
 	}
 }

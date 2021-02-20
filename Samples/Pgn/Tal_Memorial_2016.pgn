@@ -1,0 +1,1875 @@
+[Event "10th Tal Mem 2016"]
+[Site "Moscow RUS"]
+[Date "2016.09.26"]
+[Round "1"]
+[White "Nepomniachtchi, Ian"]
+[Black "Tomashevsky, Evgeny"]
+[Result "1-0"]
+[WhiteElo "2740"]
+[BlackElo "2731"]
+[ECO "C45"]
+[EventDate "2016.09.25"]
+[Annotator "Hess, R"]
+[PlyCount "45"]
+[CurrentPosition "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 {The Scotch! It's a rarity in top grandmaster  play,
+but Nepo has essayed this opening in many recent games. His handling of the
+resulting complex positions is world-class.} 3... exd4 4. Nxd4 Nf6 5. Nxc6 bxc6
+6. e5 Qe7 7. Qe2 Nd5 8. c4 Ba6 (8....Nb6 {is also a popular move in the
+position; an important      point is that that Black has yet to commit the
+light-squared bishop.}) 9. b3 g6 10. f4 Bg7 {It's hard to call this move an
+outright blunder as it is actually the most popular continuation according to
+the database.  However, both the engines and the scoreboard hate the move, as
+evidenced  by White's impressive win rate in the line. On the other hand, the
+move d6 scores extremely well. For just one example (this line hasn't been
+played  too frequently), see the following Kramnik game.} 11. Qf2 Nf6
+{According to the database, this is the second most popular  move.} (11....Bxe5
+12.fxe5 Qxe5+ {would pick up the rook on a1, except      that} 13.Qe2 {pins the
+queen to the king.}) 12. Ba3 d6 13. Nc3 {This is a novelty though 13.Nd2 was
+played only once, in a game  between two masters back in 2003. The idea is
+clear: castle long and build up pressure on d6. The bishop on a3 makes Black's
+life truly difficult.} 13... O-O (13....Ng4 {would come a move too late, since
+c6 is now hanging.} 14.Qf3 Nxe5 15.fxe5 Qxe5+ 16.Kd2 {requires some precision,
+but      White is up a piece for just two pawns.}) (13....Qe6 {will result in
+Black's king being trapped in the center     of the board.} 14.Bd3 (14.Be2 dxe5
+15.O-O {is more than enough for an advantage since         castling long is not
+a feasible solution for Black since a7 hangs          and Na4-c5 follows suit.}
+15....O-O-O 16.Qxa7 Bb7 17.Na4 Nd7 18.Bb2) 14....Ng4 15.Qf3 dxe5 16.Be4 exf4
+17.O-O-O Ne5 18.Rhe1 $3 {with      endless checkmate threats, White is
+completely winning.} 18....Bb7 (18....Nxf3 19.Bxc6#) 19.Nb5 $1 Rc8 20.Qxf4
+{Black has just a pawn for all his troubles;      the king remains stuck on the
+e-file with the rook on e1 barreling      down on it.}) 14. O-O-O {The position
+already appears hopeless for Black. Tomashevksy  does not even have an extra
+pawn for his troubles; he's simply getting  rolled over.} 14... Ne8 (14....Nd7
+15.c5 $1 Nxc5 (15....Bxf1 16.cxd6 cxd6 17.Bxd6 {wins decisive material.})
+16.Bxc5 Bxf1 17.exd6 cxd6 18.Bxd6 Qb7 19.Rhxf1 Bxc3 20.Bxf8 {is      an extra
+exchange for White whose king is not as unsafe as it might      initially
+appear.}) 15. g3 Bb7 (15....c5 16.Bg2 Rb8 17.Rhe1 {is painful to watch.}) 16.
+Bg2 f6 17. exd6 Nxd6 18. c5 {Winning material since all moves get Black's queen
+boxed in.} 18... Nf5 (18....Ne8 19.Rhe1 Qf7) (18....Nf7 19.Rhe1 {and the knight
+has to sacrifice itself on e5,      lest the queen be lost.} 19....Ne5 20.fxe5)
+19. Rhe1 Qf7 20. Bf1 {Simple, but immediately decisive. Black's queen is 
+trapped.} 20... Rfd8 21. Rxd8+ (21.Bc4 Rd5 22.Nxd5 cxd5 23.c6 Bxc6 24.Qc5 {is
+probably "better"      but it also gives White more opportunities to falter.})
+21... Rxd8 22. Bc4 Rd5 23. Qe2 {Tomashevsky throws up the white flag  since
+Nepomniachtchi will trade queens on e8 and then likely win the  bishop on b7.
+This was a smooth win for Nepo and a warning sign for even  the strongest of
+players who think they can challenge the Scotch without  adequate preparation.}
+1-0
+
+[Event "10th Tal Mem 2016"]
+[Site "Moscow RUS"]
+[Date "2016.09.26"]
+[Round "1"]
+[White "Giri, Anish"]
+[Black "Anand, Viswanathan"]
+[Result "1/2-1/2"]
+[WhiteElo "2755"]
+[BlackElo "2776"]
+[Board "3"]
+[Whitetitle "GM"]
+[Whitecountry "NED"]
+[Whitefideid "24116068"]
+[Blacktitle "GM"]
+[Blackcountry "IND"]
+[Blackfideid "5000017"]
+[Annotator "Copeland, Sam"]
+[CurrentPosition "6r1/1p2k2p/1pn1b3/1N2pp2/8/P3K1P1/1P2BP1P/3R4 b - - 1 31"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Nbd7 5. Qc2 dxc4 6. e4 c5 7. Bxc4 cxd4 8.
+Nxd4 Bc5 9. Nb3 Bb6 10. O-O O-O 11. Be2 Qc7 12. Bg5 Ne5 13. Bxf6 gxf6 14. Rac1
+Rd8 15. Na4 Qxc2 16. Rxc2 Bd7 17. Nxb6 axb6 18. Rd1 Kf8 19. a3 Nc6 20. Rcd2 Ke7
+21. Nd4 e5 22. Nb5 Be6 23. Rxd8 Nxd8 24. Rc1 Nc6 25. Kf1 Rd8 26. Ke1 f5 27.
+exf5 Bxf5 28. Rd1 Rg8 29. g3 Be6 30. Kd2 f5 31. Ke3 f4+ 32. gxf4 exf4+ 33. Kxf4
+Rg2 34. Ke3 Rxh2 35. Nc3 Rh3+ 36. f3 Rh5 37. Rg1 Bf7 38. b4 Ne5 39. Ne4 Nd7 40.
+f4 Rh2 41. Rc1 Bd5 42. Nc3 Bc6 43. Rg1 Nf6 44. Rg7+ Kd6 45. Bd3 Rh3+ 46. Kd4
+Rh4 47. Ne2 b5 48. Rg5 Nd5 49. Rf5 Nc7 50. Rf7 Ne6+ 51. Kc3 h5 52. Rf6 1/2-1/2
+
+[Event "10th Tal Mem 2016"]
+[Site "Moscow RUS"]
+[Date "2016.09.26"]
+[Round "1"]
+[White "Mamedyarov, Shakhriyar"]
+[Black "Li, Chao"]
+[Result "1/2-1/2"]
+[WhiteElo "2761"]
+[BlackElo "2746"]
+[Board "5"]
+[Whitetitle "GM"]
+[Whitecountry "AZE"]
+[Whitefideid "13401319"]
+[Blacktitle "GM"]
+[Blackcountry "CHN"]
+[Blackfideid "8604436"]
+[Annotator "Copeland, Sam"]
+[CurrentPosition "r1r2bk1/p4p1p/2p3p1/4p3/6b1/2P1B1P1/P2RPPBP/R5K1 b - - 4 17"]
+
+1. d4 Nf6 2. c4 g6 3. Nf3 Bg7 4. g3 d5 5. Bg2 c5 6. O-O cxd4 7. Nxd4 O-O 8.
+cxd5 Nxd5 9. Nc3 Nxc3 10. bxc3 Nc6 11. Nxc6 bxc6 12. Be3 Bg4 13. Bd4 e5 14. Bc5
+Qxd1 15. Rfxd1 Rfc8 16. Rd2 Bf8 17. Be3 Rab8 18. Bxa7 Ra8 19. Be3 Ra3 20. c4
+(20.Rb2 $5 Be6 21.Rb6 {is a bit better for White.}) 20... Bb4 21. Rd3 (21.Rc2
+$6 Bf5 22.Rcc1 c5 {leaves White thoroughly bound.}) 21... Bxe2 22. Rxa3 Bxa3
+23. c5 Bd3 24. Rd1 e4 25. Bf1 Rd8 26. f3 Rd5 27. fxe4 Bxe4 28. Rxd5 Bxd5 29.
+Bg2 Bxg2 30. Kxg2 f5 31. Kf3 Kf7 32. Kf4 Kf6 33. h4 h6 34. Kf3 g5 35. hxg5+
+hxg5 36. g4 $1 {This is the most direct draw.} 36... fxg4+ (36....f4 37.Bd4+
+Ke6 38.Ke4 {grants Black a protected passed      pawn, but the game is
+thoroughly blocked.}) 37. Kxg4 Ke5 38. Bxg5 Kd5 39. Kf3 Bxc5 40. Ke2 Kc4 41.
+Kd2 1/2-1/2
+
+[Event "10th Tal Mem 2016"]
+[Site "Moscow RUS"]
+[Date "2016.09.26"]
+[Round "1"]
+[White "Aronian, Levon"]
+[Black "Gelfand, Boris"]
+[Result "1/2-1/2"]
+[WhiteElo "2795"]
+[BlackElo "2743"]
+[Board "1"]
+[Whitetitle "GM"]
+[Whitecountry "ARM"]
+[Whitefideid "13300474"]
+[Whiteelochange "-1"]
+[Blacktitle "GM"]
+[Blackcountry "ISR"]
+[Blackfideid "2805677"]
+[Blackelochange "1"]
+[Annotator "Copeland, Sam"]
+[CurrentPosition "2r5/p3kppp/b3p3/3BN3/1p6/1P4P1/P3PP1P/4K2R b K - 0 18"]
+
+1. c4 c5 2. Nf3 Nc6 3. Nc3 Nf6 4. g3 d5 5. d4 cxd4 6. Nxd4 dxc4 7. Nxc6 Qxd1+
+8. Nxd1 bxc6 9. Bg2 Nd5 10. Ne3 e6 11. Nxc4 Ba6 12. b3 Bb4+ 13. Bd2 Ke7 14. Rc1
+Rhc8 15. Ne5 {N} 15... c5 16. Bxb4 cxb4 17. Rxc8 Rxc8 18. Bxd5 Kd6 $1 {As
+always, the king is free to attack and defend in the  endgame! Black is
+nominally better now, but no more.} (18....exd5 19.Kd2 $1 {grants White a
+slight but enduring      advantage.}) 19. Bf3 Kxe5 20. Kd2 Rc5 21. a3 bxa3 22.
+Ra1 Bb5 23. Rxa3 Rc7 24. h4 h6 25. Ra2 g5 26. hxg5 hxg5 27. Rc2 Rxc2+ 28. Kxc2
+Kd4 29. e3+ Kc5 30. Kc3 a5 31. Bd1 f6 32. f4 e5 33. Bf3 Be8 34. Bd1 Bb5 35. Bf3
+Be8 36. Bd1 Bb5 1/2-1/2
+
+[Event "10th Tal Mem 2016"]
+[Site "Moscow RUS"]
+[Date "2016.09.26"]
+[Round "1"]
+[White "Svidler, Peter"]
+[Black "Kramnik, Vladimir"]
+[Result "1/2-1/2"]
+[WhiteElo "2745"]
+[BlackElo "2808"]
+[Board "2"]
+[Whitetitle "GM"]
+[Whitecountry "RUS"]
+[Whitefideid "4102142"]
+[Whiteelochange "1"]
+[Blacktitle "GM"]
+[Blackcountry "RUS"]
+[Blackfideid "4101588"]
+[Blackelochange "-1"]
+[Annotator "Copeland, Sam"]
+[CurrentPosition "r2r2k1/pq2bp2/1p2pn1p/3pn1p1/2PN4/1PN1BPP1/P2QP1KP/2RR4 w - - 0 19"]
+
+1. c4 e6 2. Nc3 c5 3. Nf3 Nf6 4. g3 b6 5. Bg2 Bb7 6. O-O Be7 7. d4 cxd4 8. Qxd4
+O-O 9. Rd1 d6 10. Bg5 Nc6 11. Qd2 Qb8 12. Rac1 Rd8 13. b3 h6 14. Bf4 Ne5 15.
+Nd4 Bxg2 16. Kxg2 Qb7+ 17. f3 g5 18. Be3 d5 19. Bxg5 $1 {The sac  is
+practically very strong for White.} 19... hxg5 20. Qxg5+ Ng6 21. Nxe6 Rd6 22.
+Nf4 Ne4 23. Qg4 Nxc3 24. Rxc3 d4 25. Rcd3 Rad8 26. Nd5 Bf8 27. Rxd4 Bg7 28.
+R4d2 (28.Nf6+ $5 {This idea hovers around a bit, but it is not clear if     
+this is better than the game continuation.} 28....Bxf6 29.Rxd6 Rxd6 30.Rxd6 Qe7
+31.Rd2 Qe3 {Black still has resources despite the      massive material
+deficit.The coming ...Bd4 creates problems.}) 28... b5 29. Qe4 Qb8 30. c5 Re8
+31. Qg4 (31.Qxe8+ $5 {The computer suggests that this was a stronger winning   
+ try.} 31....Qxe8 32.cxd6 Qd7 {Black is thoroughly tied down by the     
+d-pawn.}) 31... Rde6 32. e4 Qc8 33. Rc2 Ne5 34. Qf5 Qb7 35. f4 Nc6 36. e5 Nb4
+37. Rcd2 f6 38. Qe4 Nxd5 39. Rxd5 fxe5 40. f5 Ra6 41. R1d2 Kh8 42. h4 Rh6 43.
+Kf3 Rh5 44. Qg4 Rxf5+ 45. Qxf5 Rf8 46. Qxf8+ Bxf8 47. b4 Qf7+ 48. Kg2 e4 49.
+Re5 Qf3+ 50. Kh2 Qc3 51. Rdd5 e3 52. Re8 Kg7 53. Kh3 Qe1 54. Rde5 Qxb4 55. Rg5+
+Kf7 56. Rxe3 Bxc5 57. Rf3+ Ke6 58. Rg6+ Ke7 59. Rg7+ Ke6 60. Rg6+ Kd7 61. Rg7+
+Be7 62. Re3 a5 $1 63. h5 Kd8 64. Rg8+ Kd7 65. Rg7 Kd8 66. Rg8+ 1/2-1/2
+
+[Event "10th Tal Mem 2016"]
+[Site "Moscow RUS"]
+[Date "2016.09.27"]
+[Round "2"]
+[White "Anand, Viswanathan"]
+[Black "Mamedyarov, Shakhriyar"]
+[Result "1-0"]
+[WhiteElo "2776"]
+[BlackElo "2761"]
+[ECO "C92"]
+[EventDate "2016.09.25"]
+[Annotator "Hess, R"]
+[PlyCount "107"]
+[Sourcedate "2013.06.18"]
+[CurrentPosition "r2qr1k1/1bp1bppp/p1np1n2/1p2p3/3PP3/1BP2N1P/PP3PP1/RNBQR1K1 w - - 1 11"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3
+O-O 9. h3 Bb7 10. d4 Re8 {The Zaitsev.} 11. Nbd2 {The proper  continuation,
+which has been played over two thousand (!) times.} (11.Ng5 Rf8 12.Nf3 {has
+been played an unfortunate number of times.     Of course, Anand is not playing
+to draw.}) 11... exd4 (11....Bf8 {is more popular, and is the choice of players
+aiming to     keep a symmetrical pawn structure.The game continuation instead
+leads     to unbalanced play, which often favors White in the short term as he 
+    can more easily advance his pawns.}) 12. cxd4 Nd7 {Anand said he had
+prepared hundreds of lines "but not this  Svidler Zaitsev."} 13. Nf1 Na5 14.
+Bc2 Bf6 15. Rb1 (15.N1h2 {scores an impressive 66% for White, though only 23
+games      with this position have occurred.} 15....c5 16.d5 Nc4 17.Rb1 Nde5
+18.Nxe5 Bxe5 19.b3 Nb6 20.Ng4 {and white went on to win in Wei Yi     
+(2737)-Bu Xiangzhi (2710) Taizhou CHN 2015}) 15... c5 16. d5 Nc4 17. b3 Nce5
+18. N3h2 Ng6 19. Ne3 (19.Ng3 Bc8 (19....Bc3 20.Bd2 Bxd2 21.Qxd2 a5 22.Ng4 Nf6
+23.f4 $6 {         (Better is 23.Bd3)} 23....Bc8 24.Nxf6+ Qxf6 25.Rf1 b4 {Hou  
+       Yifan (2653)-Bu Xiangzhi (2723) Danzhou CHN 2016}) 20.Rf1 Nb6 21.Ng4
+Bxg4 22.hxg4 h6 23.Nf5 Ne7 24.Ne3 b4 {     eventually led to a black win in
+Giri,A (2793)-Svidler,P (2727) Baku      AZE 2015}) 19... Bc8 20. Bd2 b4 {Part
+of me believes this move is overly committal. Sure, Mamedyarov stops his
+opponent from playing a2-a4, but the drawbacks  are quite clear: the c4 square
+is forever under white's control and pawn  breaks seem a bit distant.}
+(20....Nde5) 21. Nhg4 a5 22. Nxf6+ {I'm not quite sure I understand the need to
+capture this bishop. It's not going anywhere, so this feels rushed to me.}
+(22.Nf5 Nde5 $2 (22....Qb6 23.Nxf6+ Nxf6 24.Ng3 {and the black queen is        
+ misplaced on b6, meaning the minor piece exchange was well-timed.} (24.Bg5 {is
+also an enticing option.})) (22....Nb6 23.Qf3 Bxf5 24.exf5 Ne5 25.Nxf6+ Qxf6
+26.Qg3) 23.Nxf6+ Qxf6 24.f4 {wins material for White.If the knight retreats    
+to d7, Bc1-b2 is crushing, as both d6 and g7 are vulnerable targets.}) 22...
+Qxf6 23. g3 a4 {Anand wasn't sure if this really improves Black's  position.
+Whether or not this move is necessary is the most important  question in this
+game. Does it help White, who gains an outside passed  pawn that can become
+dangerous in the long term? Or does it help Black,  who may eventually capture
+the pawn and open the a-file or use the c4  square for his pieces?} 24. bxa4
+Nde5 25. f4 Nxf4 26. gxf4 Qxf4 27. Nf1 (27.Kg2 Qg5+ 28.Ng4 Qg6 29.Kf2 Bxg4
+(29....Nxg4+ 30.hxg4 Bxg4 31.Qc1 f5 {is, practically, very          difficult
+for White.}) 30.hxg4 Nxg4+ {is hideous.Anand's king will find no safety, and   
+  he'll be fortunate to survive.} 31.Kf3 h5 {Nobody wants to see a king     on
+f3 with so much material on the board.}) 27... Qh4 28. Re3 Bxh3 29. Qe2 (29.Qe1
+Qh5 (29....Qxe1 30.Rbxe1 Bd7 31.a3 $1 {is still slightly better          for
+White.} 31....Nc4 32.axb4 Nxe3 33.Nxe3 Bxa4 34.Bd3 {and          White's two
+minors are superior to the rook and two pawns, since          d6 is a huge
+weakness.}) 30.Nh2 Bd7 {is really annoying.Anand has to deal with his exposed  
+   king, the impending open a-file, and the centralized and superbly     
+powerful knight on e5.}) 29... Qg4+ {"This surprised me a lot." (Anand)
+Instead, Black had many  attacking options. Considering Mamedyarov was his
+opponent, 29...Qg4+  should have been doubly surprising for Anand to see.}
+(29....g6 {with the idea of playing ...f5 is too slow.} 30.Be1 {     shuts down
+any counterplay.} 30....Qh6 31.Rg3 {and White has become     fully coordinated,
+with the move a3 soon to come.}) 30. Qxg4 Bxg4 31. a3 Nf3+ 32. Kf2 Nd4 33. Rb2
+bxa3 34. Rxa3 Nxc2 35. Rxc2 Rxe4 {Mamedyarov has three pawns for the minor
+piece, but it is not enough in the position. The a-pawn is very hard to deal
+with, considering it will forever be sufficiently defended on a5. Moreover, the
+pawn on d6 is a  weakness and Anand has ample time to stop the kingside pawns
+in their  tracks.} 36. a5 Bc8 37. Re3 {"A miscalculation." (Anand)} (37.Rb2
+{was much simpler.The rook will make its way to b6, the      knight to e3, and
+from there infiltration should not be much of an      issue.}) 37... Rf4+ 38.
+Rf3 (38.Kg3 Rg4+ 39.Kf3 h5 40.Re8+ Kh7 {would have gotten Anand into      more
+trouble than he bargained for.Sure, he still retains a nice      edge, but the
+king is very misplaced in the direct line of the black      pawns (you never
+want the pawns to storm down the board giving checks      along the way).})
+38... Re4 39. Rb2 Ba6 40. Bc3 h5 41. Ng3 Rh4 42. Rb6 ({Anand wasn't sure of}
+42.Bxg7 Bc4 43.Nf5 Rh2+ (43....Bxd5 44.Nxh4 Bxf3 45.Bf6 Be4 46.Rb6 {should be
+won          for White, considering that Black's king is totally boxed in and  
+       mating threats are on the horizon.I don't see how Mamedyarov         
+could prevent a5-a6 followed by a king march.}) 44.Kg3 ({Anand must not have
+realized that} 44.Ke3 $1 {is winning          easily.}) 44....Rxb2 45.Bxb2
+Rxa5) 42... Rh2+ 43. Kg1 Rc2 44. Nf5 Bc4 45. Re3 Kh7 46. Rxd6 Rb8 47. Rb6 {
+Forced, otherwise the rook starts causing trouble.} 47... Rxb6 48. axb6 Bxd5
+49. Nxg7 Rg2+ (49....Rc1+ 50.Kf2 Rb1 (50....h4 51.Nh5 Bc6 52.Nf4) 51.Nxh5
+{-Anand.The same threat as in the gam exists: immediately      Nf6+ picks up
+material, but there are also mating ideas galore.For      example:} 51....Be6
+52.Rg3) 50. Kf1 Rg6 (50....h4 {saves the pawn (for the moment) but} 51.Ne8 Kg6
+52.Nd6 {wins the bishop, as after b7 the pawn must be captured.}) 51. Nxh5 Bc4+
+52. Kf2 Rxb6 {At first glance, it might seem that Anand lost most of his
+winning chances along with his last pawn. But not so fast:  mate trumps
+material.} 53. Nf6+ $1 Kh6 (53....Kg6 54.Nd7 {wins the bishop on c4.It is
+important to      remember that bishop and knight versus king results in a
+winning      ending, so even though Anand has given up his final pawn, the win
+is      certain.}) 54. Rg3 {Mamedyarov resigns, for he is mated if he does not
+sacrifice his  rook for one of the minor pieces, leaving him with a totally
+lost game.} 1-0
+
+[Event "10th Tal Mem 2016"]
+[Site "Moscow RUS"]
+[Date "2016.09.27"]
+[Round "2"]
+[White "Gelfand, Boris"]
+[Black "Giri, Anish"]
+[Result "0-1"]
+[WhiteElo "2743"]
+[BlackElo "2755"]
+[ECO "E60"]
+[EventDate "2016.09.25"]
+[PlyCount "72"]
+[CurrentPosition "r1bqr1kb/4np1p/1p2n1pB/2pp4/3P1NP1/7P/PP1QNPB1/R3R1K1 w - - 0 22"]
+
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Bg2 O-O 5. Nc3 Nc6 6. e3 d6 7. Nge2 e5 8. O-O
+exd4 9. exd4 Ne7 10. Bf4 (10.h3 d5 11.b3 Re8 12.Ba3 c6 13.Re1 Be6 14.Nf4 dxc4
+15.Nxe6 fxe6 16.bxc4 Nf5 {Nogueiras,J (2535)-Goldenberg,D (2310) Quebec 1997})
+10... Nf5 11. Qc1 Re8 12. h3 c6 13. g4 Ne7 14. Bh6 d5 15. c5 b6 16. cxb6 axb6
+17. Re1 Bh8 18. Qf4 Nd7 19. Qd2 Nf8 20. Nf4 Ne6 21. Nce2 c5 $5 {An  interesting
+pawn sacrifice. It was better not to accept it immediately.} 22. dxc5 bxc5 23.
+Nxd5 $6 ({Putting more pressure with e.g.} 23.Nc3 {was more promising.}) 23...
+Bb7 24. Nec3 (24.Ndc3 $5) 24... Nxd5 25. Nxd5 Bd4 $1 {This gives Black
+excellent compensation.} 26. Nc3 $6 ({Here} 26.Nf4 {was safer.}) 26... Bxg2 27.
+Kxg2 g5 {Threatening 28...Nf4+ and possibly 29...f6 when  the bishop on h6 will
+be completely out of play and in danger of being  trapped.} 28. h4 gxh4 29. Ne4
+Qd5 30. f3 Rad8 31. Rad1 Kh8 {To remove Nf6+ as an option for White.} 32. Bg5
+f5 $1 33. Bxd8 Rxd8 34. gxf5 $2 ({White could still fight after} 34.Ng5 {or})
+(34.Qh6) 34... Qxf5 {Now it's suddenly -7 according to the computer.} 35. Kh1
+Rg8 36. Rf1 Be5 $1 {The threat of Qh3+ is much stronger than the execution!}
+0-1
+
+[Event "10th Tal Mem 2016"]
+[Site "Moscow RUS"]
+[Date "2016.09.27"]
+[Round "2"]
+[White "Kramnik, Vladimir"]
+[Black "Li, Chao"]
+[Result "1/2-1/2"]
+[WhiteElo "2808"]
+[BlackElo "2746"]
+[ECO "C42"]
+[EventDate "2016.09.25"]
+[PlyCount "120"]
+[CurrentPosition "r2q1rk1/ppp1bppp/2n5/3p4/3P4/3Q1N2/PPP2PPP/R1B1R1K1 w - - 1 12"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. d4 d5 6. Bd3 Nc6 7. O-O Be7 8.
+Nbd2 Bf5 9. Re1 Nxd2 10. Qxd2 Bxd3 11. Qxd3 O-O 12. c3 h6 13. Re2 Bd6 14. Qf5
+Ne7 15. Qh5 Ng6 16. Bd2 Bf4 17. g3 Bxd2 18. Nxd2 Qg5 19. Qxg5 hxg5 20. Rae1 f6
+21. Nf1 Rad8 22. Ne3 Rfe8 23. Nf5 Rxe2 24. Rxe2 Kf7 25. Kg2 Rd7 26. Kf3 Nf8 27.
+h4 g6 28. Nh6+ Kg7 29. Ng4 gxh4 30. gxh4 Kf7 31. Nh6+ Kg7 32. Ng4 Kf7 33. Re1
+Rd6 34. Ne3 Ne6 35. Rh1 Ng7 36. a4 a6 37. b4 Rd8 38. b5 a5 39. Ng2 Nh5 40. Rb1
+b6 41. Rc1 Ng7 42. Rh1 Nh5 43. Re1 Rd7 44. Kg4 Rd8 45. Kf3 Rd7 46. Ne3 Ng7 47.
+Ng4 Nf5 48. Rh1 Rd8 49. h5 g5 50. Ke2 Rh8 51. Kd3 Nh4 52. f4 Ng2 53. fxg5 Nf4+
+54. Ke3 Rxh5 55. Rxh5 Nxh5 56. gxf6 Nxf6 57. Nf2 Ke6 58. Kf4 Ne8 59. Ng4 Nd6
+60. Ne3 Ne4 1/2-1/2
+
+[Event "10th Tal Mem 2016"]
+[Site "Moscow RUS"]
+[Date "2016.09.29"]
+[Round "3"]
+[White "Aronian, Levon"]
+[Black "Svidler, Peter"]
+[Result "1/2-1/2"]
+[WhiteElo "2795"]
+[BlackElo "2745"]
+[ECO "D70"]
+[EventDate "2016.09.25"]
+[PlyCount "81"]
+[CurrentPosition "r1brq1k1/1pp2p1p/pn2p1pQ/n2P4/4P2P/2N2P2/PP4P1/1K1R1BNR b - h3 0 17"]
+
+1. d4 Nf6 2. c4 g6 3. f3 d5 4. cxd5 Nxd5 5. e4 Nb6 6. Nc3 Bg7 7. Be3 O-O 8. Qd2
+Nc6 9. O-O-O Qd6 10. Kb1 (10.h4) (10.Nb5) 10... Rd8 11. Nb5 Qd7 12. d5 a6 13.
+Nc3 Qe8 14. Qc1 Na5 15. Bh6 (15.h4) 15... Bxh6 16. Qxh6 e6 17. h4 {Around here
+Svidler spent about half an  hour on the possible move orders.} (17.Nh3 Qe7
+18.Bd3 e5 19.Nf2 Nbc4 20.h4 Rd6 21.Bxc4 Nxc4 22.Qc1 b5 23.Nd3 Bd7 {Carlsen,M
+(2881)-Caruana,F (2791) Stavanger NOR 2014}) 17... exd5 (17....Qf8 18.Qf4 Qe7
+19.h5 exd5 ({or} 19....g5 {Svidler})) 18. h5 Qf8 19. Qf4 (19.Qxf8+ Rxf8 20.Nxd5
+Nxd5 21.exd5 {Svidler}) 19... Qe7 20. hxg6 fxg6 21. Nge2 {And here Svidler
+spent another half  hour.} (21.exd5 Bf5+ 22.Kc1 (22.Ka1 $2 Nxd5) 22....Qc5
+{Svidler}) 21... Be6 (21....Nc6 22.Nxd5 Nxd5 23.exd5 Nb4 24.Nc3 Bf5+ 25.Kc1
+{Svidler     }) ({Fearing his opponent was still in his preparation, Svidler
+thought} 21....dxe4 22.Rxd8+ Qxd8 23.Qh6 Qe7 24.Nf4 (24.fxe4) 24....exf3 25.Bd3
+fxg2 26.Nxg2 {would be too dangerous, although      he also suspected that the
+engines would like Black after} 26....Qg7 27.Qg5 Bf5) 22. Nd4 dxe4 23. Qxe4 Rd6
+(23....Bf5 24.Nxf5 Qxe4+ 25.fxe4 Rxd1+ 26.Nxd1 gxf5 27.exf5) 24. Nxe6 Rxe6 25.
+Qg4 Nc6 26. Ne4 Rd8 27. Rc1 Rd5 28. Qf4 Rf5 29. Qe3 Nb4 30. Qb3 N4d5 31. a3
+Ree5 32. Bd3 Kg7 33. Ka1 Nf4 34. g4 Rf8 (34....Nxd3 35.gxf5 Nxc1 36.f6+ Qxf6
+{is good for White after} 37.Rxh7+ $1 Kf8 38.Qd1 Nb3+ 39.Qxb3 Qe6 40.Qd1) 35.
+Bb1 Ne6 $6 (35....Nfd5) 36. Qc3 Nf4 37. Qxc7 (37.Ng5 $5 Qxg5 38.Qxc7+ Re7
+39.Qxb6) 37... Nfd5 $1 38. Qxe7+ Rxe7 39. Rh2 Nf4 40. Rch1 Rh8 41. Rc1 1/2-1/2
+
+[Event "10th Tal Mem 2016"]
+[Site "Moscow RUS"]
+[Date "2016.09.29"]
+[Round "3"]
+[White "Li, Chao"]
+[Black "Anand, Viswanathan"]
+[Result "1/2-1/2"]
+[WhiteElo "2746"]
+[BlackElo "2776"]
+[ECO "E21"]
+[EventDate "2016.09.25"]
+[PlyCount "61"]
+[CurrentPosition "r4rk1/pbp3pp/1pnpp3/5p2/P1PP3q/2PBPP2/2QB2PP/R4RK1 w - - 1 14"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nf3 b6 5. e3 Ne4 6. Qc2 Bb7 7. Bd3 Bxc3+ 8.
+bxc3 f5 9. O-O O-O 10. Nd2 Nxd2 11. Bxd2 Qh4 12. f3 d6 13. a4 $5 (13.c5 Nd7
+14.cxd6 cxd6 15.Be1 Qg5 16.Bg3 d5 17.Rfe1 h5 {     Sargissian,G (2702)
+-Thorfinnsson,B (2419) Reykjavik ISL 2016}) 13... Nc6 14. g3 {"This looks
+suspicious to me." (Anand)} (14.e4 f4 15.c5 dxc5 16.dxc5 Ne5 17.Be2 {Anand})
+14... Qh5 15. e4 Na5 (15....fxe4 16.fxe4 e5 17.c5 exd4 18.cxd4 {Li Chao}) 16.
+Rae1 fxe4 17. fxe4 Ba6 18. Bf4 $1 {"The only move not to be worse."  (Anand)}
+18... Bxc4 (18....e5 $5 19.Bc1 c5 20.Rf5 Qe8 21.Ref1 Qe6 22.Qf2 {Anand}) 19.
+Bxc4 Nxc4 20. Qb3 d5 21. Qb5 (21.Bxc7 $2 Nd2) 21... Rac8 22. Qc6 Rfe8 23. Rf2
+Na5 24. Qd7 Qf7 25. Qxf7+ Kxf7 26. Bxc7+ Kg8 27. Bf4 Nc4 28. Rfe2 Kf7 29. Rf2
+Kg8 30. Rfe2 Kf7 31. Rf2 1/2-1/2
+
+[Event "10th Tal Mem 2016"]
+[Site "Moscow RUS"]
+[Date "2016.09.29"]
+[Round "3"]
+[White "Nepomniachtchi, Ian"]
+[Black "Kramnik, Vladimir"]
+[Result "1-0"]
+[WhiteElo "2740"]
+[BlackElo "2808"]
+[EventDate "2016.09.29"]
+[Annotator "Hess, R"]
+[PlyCount "93"]
+[CurrentPosition "rnbqkbnr/pppppppp/8/8/2P5/8/PP1PPPPP/RNBQKBNR b KQkq c3 0 1"]
+
+1. c4 {Despite a brilliant win with the Scotch in round one,  Nepomniachtchi
+decides to play a different first move against Kramnik. It  is common for
+grandmasters to diversify their repertoires, making them  harder to prepare
+for. Judging from the position he obtained, it appears  that Nepo was looking
+to outplay his opponent rather than out-prepare him. } 1... e6 2. Nc3 c5 3. Nf3
+Nf6 4. g3 b6 {By far the most common reply,  essayed nearly 3500 times more
+than the second most popular move, 4...d5.  This move order is flexible,
+whereas pushing the d-pawn so early could  very well lead to a position with an
+isolated queen pawn, or a simple lead in development for White.} (4....d5
+5.cxd5 Nxd5 (5....exd5 6.d4 {will leave Black with an isolated pawn, but       
+  that's also not the end of the world.}) 6.Bg2 Nc6 7.O-O Be7 8.d4 {The
+essential point here is that the      bishop on g2 is far superior to its
+counterpart on c8.White has a      long-term advantage.}) 5. Bg2 Bb7 6. O-O Be7
+7. d4 (7.Re1 {with the intention of playing e2-e4 is also popular.}) 7... cxd4
+8. Qxd4 O-O 9. Rd1 d6 10. Bg5 Nc6 (10....Nbd7 11.Nb5 {can be a huge pain for
+Black to deal with.It      isn't possible to keep d6 defended, so Black must
+push.Kramnik      himself enjoyed a fine victory in this line:} 11....d5
+12.cxd5 Bxd5 13.Nc3 Bc6 14.Qc4 Qc8 15.e4 h6 16.Bf4 Bb7 17.Qxc8 Raxc8 18.e5 Nd5
+19.Nxd5 Bxd5 20.Ne1 Rfd8 21.Bxd5 exd5 22.Rxd5 {and 1-0 on move     52,
+Kramnik,V (2766)-Aronian,L (2744) Monte Carlo MNC 2007}) 11. Qf4 Qb8 (11....h6
+12.Bxf6 Bxf6 13.Rxd6 {is a pawn that Black should not      have quite enough
+counterplay for.}) 12. Bxf6 Bxf6 13. Rxd6 Na5 (13....Nd4 {was tried against
+Nakamura, but it failed:} 14.Nxd4 Bxg2 15.Nc2 (15.Ndb5) 15....Bb7 16.Rad1 Qc7
+17.R6d3 Qc6 18.f3 Qc5+ 19.Kg2 e5 20.Qf5 Qxc4 21.Ne3 Qc8 22.Rd7 {and 1-0 on move
+53, Nakamura,H (2816)      -Gurevich,D (2472) Las Vegas USA 2015}) 14. Rad1 Qc7
+(14....Rc8 {had been played twice before, and a 2100 even drew a GM     with
+this move.But in reality it's a scary position after} 15.c5 $1 Rxc5 (15....bxc5
+16.Qa4 Nc6 17.Ne4 {also leaves Black with huge          problems.}) 16.Ne4
+{spells trouble for Black, since there is a very real issue on     the h1-a8
+diagonal.It looks unlikely that Black can even maintain      material
+equality.} 16....Be7 17.Nxc5 Bxd6 18.Qxd6 Qxd6 19.Rxd6 bxc5 20.Ne5 {will lose
+at least a pawn since Black's wayward knight      can't defend anything.For
+instance:} 20....f6 21.Nd3 c4 22.Nc5 Bxg2 23.Kxg2 {loses e6 at the very
+minimum, since} 23....e5 24.Ra6 {traps the knight.}) 15. Rd7 {An interesting
+decision, forcing Kramnik to prove he can achieve  equality.} (15.Qc1
+{certainly tests Black: material equality will come, but the     exposed
+squares on the queenside are a real liability.}) (15.Nd5 {with the tactical
+idea of exd5.16.Rxf6 fails immediately      to} 15....Bxd5 16.cxd5 e5 17.Qb4
+Be7) 15... Qxf4 16. gxf4 Bc6 17. Ng5 (17.Ne5 Bxg2 18.Kxg2 Bxe5 19.fxe5 Nxc4
+20.Nb5 a5 {Black will      scoop up e5 since White can't play f4 lest he lose
+an exchange via      Ne3+.However, the pawn is not enough for an advantage as
+White's      activity allows him to maintain the balance.The position is
+equal.}) 17... Bxd7 18. Bxa8 Bxc3 19. Rxd7 Bxb2 20. Be4 h6 21. Nf3 Nxc4 22.
+Rxa7 {After a series of more or less forced moves, we arrive at a position with
+equal material and opposite-colored bishops. Kramnik surely thought he had a
+draw in the bag, but the reality is that White stands (symbolically)  better.
+The control of the seventh rank is annoying to counter, and the  (doubled) pawn
+on f4 is actually an asset since a timely f4-f5 push will  make f7 vulnerable.
+Black should not be worse off here, but Kramnik lacks  activity and sometimes
+that's all one needs to win: not a legitimate  threat, but the threat of a
+thread.} 22... Rc8 23. Kg2 Bf6 24. Bd3 g5 $6 {By no means a bad move, but this
+invites f5.} (24....g6 {sitting with this move could not be too harmful, I     
+think.Black has all his pawns covered, so a move like} 25.Rb7 Rc5 {     keeps
+Black level.The pawn on b6 is actually immune from capture:} 26.Bxc4 Rxc4
+27.Rxb6 {and while 27...Rxf4 is still a draw (heck,      maybe Black can play
+for a win!),} 27....Ra4 {seals the half point      immediately.}) 25. f5 g4 26.
+Ne1 e5 {If you stop here and examine the position, you'll  see that White has
+gained from all the pawn pushes. The pawn on g4:  target. The pawn on f7:
+target. The pawn on f5? Hard to touch,  well-defended by the bishop on d3.
+Importantly, now some piece swaps could be very bad for Black, if say, bishop
+takes on c4, the knight gallops its  way to d5. This is wishful thinking to an
+extent, but it addresses the  many issues that Black now has.} 27. Nc2 h5 28.
+Nb4 {The d5-square wasn't  so far away after all!} 28... Kg7 29. Nd5 Bh4 30. h3
+$1 Rc5 (30....gxh3+ 31.Kxh3 Bxf2 32.f6+ Kf8 33.Ne7 {would have been big    
+trouble for Black.The king is close to being mated, and the knight on     c4 is
+hanging in many lines.} 33....Rd8 34.Bxc4 (34.Nc6 b5 35.Rb7 Re8 36.Rxb5 {also
+is a big advantage for          White.}) 34....b5 {it looks like Black regains
+the piece, but tactics are in      the air:} 35.Ng6+ $1 fxg6 36.Rf7+ Ke8
+37.Re7+ Kf8 38.Rh7 {with      mate in one threatened, Black is forced to give
+up the exchange.} 38....bxc4 39.Rh8+ Kf7 40.Rxd8 {with a winning position for
+White.     The a-pawn decides the game.}) 31. hxg4 hxg4 32. Nc7 Kh6 33. Ne8
+{simultaneously hitting the pawn on f7 and preventing  Black from playing
+...Nd6. Now the advantage is tremendous, without the  resource of 31...Nd6.}
+33... Nb2 34. Be4 Nd1 35. Nd6 {The pawn on f2 is  far less important than the
+pawn on f7. One is just a pawn, the other is  preventing a passed pawn.} 35...
+Kg5 36. Rxf7 Bxf2 {loses on the spot to a nice tactic. Kramnik had chances to
+save himself with} 37. Rg7+ Kf4 38. e3+ $1 {This takes the square away from the
+knight. Nepo  allows his pawn to race to f8.} (38.f6 Bh4 {is actually very
+problematic for White, who now loses f6     or else gets checkmated:} 39.f7
+Ne3+ 40.Kh2 Bg3+ 41.Kg1 Rc1#) 38... Kxe3 39. Rxg4 Kd2 40. Bf3 Ne3+ 41. Kxf2
+Nxg4+ 42. Bxg4 {Two pieces typically outmatch a rook, but with a passed pawn,
+it's even more of an  advantage.} 42... Rd5 43. Ne4+ Kd3 44. f6 Ra5 (44....Kxe4
+45.Bf3+ {ends matters.It's essential to point out      that the pawn on a2
+queens on a light square!}) 45. Be2+ Kd4 (45....Kxe4 46.f7 Ra8 47.Bf3+ {picks
+up the rook.}) 46. f7 Ra8 47. Ng5 1-0
+
+[Event "10th Tal Mem 2016"]
+[Site "Moscow RUS"]
+[Date "2016.09.29"]
+[Round "3"]
+[White "Mamedyarov, Shakhriyar"]
+[Black "Gelfand, Boris"]
+[Result "1-0"]
+[WhiteElo "2761"]
+[BlackElo "2743"]
+[ECO "D43"]
+[EventDate "2016.09.25"]
+[PlyCount "55"]
+[CurrentPosition "r1br2k1/pp2bpp1/1np4p/4P3/1q1NQ3/4N1P1/PP3PBP/3R1RK1 b - - 8 19"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 c6 5. Bg5 h6 6. Bxf6 Qxf6 7. g3 Nd7 8. Bg2
+dxc4 9. O-O Be7 10. Ne4 Qf5 11. Ned2 e5 12. e4 (12.Nxc4 exd4 13.Nxd4 Qc5 14.Rc1
+O-O 15.a3 Bf6 16.e3 Ne5 17.Nd2 Qb6 18.Qc2 Bd7 19.b4 a5 {Tomashevsky,E
+(2701)-Potkin,V (2610)      Yaroslavl RUS 2014}) 12... Qh5 (12....Qe6 13.Rc1 b5
+(13....exd4 14.Nxd4 Qf6 15.Nxc4 O-O 16.Nf5 Nb6 17.Nxe7+ Qxe7 18.Qd6 Qd8
+{Kramnik,V (2793)-Anand,V (2773) London ENG 2013}) 14.b3 c3 15.Rxc3 Bb7 16.d5
+cxd5 17.Rc7 Rb8 18.exd5 Bxd5 19.Re1 Rd8 {Li Chao (2755)-Topalov,V (2754)
+Stavanger NOR 2016}) 13. Nxc4 exd4 14. Qxd4 Qc5 15. e5 O-O 16. Qe4 Nb6 17. Ne3
+Qb4 18. Nd4 Rd8 (18....Bc5 $5) 19. Rad1 Qxb2 $6 (19....Bf8 $5) 20. e6 $1 Bxe6
+$2 ({Black had to try} 20....Bf6 {even though the complications after} 21.Nxc6
+$5 {probably favor White.}) 21. Nxe6 fxe6 22. Bh3 $1 {Black's light sqares are
+fatally weakened.} 22... Kh8 23. Bxe6 g5 {Weakening the position further of
+course, but  what else?} 24. Ng4 Rxd1 25. Rxd1 Qg7 26. Ne5 Qf6 27. Bb3 Kg7 28.
+Ng4 1-0
+
+[Event "10th Tal Mem 2016"]
+[Site "Moscow RUS"]
+[Date "2016.09.29"]
+[Round "3"]
+[White "Giri, Anish"]
+[Black "Tomashevsky, Evgeny"]
+[Result "1-0"]
+[WhiteElo "2755"]
+[BlackElo "2731"]
+[ECO "A46"]
+[EventDate "2016.09.25"]
+[PlyCount "163"]
+[CurrentPosition "4nnk1/4bppp/1pqpp3/8/3P4/N1P2N1P/1P2QPPB/6K1 w - - 0 27"]
+
+1. Nf3 Nf6 2. d4 e6 3. Bf4 b6 4. e3 Bb7 5. Bd3 Be7 6. h3 O-O 7. Nbd2 c5 8. c3
+cxd4 9. exd4 d6 10. O-O Nbd7 11. Re1 Re8 12. Bh2 a6 13. a4 Nf8 14. Ng5 Qd7 15.
+Qe2 Bc6 16. Bxa6 Bxa4 17. Bd3 Bc6 18. Nc4 Qc7 19. Na3 Qb7 20. Nb5 Qd7 21. Nf3
+Rxa1 22. Rxa1 Ra8 23. Rxa8 Bxa8 24. Na3 Bc6 25. Bb5 Ne8 26. Bxc6 Qxc6 27. Qb5
+Qxb5 28. Nxb5 Nd7 29. Kf1 f6 30. Ke2 Kf7 31. Ne1 Nb8 32. Na7 Bd8 33. Nc2 Ke7
+34. Nb4 Kd7 35. d5 exd5 36. Nxd5 Nc6 37. Nb5 Ne7 38. Ne3 d5 39. Kd3 Nc7 40. Nd4
+g6 41. c4 dxc4+ 42. Kxc4 Nc6 43. Bxc7 Bxc7 44. Nf3 Bd8 45. Kb5 Kc7 46. Nd5+ Kb7
+47. b4 f5 48. Kc4 Kc8 49. Nf4 Bc7 50. Ne6 Bd6 51. b5 Ne7 52. Nfg5 h5 53. Nf7
+Bh2 54. Nf8 Bg1 55. f4 Be3 56. Ne5 g5 57. fxg5 Bxg5 58. Nfg6 Nxg6 59. Nxg6 Kd7
+60. Kd5 Be3 61. Nh4 f4 62. Ng6 Bc1 63. Ne5+ Ke7 64. Nc4 Be3 65. g3 Bc1 66. gxf4
+Bxf4 67. Nxb6 Bg3 68. Nc4 Kd7 69. b6 h4 70. Kc5 Kc8 71. Kc6 Kb8 72. Kb5 Kc8 73.
+Kc6 Kb8 74. Nd2 Bf4 75. Ne4 Bg3 76. Nc5 Bh2 77. Kb5 Bg1 78. Nb3 Bh2 79. Ka6 Bg3
+80. Nd4 Kc8 81. b7+ Kd7 1-0
+
+[Event "10th Tal Mem 2016"]
+[Site "Moscow RUS"]
+[Date "2016.09.30"]
+[Round "4"]
+[White "Svidler, Peter"]
+[Black "Giri, Anish"]
+[Result "0-1"]
+[WhiteElo "2745"]
+[BlackElo "2755"]
+[Board "3"]
+[Whitetitle "GM"]
+[Whitecountry "RUS"]
+[Whitefideid "4102142"]
+[Whiteelochange "-5"]
+[Blacktitle "GM"]
+[Blackcountry "NED"]
+[Blackfideid "24116068"]
+[Blackelochange "5"]
+[CurrentPosition "r2q1rk1/1p4bp/2n1bpp1/p1pnp3/8/PQNP2P1/1P1BPPBP/1R2NRK1 b - - 1 14"]
+[Annotator "Copeland, Sam"]
+
+1. Nf3 c5 2. g3 Nc6 3. Bg2 g6 4. c4 Bg7 5. Nc3 d6 6. O-O e5 7. a3 Nge7 8. d3
+O-O 9. Rb1 a5 10. Bg5 f6 11. Bd2 Be6 12. Ne1 d5 13. cxd5 Nxd5 14. Qb3 Nc7
+(14....a4 $5 {This was also tempting.} 15.Nxa4 (15.Qxb7 Na5 16.Qb5 Nb3 {is
+pretty scary for White.}) 15....Nd4 16.Qd1 Nxe2+ {regains the pawn with a
+plus.}) 15. Qb6 (15.Qxb7 {possible but greedy.} 15....Nd4 {White's queen is in 
+    danger, and Black's pieces are very active and becoming more active.})
+15... Nd4 16. Nf3 $2 {Whoops!} 16... Ra6 $1 17. Qxb7 Nxe2+ $1 {A  classy
+tactic.} 18. Kh1 (18.Nxe2 Bd5 {pockets the queen.}) 18... Nxc3 19. bxc3 Bd5 20.
+Qb2 Qa8 21. Ne1 Rd6 22. d4 Rfd8 23. Kg1 cxd4 24. cxd4 Bxg2 25. Nxg2 Rxd4 {Giri
+has cashed in on a clean pawn, but work  is still required for the win.
+Fortunately, we are seeing the new and  improved Giri who possesses flawless
+grinding technique as demonstrated  against Tomashevsky yesterday.} 26. Bc3
+R4d7 27. Ne3 Nd5 28. Nxd5 Rxd5 29. a4 h5 30. h4 Qc6 31. Qb3 Kh7 32. Rfc1 Qd7
+33. Be1 e4 34. Qb7 Qxa4 35. Ra1 Qe8 36. Rc7 R5d7 37. Rxd7 Rxd7 38. Qb3 Rd3 39.
+Qc4 Qd7 40. Rxa5 f5 41. Kg2 Rd1 42. Qe2 Rb1 43. Rc5 Qb7 (43....e3 $3 {a really
+nice idea.} 44.fxe3 Qe7 $1 45.Rc2 {...Rb2      was on the agenda otherwise.}
+45....Rxe1 $1 46.Qxe1 Qe4+ {and wins      the rook.}) 44. Kh2 f4 45. gxf4 Qe7
+46. Rc4 Qxh4+ 47. Kg2 Qxf4 48. Qxe4 Qg5+ 49. Kf3 (49.Kf1 $1 Qb5 50.Qe2 {holds
+on for now, but in the long run, Black     should win.}) 49... Rb5 50. Qd3 Qg1
+51. Re4 Rb2 52. Qc4 Qh1+ 53. Kg3 Rb1 54. Qe2 Qg1+ 55. Kh3 Rb3+ 56. f3 g5 57.
+Bf2 g4+ 58. Kh4 Qh2+ 59. Kg5 Rxf3 0-1
+
+[Event "10th Tal Mem 2016"]
+[Site "Moscow RUS"]
+[Date "2016.09.30"]
+[Round "4"]
+[White "Kramnik, Vladimir"]
+[Black "Anand, Viswanathan"]
+[Result "1-0"]
+[WhiteElo "2808"]
+[BlackElo "2776"]
+[ECO "C54"]
+[EventDate "2016.09.25"]
+[Annotator "Hess, R"]
+[PlyCount "101"]
+[CurrentPosition "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+
+{In a clash between Magnus Carlsen's direct predecessors, Vladimir Kramnik
+scored his eighth career classical victory over Viswanathan Anand. That  low
+figure may surprise you, but these two competitors have had so many  hotly
+contested battles that only 18 of their 90 (!) recorded classical  chess games
+have been decisive. Yes, these two players have drawn each  other 72 times in
+long games.} 1. e4 e5 2. Nf3 Nc6 3. Bc4 {The Italian - or Giuoco Piano - has
+become  increasingly popular lately, in no small part thanks to Kramnik (see
+his  masterful domination over Radjabov from the recently concluded Olympiad). 
+This is likely the result of players overstudying the Berlin Defense,  where
+every variation has been heavily looked into by the top players.  Instead,
+elite grandmasters can opt for an opening that is elegant in its  simplicity,
+with less concrete preparation and more positional  understanding. All in all,
+a perfect choice for players like Kramnik and  Anand, the latter essaying the
+opening twice in both the Candidates' and  Sinquefield Cup.} 3... Bc5 4. O-O
+(4.c3 {is by far the favorite move in this position, though the game    
+transposed to the main variation.}) 4... Nf6 5. d3 O-O 6. h3 d6 7. c3 a6 8. Re1
+Ba7 {An important nuance  aided by White's fourth move is that Black was
+encouraged to castle early. If instead the Black pawn was on h6 and the king
+was uncastled, Black  could very well consider the idea g7-g5 and launch an
+attack on the  kingside.} 9. Bb3 {More or less forced, as Na5 threatened to get
+rid of  this Italian bishop.} 9... h6 10. Nbd2 Re8 11. Nf1 Be6 12. Bc2 {This is
+the second most popular move, and it performs extremely well with an over 60%
+score for White.} 12... d5 13. exd5 Bxd5 (13....Nxd5 14.Ng3 {scores
+exceptionally well for White.I'd know:     I lost against Bosnian GM Borki
+Predojevic in this very line.}) 14. Ng3 Bc5 {I understand the logic behind this
+move, to reroute the  bishop to the defensive with Bf8. Yet this allows easy
+expansion for  Kramnik on the queenside. On one hand, it is nice for Anand to
+not have to worry about Nf5 followed by sacrifices on h6. On the other, it's 
+unpleasant to allow a queenside pawn storm more or less for free.} (14....Nd7
+{appears to be a very natural move, vacating the f6      square for the
+queen.}) (14....Qd7 {Anand likely wanted to avoid this move, considering     
+Giri crushed him in the Norway Blitz} 15.Nh4 Rad8 16.Nhf5 Kh8 17.d4 exd4
+18.Nxg7 Rxe1+ 19.Qxe1 Kxg7 20.Bxh6+ Kh8 21.Qd2 Rg8 22.Qf4 Qd6 23.Qh4 Qxg3
+24.fxg3 {1-0 (26) Giri,A (2773)-Anand,V (2804)      Stavanger NOR 2015}) 15. b4
+Bf8 16. a4 g6 {Not a big fan of this move. It stops Nf5, but it  creates a new
+vulnerability on f6 and the surrounding dark squares. To be  honest, although
+Black's position objectively isn't that bad, I already do not like it. White
+has more space, more targets to attack, more plans in  general. Black is in one
+of those positions where you must roll with the  punches. Not fun.} ({According
+to my database, this position had occurred five times and     in all five
+games, the move played was} 16....b5) 17. Bb2 b5 {What else? It permanently
+compromises most of the queenside  squares, but Anand hardly could afford to
+allow Kramnik to play b5  himself, followed by c4.} 18. Ne4 (18.Bc1 {funnily
+enough, might be a strong move.Now that the c5      square can never be
+defended via pawn b6, perhaps the bishop is best      placed on e3 where it
+also spies on h6.}) 18... Rb8 (18....Nxe4 19.dxe4 Bc4 20.Nd2 Be6 21.Qe2 {is
+hugely      problematic.The pawn structure has become symmetrical, but both b5 
+    and e5 will be difficult to defend.Meanwhile, White has precisely      zero
+weaknesses.}) 19. Bc1 Nd7 (19....Nh5 {feels like it makes more sense.The knight
+on d7 has no     future; the knight on h5 might head to f4 if the option
+presents      itself.}) (19....Nxe4 20.dxe4 Bc4 21.Nd2 Be6 (21....Bd3 22.Bb3)
+22.Qe2 {is similar to the line above.White is much better, since      Black is
+devoid of counterplay.}) 20. Bb3 Bxb3 21. Qxb3 Re6 22. axb5 axb5 23. Be3 {Does
+Anand control a  single important square on the board? Yeesh.} 23... Nf6 24.
+Rad1 {We are taught early on to keep our rooks on open files. So why did
+Kramnik choose to place his queenside rook on d1 rather than the rook on e1?
+It's likely  that he assessed that his winning chances are optimized by this
+move,  goading Anand into capturing on e4 before returning the rook to its home
+ on a1.} (24.Red1 {Black is under no obligation to capture on e4; now Black    
+ can attempt to trade rooks under his own terms with} 24....Ra8 (24....Nd5
+{also makes sense.With the rook scooting off the e1         square, Black need
+not worry much about the e5 pawn.})) 24... Nxe4 (24....Nd5 {seems better to
+me.}) 25. dxe4 Qe8 (25....Rd6 {fighting for the d-file would make sense if not
+for      White easily seizing full control} 26.Bc5 Rxd1 27.Rxd1 Qe8 28.Bxf8
+Kxf8 29.Qd5 {Kramnik's pieces control the entire board.The pressure      will
+not cease, and it's hard to imagine that Black can keep all of      his
+pawns.}) 26. Rd5 Nd8 27. Ra1 Nb7 {The start of a smart maneuever, heading to d6
+ where the knight simultaneously protects f7 and attacks the e4 pawn and c4
+square.} 28. Ra7 c6 29. Rd1 Nd6 30. Nd2 Ra8 31. Rda1 Rxa7 32. Rxa7 Re7 33. Ra6
+{In no universe would it be wise for White to trade here. Look at the strength
+of the respective rooks: Kramnik's attacks c6 and controls the  entirety of the
+a-file, whereas Anand's is resorting to passive defense,  keeping the seventh
+rank protected. There's not much in the way of a  bright future for the black
+rook, whereas its counterpart is the reason  the position is superior.} 33...
+Rc7 34. Qa2 {The queen joins the rook  along the a-file, meaning Anand has to
+constantly be on the lookout for  Ra8 ideas.} 34... Kg7 35. Bb6 Rb7 36. Bc5 Be7
+(36....Rd7 {is possible and good now, since the white queen no      longer
+covers d1.D1? you might ask.Yes, d1:} 37.Rxc6 Nxe4 {and      Black is out of
+trouble!} 38.Nxe4 $2 (38.Rxg6+ Kxg6 39.Nxe4 Bxc5 40.bxc5 {provides mutual
+chances,          though a draw is the likely result.}) 38....Rd1+ 39.Kh2 Qxc6
+{leaves Black up an exchange.}) 37. Ra8 Rb8 38. Ra7 Rd8 (38....Rb7 {is
+impossible due to} 39.Bxd6 Rxa7 40.Bxe5+ {this      in-between move gives White
+two extra pawns, and the game.} 40....f6 41.Bxf6+ Bxf6 42.Qxa7+) (38....Nc8
+39.Bxe7 (39.Ra6 Bxc5 40.bxc5 Qd7 {puts the worst behind Black, as there        
+are no infilitration squares.I'd still prefer to be White here,          but
+objectively the position is now equal.}) 39....Nxe7 (39....Nxa7 40.Qxa7 {is
+just lost for Black.}) 40.Nf3 Nc8 41.Rc7 {with clear pressure.}) 39. Bb6 Rc8
+40. Bc7 Qd7 41. Bb6 Qe8 42. g3 Bg5 43. Bc7 $1 Bxd2 (43....Be7 {sometimes
+retreating is the best decision, though      psychologically it is very
+difficult to move backwards and remain      passive.However, the pawn that
+Anand "wins" is poisonous.}) 44. Bxd6 Bxc3 45. Re7 Qg8 46. Qe6 {Brutal.} 46...
+Qf8 (46....Ra8 47.Bxe5+ Bxe5 48.Qxe5+ Kh7 49.Qf6 Rf8 50.Qxc6 {is      totally
+lost.}) 47. Kg2 (47.Rc7 {was objectively stronger, but perhaps Kramnik felt
+like      this gave Anand some outside chances to draw.} 47....Rxc7 48.Bxf8+
+Kxf8 49.Qd6+ Re7 50.Kf1 Bd4 51.f4 {and White will win, as both the      c6 and
+b5 pawns will fall.There are too many pawns (and they won't      end up being
+symmetrical) remaining for Black to have any hopes of a      fortress.}) 47...
+Rd8 (47....Ra8 48.Qd7 Bd4 49.h4 {is the way forward.This pawn push      is
+essential, threatening h4-h5.It also prevents Ra2, Rxf2+ perpetual    
+ideas.Black hardly has a move.} ({To demonstrate the perpetual check ideas:}
+49.Kf1 Ra1+ 50.Kg2 Ra2 51.Re8 Rxf2+ 52.Kh1 Rf1+ 53.Kg2 Rf2+ {forces the        
+ repetition.}) 49....Rc8 (49....Ra2 50.Re8 {traps the queen.}) 50.Qb7 {and the
+squeeze is on.If the rook removes itself from c8,      the c6 pawn (and then
+b5) is lost.}) 48. Bc5 Bd4 49. Qxc6 Kg8 (49....Bxc5 50.Qxc5 {picks up e5 and
+likely b5 as well.}) 50. Qxb5 Rb8 51. Rxf7 {Anand resigns, as 51... Rxb5 is met
+by 52. Rxf8+  Kg7 53. Rc8 and White is up two pawns. 51...Kxf7 is met by 52.
+Qd7+  followed by capturing the queen on f8 the next turn. A fine display of 
+positional excellence by Kramnik.} 1-0
+
+[Event "10th Tal Mem 2016"]
+[Site "Moscow RUS"]
+[Date "2016.09.30"]
+[Round "4"]
+[White "Gelfand, Boris"]
+[Black "Li, Chao"]
+[Result "0-1"]
+[WhiteElo "2743"]
+[BlackElo "2746"]
+[Board "4"]
+[Whitetitle "GM"]
+[Whitecountry "ISR"]
+[Whitefideid "2805677"]
+[Whiteelochange "-5"]
+[Blacktitle "GM"]
+[Blackcountry "CHN"]
+[Blackfideid "8604436"]
+[Blackelochange "5"]
+[CurrentPosition "r1bq1rk1/pp3pbp/5np1/2pP4/1nQ5/2N2N2/PP2BPPP/R1BR2K1 b - - 2 12"]
+[Annotator "Copeland, Sam"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. Qb3 dxc4 6. Qxc4 O-O 7. e4 Na6 8.
+Be2 c5 9. d5 e6 10. O-O exd5 11. exd5 Nb4 12. Rd1 Nc2 $5 {This is Li  Chao's
+new and very well-prepared idea.} (12....b6 {has been played by many GMs
+including Svidler and      Sutovsky.}) 13. Rb1 Nd4 14. Nxd4 cxd4 15. Rxd4 Bf5
+16. Ra1 Ne8 $5 {Maybe other moves  are also possible, but it does an
+instructor's heart good to see the  knight rerouted to blockade the passed
+pawn. Li Chao seems to have plenty  of compensation with the bishop pair.} 17.
+Bf4 Nd6 18. Qc5 (18.Bxd6 $1 Qxd6 {White cannot hope for much here (Black's
+bishops      are enough compensation), but White is not worse.}) 18... Re8 $1
+{Li Chao played this quickly because he had seen this idea  (but not
+necessarilly this position) in his prep. ...Bf8 is a possibility. } 19. Bb5 $2
+(19.Rdd1 Ne4 $1 {Komodo likes this.} (19....Bf8 {This was Li Chao's first
+choice.} 20.Qd4 Ne4 {and          White is struggling (although Be3 may be ok)
+against Black's          active pieces and many threats.}) 20.Nxe4 Rxe4
+{Black's pieces are raging.}) 19... Nxb5 20. Nxb5 Rc8 $1 (20....Qa5 $2 {Li's
+first intention.} 21.Bd2 $1 {and why Li      rejected it.} 21....Bxd4 22.Qxd4
+Qxb5 23.Bc3 {Black has won a      rook, but is close to lost.} 23....Kf8 24.d6
+$1 {A lovely move!      White simply covers the escape square.} 24....Re5 25.f4
+{The rook      is pinned to the h8-square so White regains the rook with a big
+plus.}) 21. Qxa7 Ra8 22. Qc5 Rxa2 $1 {A simple back-rank trap.} 23. Rad1
+(23.Rxa2 $4 Re1#) (23.Rf1 {was better.}) 23... Bxd4 24. Qxd4 {More can be said,
+but Li is probably winning now,  and he did win.} 24... Re4 25. Qd2 Qb6 26. Nc3
+Rxb2 27. Nxe4 Rxd2 28. Nxd2 Qd4 29. Be3 Qxd5 30. Rc1 b5 31. Rc5 Qd7 32. h3 b4
+33. Rc4 Qd6 34. g4 Be6 35. Rd4 Qf8 36. Ne4 b3 37. Rd2 f5 38. Nc5 Qb8 39. Nxe6
+b2 40. Rxb2 Qxb2 41. g5 Qb1+ 42. Kh2 Qe4 43. Nf4 Qf3 44. Ng2 Kf7 45. Nh4 Qd1
+46. Bf4 Ke6 47. Kg3 Kd5 48. Nf3 Ke4 49. Nd2+ Kd3 50. Kg2 Ke2 51. Be3 Qa4 52.
+Kg3 Qb4 53. Bf4 Qc5 54. Be3 Qd6+ 55. Bf4 Qd4 56. Be3 f4+ 57. Bxf4 Qxf2+ 58. Kg4
+Qg1+ 59. Kh4 Qg2 0-1
+
+[Event "10th Tal Mem 2016"]
+[Site "Moscow RUS"]
+[Date "2016.09.30"]
+[Round "4"]
+[White "Nepomniachtchi, Ian"]
+[Black "Aronian, Levon"]
+[Result "1/2-1/2"]
+[WhiteElo "2740"]
+[BlackElo "2795"]
+[Board "1"]
+[Whitetitle "GM"]
+[Whitecountry "RUS"]
+[Whitefideid "4168119"]
+[Whiteelochange "1"]
+[Blacktitle "GM"]
+[Blackcountry "ARM"]
+[Blackfideid "13300474"]
+[Blackelochange "-1"]
+[CurrentPosition "r4rk1/pppqbppp/8/3nn3/8/P1PP2N1/BP3P1P/R1BQ1RK1 b - - 1 15"]
+[Annotator "Copeland, Sam"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 Be7 5. O-O d6 6. a3 {As classic as  this
+position is, 6.a3 has only been played once, in a non-GM game.} 6... Nd7 {and
+this is a novelty on move 6.} 7. Ba2 O-O 8. Nc3 Nb6 9. Ne2 Bg4 10. c3 d5 11.
+exd5 Bxf3 12. gxf3 Nxd5 13. f4 Qd7 14. fxe5 Nxe5 15. Ng3 Qh3 $6 16. Qh5
+(16.Bxd5 $4 Ng4 {The only way to stop mate is to surrender the White     queen
+for the knight on g4.Yikes.}) (16.Re1 $1 {The fearless reptile (Komodo) states
+Nepomniachtchi is      much better after this.} 16....Ng4 17.Qf3 Qxh2+ $2
+18.Kf1 {and      White wins since too many of Black's pieces are
+hanging.LPDO!}) 16... Qxh5 17. Nxh5 {White has the bishop pair, but his pieces
+are  scattered. Black is probably fine (or even better) here, but Aronian 
+drifts and Nepomniachtchi builds a plus but never has enough to win.} 17...
+Rad8 18. Rd1 c5 19. Kg2 Nf6 20. Re1 Ng6 21. Nf4 Nh4+ 22. Kh3 Nf5 23. d4 Rfe8
+24. Ne6 fxe6 25. Bxe6+ Kf8 26. Bxf5 cxd4 27. cxd4 Rxd4 28. Kg2 Rd5 29. Bh3 a5
+30. Be3 Bc5 31. Bf4 Rxe1 32. Rxe1 Bd6 33. Bc1 Re5 34. Rd1 Rd5 35. Rxd5 Nxd5 36.
+Bf5 b6 $5 {Clever play.} 37. b3 (37.Bxh7 g6 $1 38.Bxg6 Bf4 {Because of the
+knight fork, White      cannot trade bishops on f4 so Black has forced an
+opposite-color      bishop endgame.White is welcome to an extra pawn.The
+position is      still dead drawn.} 39.Be4 Bxc1 40.Bxd5 a4) 37... g6 38. Be4
+Nf4+ 39. Kf3 Ne6 40. Bd5 Ke7 41. h4 Bc5 42. a4 Kd6 43. Bc4 1/2-1/2
+
+[Event "10th Tal Mem 2016"]
+[Site "Moscow RUS"]
+[Date "2016.09.30"]
+[Round "4"]
+[White "Tomashevsky, Evgeny"]
+[Black "Mamedyarov, Shakhriyar"]
+[Result "1/2-1/2"]
+[WhiteElo "2731"]
+[BlackElo "2761"]
+[Board "5"]
+[Whitetitle "GM"]
+[Whitecountry "RUS"]
+[Whitefideid "4147235"]
+[Blacktitle "GM"]
+[Blackcountry "AZE"]
+[Blackfideid "13401319"]
+[CurrentPosition "3r1rk1/5bpp/1qp2p2/4n3/8/b3PPP1/2QBB1NP/3R1R1K w - - 0 30"]
+[Annotator "Copeland, Sam"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. e3 Bf5 5. Nc3 e6 6. Nh4 Be4 7. f3 Bg6 8. Qb3
+Qc7 9. Bd2 Be7 10. g3 {I just don't understand pawn structure anymore. Isn't
+White's pawn play weakening?! Theory says it's fine :/} 10... Bh5 {Black
+threatens ...g5.} 11. Be2 dxc4 12. Qxc4 a6 13. b4 ({Kovalyov, Anton -- Le,
+Quang Liem 0-1 USA-chT College final, 2016} 13.Ng2 b5 14.Qb3 c5 15.Nf4 Bg6
+16.Rc1 Nbd7 17.Nxg6 hxg6 {was 0-1      in 77.}) 13... Nd5 14. Ne4 (14.Nf5 $1
+{Thus sayeth Komodo.White threatens to pick up the      bishop pair or the
+g7-pawn with a fork.Capture of the knight leaves      the d5-knight
+insufficiently protected due to the pin.}) 14... Nd7 15. Ng2 e5 16. O-O O-O 17.
+dxe5 Nxe5 18. Qb3 Rad8 19. Rad1 f6 20. Nc5 Bf7 21. Qc2 Qb6 22. a3 a5 23. Na4
+Qa7 24. bxa5 Bg6 25. Qb3 Bf7 26. Qc2 Bxa3 27. Kh1 b5 28. axb6 Nxb6 29. Nxb6
+Qxb6 30. f4 $1 {Mamedyarov is  under a bit of pressure.} 30... Bb3 31. Qc3 Bxd1
+32. Rxd1 {White will  pick up another piece and is assured an advantage.} 32...
+Bb4 33. Qb3+ Nf7 34. Qxb4 Qxb4 35. Bxb4 Rxd1+ 36. Bxd1 Rb8 37. Be1 Rb1 38. Bf3
+c5 39. Kg1 c4 40. Kf2 Rb2+ 41. Kf1 Nd6 42. Bd5+ Kf8 43. e4 Rb1 44. Ke2 Rb2+ 45.
+Kf1 Rb1 46. Ke2 Rb2+ 47. Kf3 $2 (47.Kd1 $1 {is much stronger.The knig wolud
+like to be nearer the      center (and the c-pawn) if possible.} 47....Rxg2
+48.e5 {wins the      piece back.Both d6 and g2 are attacked.}) 47... Nb5
+{Tomashevsky still holds the advantage, but it is slightly  diminished (+1
+according to Komodo), and Mamedyarov played well to hold.} 48. Bxc4 Nd4+ 49.
+Ke3 Nc2+ 50. Kf3 Nd4+ 51. Ke3 Nc2+ 52. Kd3 Nxe1+ 53. Nxe1 Rxh2 54. Ke3 Ke7 55.
+Bf1 Ra2 56. Nf3 g6 57. Nd4 Kd6 58. Be2 Ra3+ 59. Bd3 Ra2 60. Nb5+ Kc5 61. Nc7
+Rg2 62. Kf3 Rb2 63. Ne6+ Kd6 64. Nd4 Kc5 65. Ke3 Rg2 66. Ne2 Rh2 67. Bb1 h5 68.
+Ba2 g5 69. Be6 h4 70. Bg4 hxg3 71. fxg5 fxg5 72. Nxg3 Rg2 73. Kf3 Rb2 74. Nf5
+Kc4 75. Bh3 Rb1 76. Kf2 Rb2+ 77. Kg3 Rb1 78. Bg2 Kd3 79. Nd6 Re1 80. Kg4 Rg1
+81. Kf3 Kd4 82. Nf5+ Ke5 83. Ne3 Ra1 1/2-1/2
+
+[Event "10th Tal Mem 2016"]
+[Site "Moscow RUS"]
+[Date "2016.10.01"]
+[Round "5"]
+[White "Mamedyarov, Shakhriyar"]
+[Black "Svidler, Peter"]
+[Result "1/2-1/2"]
+[WhiteElo "2761"]
+[BlackElo "2745"]
+[Board "4"]
+[WhiteTitle "GM"]
+[WhiteCountry "AZE"]
+[WhiteFideId "13401319"]
+[BlackTitle "GM"]
+[BlackCountry "RUS"]
+[BlackFideId "4102142"]
+[Annotator "Copeland, Sam"]
+
+1. d4 Nf6 2. c4 g6 3. Bg5 Ne4 4. Bf4 c5 5. Qc2 Qa5+ 6. Nd2 f5 7. f3 Nf6 8. d5
+d6 9. e3 Bg7 10. Ne2 b5 11. Bg5 Nbd7 12. Nf4 Nb6 13. Kf2 O-O 14. h4 bxc4 15.
+Nxc4 Qa4 16. b3 Qe8 17. Rd1 Qf7 18. Nxb6 axb6 19. a4 Bd7 20. Bc4 Rfb8 21. Qe2
+Ra5 22. Rb1 h6 23. Bxf6 Qxf6 24. h5 g5 25. Ne6 b5 26. axb5 Bxb5 27. f4 gxf4 28.
+exf4 Rba8 29. Rbc1 Ra2 30. Rc2 Rxc2 31. Qxc2 Bd7 32. Qe2 Bxe6 33. Qxe6+ Qxe6
+34. dxe6 Ra2+ 35. Kf3 Rd2 36. Rc1 Bb2 37. Re1 d5 38. Re2 Rxe2 39. Bxe2 Kg7 40.
+Bb5 Kf6 41. Bd7 Bc1 42. g4 Bd2 43. Bc8 c4 44. bxc4 dxc4 45. Ba6 c3 46. Bd3
+fxg4+ 47. Kxg4 Kxe6 48. f5+ Ke5 49. Kf3 Kd4 50. Bc2 1/2-1/2
+
+[Event "10th Tal Mem 2016"]
+[Site "Moscow RUS"]
+[Date "2016.10.01"]
+[Round "5"]
+[White "Li, Chao"]
+[Black "Tomashevsky, Evgeny"]
+[Result "1/2-1/2"]
+[WhiteElo "2746"]
+[BlackElo "2731"]
+[Board "5"]
+[WhiteTitle "GM"]
+[WhiteCountry "CHN"]
+[WhiteFideId "8604436"]
+[BlackTitle "GM"]
+[BlackCountry "RUS"]
+[BlackFideId "4147235"]
+[Annotator "Copeland, Sam"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nf3 b6 5. Bd2 Bb7 6. e3 Bxc3 7. Bxc3 Ne4 8.
+Rc1 d6 9. Bd3 Nd7 10. O-O Nxc3 11. Rxc3 O-O 12. e4 Qe7 13. Bc2 c5 14. d5 e5 15.
+a3 Nf6 16. Nd2 Bc8 17. b4 Bd7 18. Ba4 Rfc8 19. Bxd7 Nxd7 20. b5 a6 21. Qc2 Ra7
+22. Rb1 Rca8 23. Rbb3 g6 24. g3 Kg7 25. Kg2 Qd8 26. h4 Qe7 27. Rf3 Nf6 28. Qd3
+Qd7 29. Nb1 axb5 30. Rxb5 Qg4 31. Re3 Ra6 32. f3 Qd7 33. Qc2 Qd8 34. Qb2 Nd7
+35. Nd2 Kg8 36. Rbb3 Ra4 37. Qc2 R8a7 38. Rec3 Qa8 39. Qc1 R7a5 40. h5 Qd8 41.
+Nf1 Ra8 1/2-1/2
+
+[Event "10th Tal Mem 2016"]
+[Site "Moscow RUS"]
+[Date "2016.10.01"]
+[Round "5"]
+[White "Giri, Anish"]
+[Black "Nepomniachtchi, Ian"]
+[Result "1/2-1/2"]
+[WhiteElo "2755"]
+[BlackElo "2740"]
+[Board "3"]
+[WhiteTitle "GM"]
+[WhiteCountry "NED"]
+[WhiteFideId "24116068"]
+[BlackTitle "GM"]
+[BlackCountry "RUS"]
+[BlackFideId "4168119"]
+[Annotator "Copeland, Sam"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. Qb3 dxc4 6. Qxc4 O-O 7. e4 a6 8. Be2
+b5 9. Qb3 c5 10. dxc5 Be6 11. Qc2 Nbd7 12. Be3 Rc8 13. Rd1 b4 14. Nd5 Bxd5 15.
+exd5 Nxc5 16. O-O Nce4 17. Qd3 Qd6 18. Qxa6 Rc2 19. Bd4 Nc5 20. Qxd6 exd6 21.
+Bb5 Nfe4 22. Rc1 Rxc1 23. Rxc1 Ra8 24. Bxg7 Kxg7 25. Ra1 Na4 26. Bc6 Ra7 27.
+Bxa4 Rxa4 28. Nd4 Nf6 29. Kf1 Nxd5 30. g3 Nb6 31. Nc2 $1 {This is Giri's high
+water mark in the game. He threatens b3 and  winning the pawn on b4.} 31... Ra5
+32. Nxb4 Nc4 33. Rd1 (33.b3 $1 Nd2+ 34.Ke2 Nxb3 {regains the pawn (due to the
+pin) and      completely equalizes.}) 33... Ra4 34. b3 Rxb4 35. bxc4 Rxc4 36.
+Rxd6 {Giri has won a pawn, but  for the first of three times this round, it
+won't be enough for victory.  White can try in this endgame, but the correct
+result is a draw, and  Nepomniachtchi defends comfortably.} 36... Rc2 37. Ra6
+g5 38. g4 f6 39. Ra3 h5 $1 40. h3 Rc4 41. gxh5 Kh6 42. Rf3 Kxh5 {White's poor
+structure  really rules out any serious winning attempts in this endgame. The
+only  way to make progress is to run to the queenside with the king, but Black 
+acquires counterplay against the kingside pawns long before White makes  any
+threats on the queenside.} 43. a3 Kg6 44. Ke2 Rd4 45. Rd3 Re4+ 46. Kd1 Rf4 47.
+Ke2 Re4+ 48. Kd1 Rf4 49. Ke1 Re4+ 50. Re3 Rd4 51. Rf3 Kf7 52. Rb3 Kg6 53. Kf1
+Ra4 54. Rf3 Re4 55. Re3 Ra4 56. Ke2 Rd4 57. Rf3 Kf7 58. Rd3 Re4+ 59. Kd1 Rf4
+60. Rd2 Ra4 61. Ra2 Ke6 62. Kc2 Kd6 63. Kb3 Rh4 64. a4 Rxh3+ 65. Kc4 Kc6 66. a5
+Kb7 67. a6+ 1/2-1/2
+
+[Event "10th Tal Mem 2016"]
+[Site "Moscow RUS"]
+[Date "2016.10.01"]
+[Round "5"]
+[White "Aronian, Levon"]
+[Black "Kramnik, Vladimir"]
+[Result "1/2-1/2"]
+[WhiteElo "2795"]
+[BlackElo "2808"]
+[Board "2"]
+[WhiteTitle "GM"]
+[WhiteCountry "ARM"]
+[WhiteFideId "13300474"]
+[BlackTitle "GM"]
+[BlackCountry "RUS"]
+[BlackFideId "4101588"]
+[Annotator "Copeland, Sam"]
+
+1. c4 e6 2. Nc3 c5 3. Nf3 Nf6 4. g3 b6 5. Bg2 Bb7 6. O-O Be7 7. Re1 d5 8. cxd5
+Nxd5 9. d4 cxd4 10. Qa4+ Qd7 11. Qxd7+ Nxd7 12. Nxd4 N7f6 13. Ncb5 O-O 14. e4
+Nb4 15. a3 Nd3 16. Rd1 Nc5 17. f3 Rfc8 18. Be3 a6 19. Nc3 g6 20. Bh3 Rc7 21.
+Rab1 b5 22. Bf4 Rcc8 23. Kf1 Bf8 24. Rbc1 Rd8 25. Nce2 Ne8 26. Bg5 Rd7 27. Rd2
+h6 28. Be3 Rdd8 29. Rcd1 e5 30. Nc2 Rxd2 31. Rxd2 Nf6 32. Nc1 g5 33. Bxc5 $1
+{Surrendering the bishop pair to nag the queenside  pawns and squares with his
+knights is quite a nice idea from Aronian.} 33... Bxc5 34. Nb3 Bf8 35. Na5 Bc8
+36. Bxc8 Rxc8 {Aronian has a real  edge here and eventually wins a pawn. Even
+if it wasn't enough for  victory, squeezing water from a stone aginst Kramnik
+is quite an  achievement.} 37. g4 {very commital.} (37.Ne3 {maybe just this?}
+37....g4 $5 {perhaps Aronian wanted to      prevent this move?} 38.Nxg4 Nxg4
+39.fxg4 {favors White.}) 37... h5 $1 38. h3 hxg4 39. hxg4 Bc5 (39....Ne8 $5
+{taking a complicated route (through g7) to e6 is an      interesting idea.})
+40. Nb7 Bb6 41. Ke2 Ne8 42. Nb4 Bd4 43. Na5 (43.Nxa6 {It is possible to grab
+the pawn here.} 43....Rc1 {     creates some counterplay.}) 43... Ng7
+(43....Ra8 {In addition to being passive, this defensive move also      loses a
+pawn.} 44.Nac6 {Black can't defend both d4 and e5.}) (43....Rc1 $1 {It was time
+for counterplay already.}) 44. Nbc6 (44.Nac6 $5 Kf8 45.Nxd4 exd4 46.Rxd4 {It's
+not clear if this is      winning either, but the winning chances are probably
+greater than in      the pure rook endgame.}) 44... Kf8 45. Nxd4 exd4 46. Nb3
+Ne6 47. Nxd4 Nxd4+ 48. Rxd4 {White has  won a clean pawn, but winning the game
+is another matter. The rook endgame seems more likely drawn than winning and
+Kramnik makes no clear mistakes.} 48... Ke7 49. Kd2 Ke6 50. a4 bxa4 51. Rxa4
+Rc6 52. b3 f6 53. Ra5 Rb6 54. Kc3 Rc6+ 55. Kb4 Rb6+ 56. Kc4 Rc6+ 57. Rc5 Rd6
+58. Ra5 Rc6+ 59. Kb4 Rd6 60. Rd5 Rb6+ 61. Kc3 Rc6+ 62. Kb2 Rc8 63. Ra5 Rc6 64.
+b4 Rd6 65. Kc3 Rc6+ 66. Kb3 Rd6 67. Kc4 Rc6+ 68. Rc5 Rd6 69. Kc3 Rb6 70. Kb3
+Rd6 71. Ka4 Rd3 72. Rc6+ Ke5 73. Rxa6 Rxf3 74. b5 Rf1 75. Rc6 Kxe4 76. b6 f5
+77. Rc3 Ra1+ 78. Kb4 Ra6 79. Kb5 Rxb6+ 80. Kxb6 fxg4 81. Kc5 Kf4 82. Rc4+ Kf3
+83. Rc3+ Kf4 {White cannot win the Black pawns. As they approach, White can use
+harrassing checks to create a perpetual.} 1/2-1/2
+
+[Event "10th Tal Mem 2016"]
+[Site "Moscow RUS"]
+[Date "2016.10.01"]
+[Round "5"]
+[White "Anand, Viswanathan"]
+[Black "Gelfand, Boris"]
+[Result "1-0"]
+[WhiteElo "2776"]
+[BlackElo "2743"]
+[Board "1"]
+[WhiteTitle "GM"]
+[WhiteCountry "IND"]
+[WhiteFideId "5000017"]
+[WhiteEloChange "5"]
+[BlackTitle "GM"]
+[BlackCountry "ISR"]
+[BlackFideId "2805677"]
+[BlackEloChange "-5"]
+[Annotator "Copeland, Sam"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. Bxc6 bxc6 5. O-O Bg7 6. Re1 Nh6 7. c3 O-O 8.
+h3 d5 9. d3 c4 10. dxc4 dxe4 11. Qxd8 Rxd8 12. Rxe4 e5 13. Re1 f6 14. Nbd2 Nf7
+15. Ne4 f5 16. Neg5 e4 17. Nxf7 Kxf7 18. Bg5 Rd3 19. Nd4 Ba6 20. b3 c5 21. Ne2
+h6 22. Be3 Rc8 23. h4 Bf6 24. Nf4 Rdd8 25. Nd5 Bxh4 26. Bxh6 Bb7 27. g3 Bf6 28.
+Nxf6 Kxf6 29. Be3 Rd3 30. Kf1 g5 31. Ke2 Rxc3 32. Rac1 Rxc1 33. Rxc1 Rd8 34.
+Bxc5 f4 35. gxf4 gxf4 36. Bxa7 e3 37. Bxe3 fxe3 38. Kxe3 Bc8 39. Rc2 Bf5 40.
+Rd2 Ra8 41. Kd4 Ke6 42. Kc3 Ke5 43. a4 Be4 44. Kb4 Rb8+ 45. Ka3 Rf8 46. a5 Rf3
+47. Kb4 Bb7 48. Rd8 Rxf2 49. Kc5 Rf6 50. Re8+ Kf4 51. b4 Rc6+ 52. Kd4 Rd6+ 53.
+Kc5 Rc6+ 54. Kb5 Rf6 55. Re7 Ba6+ 56. Kc5 Rf5+ 57. Kd4 Kf3 58. b5 1-0
+
+[Event "10th Tal Mem 2016"]
+[Site "Moscow RUS"]
+[Date "2016.10.02"]
+[Round "6"]
+[White "Aronian, Levon"]
+[Black "Giri, Anish"]
+[Result "1-0"]
+[WhiteElo "2795"]
+[BlackElo "2755"]
+[ECO "A20"]
+[EventDate "2016.09.26"]
+[PlyCount "67"]
+[CurrentPosition "r2q1rk1/ppp1bppp/1nn1b3/4p3/8/3PBNP1/PP1NPPBP/2RQ1RK1 b - - 6 10"]
+
+1. c4 e5 2. g3 Nf6 3. Bg2 d5 4. cxd5 Nxd5 5. Nf3 Nc6 6. O-O Nb6 7. d3 Be7 8.
+Be3 O-O 9. Nbd2 ( 9. Qc1 Re8 10. Nbd2 Bg4 11. Bc5 f5 12. Nb3 Bf6 13. Rd1 Kh8
+14. e4      Qd7 {Azmaiparashvili,Z (2670)-Vallejo Pons,F (2559) Ohrid MKD 2001}
+) 9... Be6 10. Rc1 Qd7 $6 11. a3 Bh3 {"Not a good idea at all." - Aronian} 12.
+Bxh3 Qxh3 13. b4 Bd6 14. Qb3 $1 {Very strong. This stops Nd5.} 14... Ne7 15. d4
+exd4 16. Bxd4 Nc6 ( 16. ... Nbd5 17. e4 Nf4 18. gxf4 Bxf4 19. Kh1 {doesn't work
+and} ) ( 16. ... Qe6 17. Qxe6 fxe6 18. Ne4 Nbd5 19. Neg5 Rfe8 20. e4 {is also  
+  very good for White.} ) 17. Ne4 Nxd4 18. Nxd4 Qd7 ( {According to Aronian,
+Black had to go} 18. ... Rad8 {but White      keeps the advantage after} 19.
+Rfd1          ( 19. Nxd6 $6 Rxd6 )     19. ... Qg4 20. f3 ) 19. Rfd1 Be5 20.
+Nc6 Qe8 21. Na5 Rb8 ( {Giri had planned} 21. ... Bf4 {but only here noticed}
+22. e3 $1 ) 22. Nc5 Qc8 23. Qf3 c6 24. b5 Bb2 25. bxc6 Bxc1 26. Rxc1 Qc7 (
+{Giri didn't see any hope after} 26. ... bxc6 27. Nxc6 Rb7 28. Nxb7      Qxb7
+{because White has} 29. a4 $1 {with the idea} 29. ... Nxa4 30.      Qa3 Nb6 31.
+Ne7+ Kh8 32. Ng6+ {and wins.} ) 27. cxb7 Na4 28. Ncb3 Qe7 29. Nd4 {Going for a
+nice finish.} ( 29. Qf4 {also wins.} ) 29... Qg5 30. Qf4 $1 Qxa5 31. Qxb8 $1
+Rxb8 32. Rc8+ Qd8 33. Rxd8+ Rxd8 34. Nc6 {A great final position.} ( 34. Nc6
+Re8 {is answered by}          ( {or} 34. ... Rd1+ 35. Kg2 Rb1 36. Nb4 )     35.
+Ne7+ Kf8 36. Nc8 ) ( {The computer defends with} 34. Nc6 Rb8 35. Nxb8 Nc5 36.
+Nc6 Nxb7      37. Nxa7 {but two pawns is more than enough to win this ending.}
+) 1-0
+
+[Event "10th Tal Mem 2016"]
+[Site "Moscow RUS"]
+[Date "2016.10.02"]
+[Round "6"]
+[White "Nepomniachtchi, Ian"]
+[Black "Mamedyarov, Shakhriyar"]
+[Result "1-0"]
+[WhiteElo "2740"]
+[BlackElo "2761"]
+[ECO "C54"]
+[EventDate "2016.09.25"]
+[Annotator "Hess, R"]
+[PlyCount "107"]
+[CurrentPosition "r5k1/bpp1npp1/p2qrn1p/4p3/PPP5/1N1P1N1P/2Q2PP1/R1B1R1K1 w - - 1 17"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 {The Italian Renaissance continues! Instead of 
+Raphael and Michelangelo, we have Nepomniachtchi and Kramnik.} 3... Bc5 4. O-O
+( 4. c3 {is the main line, but Nepo quickly transposes anyways.} ) 4... Nf6 5.
+d3 d6 6. c3 h6 {Mamedyarov takes the advice I give: do not  commit to castling
+when h6 will be a useful move no matter where the black king is situated. To
+reiterate: by delaying castling, in some variations  Black might consider
+playing g7-g5 and launching an attack.} 7. a4 a6 ( 7. ... a5 {is possible, but
+generally the tamer a6 is preferred.      While a5 stops b2-b4, it can become a
+potential target. Moreover, the      b5 square becomes a bit soft. Most
+importantly, pushing the a-pawn      serves to free a retreating square for the
+bishop, not so much to      combat queenside pawn advances. 1-0 (66) Carlsen,M
+(2844)-Adams,M      (2744) Wijk aan Zee 2016} ) 8. h3 O-O ( 8. ... Ba7 {is
+thematic, lessening the force of a potential d3-d4      pawn push. Not yet
+necessary, but an option nonetheless.} ) ( 8. ... g5 {might be overly
+ambitious. With such a committal move,      there's no turning back. Always
+keep the idea in consideration, but      don't necessarily play it unless the
+continuation works. Such a risky      decision should not be made without
+adequate preparation.} ) 9. Re1 Re8 10. Nbd2 Be6 11. Bxe6 Rxe6 12. b4 {Of
+course. White's only hope to play for an advantage is through queenside
+expansion. Black is not so  bad here, but White has a legitimate space
+advantage and better  opportunities to maneuver.} 12... Ba7 13. Qc2 d5 {This
+break is only  natural, but now there is a new square to occupy. If White is
+able to  trade bishops on e3, he can then establish a knight on c5. If Black
+ever  plays b6, White plays a5 to challenge the structure.} ( 13. ... Qd7 {it
+is hard to make such a slow, passive move. But      perhaps this actually gives
+Black better chances to equalize. White      has to commit to some plan, to
+which Black can react accordingly.      White has space, but Black is quite
+solid.} ) 14. Nb3 Ne7 ( 14. ... dxe4 15. dxe4 {Does not solve Black's problems.
+White      maintains a nagging advantage, as Black is forced to combat the     
+opposing knights from infiltrating on f5 (via h4) and c5. Black lacks     
+anything resembling active play, so while the position - objectively -     is
+not so horrible, it is practically very difficult to play.} ) ( 14. ... b5 15.
+Be3 Bxe3 16. Rxe3 Rd6 17. Nc5 Qc8 18. Ree1 Nh5 19.      exd5 Rxd5 20. Qa2 Nf4
+21. axb5 Rd6 22. bxc6 Rg6 23. Nd7 Nxg2 24. Nfxe5     {was how Sergey Karjakin
+demolished David Navara at the Olympiad in      Baku.} ) 15. exd5 {Timely! Now
+that e5 is en prise, Nepo exchanges pawns.} 15... Qxd5 ( 15. ... Nexd5 16. Rxe5
+Rc6 {looks to regain the pawn, but it comes      at a price: an awkwardly
+placed rook and giving up the bishop. White's     bishop will shine unopposed.}
+17. Nc5 Bxc5          ( 17. ... b6 18. Nxa6 Rxc3 19. Qb1 {is a clean extra
+pawn. Not to          mention the bishop on a7 is terrible.} )     18. bxc5
+Rxc5 19. Bb2 {With a semi-open b-file to apply pressure on      the queenside
+and c4 coming in the near future, Black is significantly     worse here. The
+bishop will be a star on the long diagonal. Note that      Black does not win
+the d3 pawn after} 19. ... Nb4 20. Qe2 Rxe5 21.      Nxe5 {with a stable plus.}
+) 16. c4 Qd6 17. Nc5 $1 {Simple and strong. Black has no choice but to  capture
+the knight, after which the dark square bishop will become  monstrous.} 17...
+Bxc5 18. bxc5 Qxc5 19. Ba3 Qa5 ( 19. ... Qa7 {is not a pretty place for the
+queen.} ) ( 19. ... Qc6 20. d4 {hurts.} ) 20. d4 {The pawn is immune, for the
+knight on e7 is always hanging.} 20... Ng6 21. Bb2 Rae8 ( 21. ... exd4 $6
+{appears to lose a piece, but this is actually      possible here.} 22. Rxe6 d3
+$1          ( 22. ... fxe6 $2 23. Qxg6 )     23. Qxd3 Nf4 24. Re5 Nxd3 25. Rxa5
+Nxb2 {I'm having a hard time      telling if Black is closer to a draw than
+White is to a win. A knight      and pawn is pretty serious compensation for
+the rook. The rook on a5      is horribly misplaced, but it can provoke
+weaknesses and is in no      danger of getting trapped.} ) ( 21. ... e4 22. d5
+Ree8 23. Nd2 {regains the pawn, with a superior      position. That bishop on
+b2 is just so nice!} ) 22. Bc3 Qb6 23. Rab1 ( 23. a5 {potentially was an
+improvement. It's similar to the game      continuation, except the a-pawn, in
+some variations, constricts Black.     Nepo might not have wanted to commit his
+pawn, but he could have      arrived at the same position as in the game with
+the difference being      the pawn on a5 rather than a4. Nuances make chess so
+difficult, and      fascinating.} ) 23... Qa7 24. dxe5 ( 24. Nxe5 {Initially it
+is hard to determine if exchanging the      knights helps or hurts White. But
+some quick analysis suggests keeping     the knights is favorabe for Nepo, as
+evidenced by the game      continuation.} 24. ... Nxe5 25. dxe5          ( 25.
+Rxe5 Rxe5 26. dxe5 Nd7 27. Rd1 Nf8 {of course White is          better with
+control of the d-file and more space, but it does not          look like nearly
+enough to win.} )     25. ... Nd7 26. Rbd1 R6e7 {and stubborn defense might
+prove to hold.}      ) ( 24. d5 R6e7 25. Qb2 Nd7 26. Qxb7 Qxb7 27. Rxb7 Nc5 28.
+Ra7 {White is     much better, but Black certainly has chances to hold.} )
+24... Nd7 25. Rbd1 Ndf8 ( 25. ... Nc5 {is more active, but a legitimate concern
+was that} 26.      Nd4 Rxe5 27. Rxe5 Nxe5          ( 27. ... Rxe5 28. Nc6 $1
+bxc6 29. Bxe5 {picks up the rook, since}         29. ... Nxe5 {is met by mate}
+30. Rd8# )     28. Nf5 {and Black's king is in a world of trouble. The position
+is      actually already won for White, as Ne7+ is a threat in addition to the 
+   vulnerable g7 square. Black's queen is not exactly helping the     
+defense.One quick example:} 28. ... f6 29. Bxe5 fxe5 30. Ne7+ $1 Kf8          (
+30. ... Rxe7 31. Rd8+ Kf7 32. Qf5# )     31. Qh7 Qb6          ( 31. ... Kxe7
+32. Qxg7+ Ke6 33. Rd5 {yikes! Mate is coming soon          if Black does not
+give up all of his pieces.} )     32. Ng6+ Kf7 33. Nh8+ {and Black has to
+capture on h8, leaving White      up an exchange and with an ongoing attack.} )
+26. h4 {Natural, heading to h5 to dislodge the knight from g6.} 26... Qc5 ( 26.
+... h5 {stops the immediate pawn push, but frees up the g5      square for the
+knight. Also, Qf5 will eventually come and scoop up      that pawn. Risky, but
+perhaps this allowed Mamedyarov to stay in the      game for longer.} ) 27. h5
+Ne7 28. Re4 {A great multipurpose resource, protecting c4 and going to g4. The
+kingside is starting to feel very unsafe.} 28... Rc6 { Sacrificing material for
+some semblance of activity. Black really didn't  have any better options.} (
+28. ... Nc6 29. Rg4          ( 29. Nh4 Rxe5 30. Bxe5 Rxe5 31. Rxe5 Qxe5 32. Nf5
+{is a clear          edge. The extra material speaks for itself.} )     29. ...
+Kh8 30. Rd5 Qa3 31. c5 {keeps Black completely boxed in.      There's just no
+activity anywhere.} ) 29. Nd4 Qxc4 30. Nxc6 Qxc6 {Nepo, up a rook for knight
+and pawn, now  merely needs to convert.} 31. Qd3 b5 32. axb5 axb5 33. Bb4 ( 33.
+Rb1 {seems more prudent to me. Black will struggle to protect      b5, as the
+only way to do so is} 33. ... Nd5 34. Bd2 Rb8 35. Rd4 {     White has rooks, so
+he needs to control files.} ) 33... Qb7 34. Bxe7 ( 34. e6 $1 fxe6          (
+34. ... Nxe6 35. Qd7 {wins material. Black has no choice but to          end up
+down a piece.} 35. ... Qc6              ( 35. ... Qxe4 )             ( 35. ...
+Rd8 36. Qxd8+ Nxd8 37. Rxd8+ Kh7 38. Rxe7 {is an              overwhelmingly
+large amount of material for a queen to handle.             Also, a mating net
+is coming soon. Game over.} )         36. Rxe6 fxe6 37. Bxe7 Qxd7 38. Rxd7 )   
+ 35. Bxe7 Rxe7 36. Rc1 {is an exceptionally diffcult defense for Black,     if
+the position is even defensible.} ) 34... Rxe7 35. Rd4 Rxe5 {Compare this
+position to the one above, where  Black has a pawn on e6 rather than f7. From
+Nepo's perspective, I tend to  prefer that structure over this one.} 36. Rd8
+Qc6 37. Qd7 ( 37. Rb8 Re8 38. Rxb5          ( 38. Qxb5 Qxb5 39. Rxb5 Ne6 {seems
+like it should be winning for          White, but it's a long story.} )     38.
+... Ne6 {is the same idea. The queens will be swapped in the near      future.
+Feels winning, but it is difficult.} ) 37... Qc5 {Mamedyarov clearly thought he
+was achieving a fortress, but  he was very wrong.} ( 37. ... Qc3 {Now} 38. Rc8 
+        ( 38. Qc8 {doesn't come close to working:} 38. ... Re1+ 39. Rxe1       
+  Qxe1+ 40. Kh2 Qe5+ 41. g3 Qxh5+ 42. Kg2 Qc5 {Black should never          lose
+this position.} )     38. ... Qc5          ( 38. ... Rxh5 {loses the knight,
+since} 39. Rxf8+ Kxf8 40. Qd8# {         is deadly.} )     39. Qxc7 Qxc7 40.
+Rxc7 Ne6 41. Rc8+ Kh7 42. Rd7 {once again, very good     winning chances but
+still much to prove.} ) 38. Qc8 Rxh5 {What else? No matter what, rook takes
+knight was coming.} 39. Rxf8+ Qxf8 40. Rd8 Qxd8 41. Qxd8+ Kh7 42. Qd7 f6
+{Unfortunately for  Mamedyarov, the pawn has no way to remain on f7.} ( 42. ...
+Rc5 43. Qxf7 {without the f7 pawn, there will never be even      a fantasy of a
+fortress. Winning ideas include marching the king up      the board, f4-f5 (and
+f6, if you allow me), and gobbling up the      queenside pawns. There's hardly
+anything Black can do to counter these     threats.} ) ( 42. ... Kg6 43. Qd3+
+Kf6          ( 43. ... f5 44. Qxb5 {it's just a matter of time before the other
+        pawns fall.} )     44. f4 {The black rook is just so misplaced
+everywhere. You would      think three pawns were enough to help a rook combat
+a queen, but not      this rook and not with these pawns.} ) 43. Qxc7 b4 44.
+Qc2+ Kh8 45. Qc4 {Down goes the b-pawn.} 45... Re5 46. g3 Kh7 47. Kg2 b3 48.
+Qxb3 Kh8 49. Kh3 Rh5+ 50. Kg4 Rg5+ 51. Kh4 Re5 52. f4 Ra5 53. Qc3 Rd5 54. Qb4
+{Game over. There's no way to stop the king  from coming in now. Goes to show
+how a queen so easily dominates a rook. A great game by Nepomiachtchi, who
+takes the lead after six games at the Tal Memorial.} 1-0
+
+[Event "10th Tal Mem 2016"]
+[Site "Moscow RUS"]
+[Date "2016.10.02"]
+[Round "6"]
+[White "Kramnik, Vladimir"]
+[Black "Gelfand, Boris"]
+[Result "1-0"]
+[WhiteElo "2808"]
+[BlackElo "2743"]
+[ECO "B96"]
+[EventDate "2016.09.26"]
+[PlyCount "107"]
+[CurrentPosition "r3kb1r/1bqn1ppp/p2ppn2/1p4B1/3NPPP1/P1N5/1PP1Q2P/2KR1B1R b kq g3 0 11"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 e6 7. f4 Nbd7 8. Qe2
+Qc7 9. O-O-O b5 ( 9. ... Be7 10. g4 h6 11. Bxf6 Bxf6 12. Bg2 Nb6 13. h4 Bd7 14.
+Rh3 h5     {Stein,L-Najdorf,M Mar del Plata 1965} ) 10. a3 Bb7 ( 10. ... Be7
+11. g4 O-O 12. Bh4 Rb8 13. g5 Ne8 14. f5 Nc5 15. f6 Bd8      16. e5 b4 17. axb4
+Rxb4 {Wei Yi (2721)-Vachier Lagrave,M (2723) Leon      ESP 2015} ) 11. g4 Rc8 (
+{According to Kramnik, the best move is considered to be} 11. ...      Be7 )
+12. Bxf6 $1 gxf6 ( 12. ... Nxf6 {is obviously met by} 13. g5 Nd7 {and now e.g.}
+14. f5      ) 13. h4 $1 {"It's very important that the rook gets to h3. It's
+protecting  incredibly well the queenside." (Kramnik)} 13... Qb6 ( 13. ... h6
+14. Rh3 Rg8 15. Kb1 Qb6 16. f5 e5 17. Nb3 Nc5 18. Rg3 Be7     {Grischuk,A
+(2783)-Wang Hao (2735) Beijing CHN 2013} ) 14. Rh3 h5 {"The best move."
+(Kramnik)} ( 14. ... Nc5 15. f5 e5 16. Nd5 Qd8 17. Nf3 Na4 {Ortiz Suarez,I     
+(2553)-Becerra,J (2280) Silvania COL 2011} ) 15. f5 e5 16. Nb3 hxg4 17. Qxg4 b4
+( 17. ... Qf2 {is the best move, and Gelfand did consider it.} ) 18. axb4 Qxb4
+19. Kb1 {"The black king is strangely enough more vulnerable than White's
+king." (Kramnik)} 19... Nb6 20. Qe2 $1 Bh6 {Still the first line of the
+computer according to Kramnik's preparation.} ( 20. ... a5 21. Qb5+ ) 21. Qf2
+$1 {"I would be incredibly proud if it was not the computer who  found it."
+(Kramnik) White threatens 22.Bb5+.} 21... Rc6 {After this  move, Kramnik was
+finally out of his preparation.} ( {After} 21. ... Kf8 {White goes} 22. Bb5
+{anyway (Kramnik).} ) 22. Na2 Qa4 ( 22. ... Qxe4 23. Na5 {and everything
+hangs.} ) 23. Rc3 $1 Ke7 ( 23. ... Nc8 24. Rxc6 Qxc6 25. Nc3 {Kramnik} ) 24.
+Rxc6 Qxc6 25. Na5 Qc7 26. Nxb7 Qxb7 27. Nb4 $1 {Threatening 28.Qxb6.} 27... Rb8
+( 27. ... Na4 28. Nd5+ Kf8 29. b3 {Kramnik} ) 28. Qxb6 Qxb6 29. Nd5+ Kf8 30.
+Nxb6 Rxb6 31. c3 {According to Kramnik this endgame is "easily won, by a good
+tempi margin."} 31... Be3 32. Kc2 Kg7 33. b4 Kh6 34. Bc4 Bf2 35. Rh1 Rc6 36.
+Kb3 Rb6 37. Kc2 Rc6 38. Kd3 Rc7 39. Bxa6 Kh5 40. Bc4 Ra7 41. Bd5 Kh6 42. h5 Bb6
+43. Kc4 Be3 44. Kb3 Bb6 45. Rh2 Be3 46. Re2 Bb6 47. Ra2 Rxa2 48. Kxa2 Kxh5 49.
+Kb3 Bf2 50. Ka4 Kh6 51. Kb5 Kg7 52. Kc6 Kf8 53. b5 Ke7 54. Kc7 1-0
+
+[Event "10th Tal Mem 2016"]
+[Site "Moscow RUS"]
+[Date "2016.10.02"]
+[Round "6"]
+[White "Svidler, Peter"]
+[Black "Li, Chao"]
+[Result "1-0"]
+[WhiteElo "2745"]
+[BlackElo "2746"]
+[ECO "A09"]
+[EventDate "2016.09.26"]
+[PlyCount "83"]
+[CurrentPosition "rn1qkbnr/ppp1pppp/8/8/1PPp2b1/5N2/P2PPPPP/RNBQKB1R w KQkq - 1 4"]
+
+1. Nf3 d5 2. c4 d4 3. b4 Bg4 ( 3. ... f6 {used to be the theoretical antidote
+to White's setup      until the move} 4. Na3 {was discovered.} ) ( 3. ... g5
+{has been played by Morozevich a few times.} ) 4. Qb3 Nf6 {White now has a
+Blumenfeld Gambit with an extra tempo, but  Svidler wasn't exactly sure what to
+do with it. :-)} 5. g3 ( 5. Ne5 Bh5 6. Bb2 Qd6 7. f4 ) 5... a5 {A novelty on
+move five.} ( 5. ... Bxf3 6. Qxf3 e5 7. Qxb7 Nbd7 8. Bg2 Rb8 9. Qxa7 Bxb4 10.
+O-O      O-O {Iturrizaga,E (2641)-Navara,D (2734) Berlin GER 2015} ) ( 5. ...
+e6 6. Bg2 c6 7. Bb2 Bxf3 8. Bxf3 Be7 9. O-O O-O 10. d3 e5 {     Iturrizaga,E
+(2641)-Zhigalko,S (2656) Berlin GER 2015} ) ( 5. ... Nbd7 6. Bg2 e5 7. O-O a5
+8. bxa5 Nc5 9. Qc2 e4 10. Ne5 Bxe2      11. Re1 d3 12. Qc3 Bd6 {Demuth,A
+(2545)-Zhigalko,S (2656) Berlin GER      2015} ) ( 5. ... d3 6. Bg2 Nc6        
+ ( 6. ... dxe2 7. Ne5 {Svidler} )     7. Bb2 dxe2 8. b5 Na5 9. Qa4 b6 10. Ne5
+Bf5 {Christiansen,J      (2399)-Lindgren,P (2411) Vaxjo SWE 2016} ) 6. b5 ( 6.
+Bg2 axb4 7. Qxb4 Ra7 {Svidler} ) 6... a4 7. Qd3 Bxf3 $6 ( {Aronian and Giri
+suggested} 7. ... c5 {(otherwise 8...Nbd7 and      9...e5)} 8. Ne5 Bh5 {and
+liked Black. Svidler expected this as well      and wasn't sure who was better
+and why.} ) 8. Qxf3 c6 {Svidler was "stunned" when he saw this being played
+rather  fast.} ( {The critical move should be} 8. ... e5 $1 9. Qxb7 Nbd7 10.
+Bg2 e4 {     and now White can bail out with} 11. Bxe4 Rb8 12. Qc6 Rb6 13. Qa8
+Rb8      ) 9. Bg2 e5 10. O-O Be7 11. d3 O-O 12. Nd2 h5 ( 12. ... Qc7 13. g4 Rc8
+14. g5 Nfd7 15. Ne4 {is very good for White      (Svidler).} ) 13. h3 ( 13. Ne4
+Ng4 14. h3 $2 f5 $1 {is tricky (Svidler).} ) 13... g6 14. Rb1 Nh7 ( 14. ... Qc7
+15. g4 {Svidler} ) 15. e3 Re8 ( 15. ... dxe3 16. Qxe3 ) 16. exd4 exd4 17. Re1
+h4 18. bxc6 bxc6 19. Rb7 {White is strategically  winning here.} 19... hxg3 20.
+fxg3 Bf6 21. Ne4 Nd7 22. Rf1 Rxe4 23. Qxe4 Nc5 24. Qxc6 Rc8 25. Qb5 Nxb7 26.
+Bxb7 Rc7 27. Bf4 Re7 28. Be4 Nf8 29. c5 Be5 30. Bg5 Bxg3 31. Qb6 $1 ( 31. Bxe7
+Qxe7 32. Qb7 Bc7 $1 {Svidler} ) 31... Qxb6 32. cxb6 Re5 33. Bf6 Rb5 34. b7 Ne6
+35. Rc1 Nc7 36. Kg2 Bf4 37. Rc4 Kh7 38. Kf3 Bh2 39. Rc5 Kg8 40. Rxb5 Nxb5 41.
+Bc6 Nc3 42. Bh4 1-0
+
+[Event "10th Tal Mem 2016"]
+[Site "Moscow RUS"]
+[Date "2016.10.02"]
+[Round "6"]
+[White "Tomashevsky, Evgeny"]
+[Black "Anand, Viswanathan"]
+[Result "1/2-1/2"]
+[WhiteElo "2731"]
+[BlackElo "2776"]
+[ECO "D37"]
+[EventDate "2016.09.26"]
+[PlyCount "97"]
+[CurrentPosition "2r2rk1/pp2qpp1/7p/2np4/6b1/4PN2/PPQ1BPPP/R4RK1 w - - 5 15"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Nbd7 5. Bg5 h6 6. Bh4 Be7 7. Qc2 c5 8. cxd5
+Nxd5 9. Bxe7 Qxe7 10. Nxd5 exd5 11. dxc5 Nxc5 12. e3 O-O 13. Be2 Bg4 14. O-O
+Rac8 15. Rac1 ( 15. Nd4 Ne6 16. Qd2 Qg5 17. Bxg4 Qxg4 18. Ne2 Rfd8 19. Rac1
+Rxc1 20.      Rxc1 d4 {Nakamura,H (2789)-Kramnik,V (2808) Baku AZE 2016} )
+15... Qf6 16. Qc3 Qxc3 17. Rxc3 Ne4 18. Rcc1 Rfd8 19. Rfd1 Kf8 20. Kf1 Ke7 21.
+Nd4 Rxc1 22. Rxc1 Rc8 23. Rxc8 Bxc8 24. Ke1 Bd7 25. f3 Nd6 26. Kd2 Nf5 27.
+Nxf5+ Bxf5 28. Kc3 Kd6 29. Kd4 a5 30. Bb5 b6 31. Ba4 Bc8 32. a3 f6 33. b4 axb4
+34. axb4 Bb7 35. Bb3 Bc6 36. Ba2 Bb7 37. h4 Bc6 38. Bb3 Bb7 39. b5 Ba8 40. Ba2
+Bb7 41. h5 Ba8 42. Bb1 Bb7 43. Bf5 Ke7 44. Bh3 Kd6 45. Bg4 Ke7 46. f4 Kd6 47.
+Bf5 Ke7 48. g3 Kd6 49. Bg4 1/2-1/2
+
+[Event "10th Tal Mem 2016"]
+[Site "Moscow RUS"]
+[Date "2016.10.04"]
+[Round "7"]
+[White "Giri, Anish"]
+[Black "Kramnik, Vladimir"]
+[Result "1/2-1/2"]
+[WhiteElo "2755"]
+[BlackElo "2808"]
+[ECO "D55"]
+[EventDate "2016.09.26"]
+[PlyCount "86"]
+[CurrentPosition "2rr2k1/pp2qpp1/7p/2np4/6b1/4PN2/PPQ1BPPP/3R1RK1 w - - 6 16"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. Bg5 h6 6. Bh4 O-O 7. e3 Nbd7 8. Qc2
+c5 9. dxc5 Nxc5 10. cxd5 Nxd5 11. Bxe7 Qxe7 ( 11. ... Nxe7 12. Be2 Qb6 13. O-O
+Bd7 14. Ne5 Rfd8 15. Rab1 Qc7 16.      Nxd7 Nxd7 17. Rbc1 Rac8 {Gupta,A
+(2630)-Salem,A (2561) Sharjah UAE      2014} ) 12. Nxd5 exd5 13. Be2 Bg4 14.
+O-O Rac8 15. Rad1 Rfd8 16. Nd4 Ne6 17. Qd3 Nxd4 18. Bxg4 Ne6 19. Qb3 Rc4 20.
+Bf3 Rb4 21. Qa3 d4 22. Rd3 a5 23. Qxa5 Rxb2 24. Qe5 Qb4 25. exd4 Rxd4 26. a3
+Qc4 27. Rdd1 Rxd1 28. Rxd1 Qb3 29. Qb8+ Kh7 30. Qd6 Qc2 31. Qd3+ Qxd3 32. Rxd3
+Nc5 33. Rd1 g5 34. h4 b6 35. hxg5 hxg5 36. Rd6 Kg7 37. g3 f5 38. g4 f4 39. Bc6
+Rb1+ 40. Kg2 Rb3 41. Rd5 Kh6 42. Rd6+ Kg7 43. Rd5 Kh6 1/2-1/2
+
+[Event "10th Tal Mem 2016"]
+[Site "Moscow RUS"]
+[Date "2016.10.04"]
+[Round "7"]
+[White "Gelfand, Boris"]
+[Black "Tomashevsky, Evgeny"]
+[Result "1/2-1/2"]
+[WhiteElo "2743"]
+[BlackElo "2731"]
+[ECO "E00"]
+[EventDate "2016.09.26"]
+[PlyCount "52"]
+[CurrentPosition "2r2rk1/p3qppp/bpn1p3/3p3n/3P4/1P4P1/P2QPPBP/RNBR2K1 b - - 0 17"]
+
+1. d4 Nf6 2. c4 e6 3. g3 Bb4+ 4. Bd2 Be7 5. Bg2 d5 6. Nf3 O-O 7. O-O Nbd7 8.
+Qc2 c6 9. Bf4 b6 10. Rd1 Ba6 11. cxd5 cxd5 12. Ne5 Rc8 13. Nc6 Nh5 14. Bc1 Nb8
+15. Nxe7+ Qxe7 16. Qd2 Nc6 17. b3 Rfd8 ( 17. ... b5 18. a3 Nf6 19. Nc3 Qc7 20.
+Na2 Qb6 21. Qb2 h6 22. Bf4      Rfd8 23. Nb4 Nxb4 24. axb4 Bb7 {Leko,P (2728)
+-Ponomariov,R (2758)      Saratov RUS 2011} ) 18. Ba3 Qd7 19. Nc3 Nf6 20. Bb2
+h6 21. Rac1 Qe7 22. Rc2 Qe8 23. Qe1 Rd7 24. Qd2 Rdd8 25. Qe1 Rd7 26. Qd2 Rdd8
+1/2-1/2
+
+[Event "10th Tal Mem 2016"]
+[Site "Moscow RUS"]
+[Date "2016.10.04"]
+[Round "7"]
+[White "Li, Chao"]
+[Black "Nepomniachtchi, Ian"]
+[Result "1/2-1/2"]
+[WhiteElo "2746"]
+[BlackElo "2740"]
+[ECO "D90"]
+[EventDate "2016.09.26"]
+[PlyCount "100"]
+[CurrentPosition "rnbqk2r/ppp1ppbp/6p1/3n4/N2P4/5N2/PP2PPPP/R1BQKB1R b KQkq - 1 6"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. cxd5 Nxd5 6. Na4 Bf5 ( 6. ... Nb6 7.
+e4 Bg4 8. Be3 O-O 9. Nc5 Nc6 10. Nxb7 Qb8 11. Ba6 Nb4      12. Nc5 {was good
+for White in Romanov,E (2573)-Nepomniachtchi,I      (2705) Skopje MKD 2015} )
+7. Nh4 Bd7 8. e4 e5 9. Nf3 exd4 ( 9. ... Qe7 10. Nxe5 Qb4+ 11. Nc3 Nxc3 12. Qd2
+Nxa2 13. Rxa2 Qxd2+      14. Bxd2 Be6 {Tari,A (2556)-Vachier Lagrave,M (2785)
+Gibraltar ENG      2016} ) 10. exd5 O-O {Threatening Qe8+ sometimes. White
+can't keep the piece.} 11. Be2 ( 11. Nxd4 Qh4 12. Be3 Re8 {Nepomniachtchi} )
+11... d3 $1 12. Qxd3 Bxa4 13. O-O c6 14. Qe4 Qe8 15. Qxa4 Qxe2 16. Qb3 Na6 (
+{After} 16. ... Qb5 17. Qxb5 cxb5 {White has some play      (Nepomniachtchi).}
+) 17. Be3 ( 17. Qxb7 Nc5 18. Qxc6 Rac8 19. Qd6 Rfd8 {is what Nepomniachtchi had
+     seen in his preparation.} ) 17... Qxb2 18. Qxb2 Bxb2 19. Rab1 Ba3 ( 19.
+... Bf6 20. Rxb7 cxd5 21. Rd1 Rfb8 22. Rd7 {Li Chao} 22. ... Nb4     $5 ) 20.
+Rxb7 ( 20. dxc6 bxc6 21. Ne5 Rfe8 22. Nxc6 Bc5 23. Rb7 Re6 {Nepomniachtchi}    
+) 20... cxd5 21. Rd1 Nc5 22. Rc7 Ne6 23. Rd7 Rfc8 24. h4 Bc5 25. Bxc5 ( 25. Ne5
+$6 d4 26. Bh6 Rd8 ) 25... Nxc5 26. R7xd5 Kg7 27. g4 Rab8 28. g5 h6 29. gxh6+
+Kxh6 30. Ng5 Kg7 31. Rc1 Ne6 32. Nxe6+ fxe6 33. Rd7+ Kf6 34. Rxc8 Rxc8 35. Rxa7
+Rc4 36. a4 Rxh4 37. a5 Ra4 38. a6 e5 39. Ra8 e4 40. a7 Kg7 41. Kf1 Ra2 42. Ke1
+Kh7 43. Kd1 Kg7 44. Kc1 Kh7 45. Kb1 Ra6 46. Kb2 Kg7 47. Kc3 Ra4 48. Kb3 Ra1 49.
+Kc4 Kh7 50. Kd5 Ra4 1/2-1/2
+
+[Event "10th Tal Mem 2016"]
+[Site "Moscow RUS"]
+[Date "2016.10.05"]
+[Round "8"]
+[White "Nepomniachtchi, Ian"]
+[Black "Anand, Viswanathan"]
+[Result "1/2-1/2"]
+[WhiteElo "2740"]
+[BlackElo "2776"]
+[Board "2"]
+[Whitetitle "GM"]
+[Whitecountry "RUS"]
+[Whitefideid "4168119"]
+[Whiteelochange "1"]
+[Blacktitle "GM"]
+[Blackcountry "IND"]
+[Blackfideid "5000017"]
+[Blackelochange "-1"]
+[CurrentPosition "rnbqk1nr/pp3ppp/2pp4/8/2PPp3/2P1P3/P2N1PPP/R1BQKB1R b KQkq - 0 9"]
+
+1. c4 e5 2. Nc3 Bb4 3. Nd5 Bc5 4. Nf3 c6 5. Nc3 d6 6. e3 Bb4 7. d4 e4 8. Nd2
+Bxc3 9. bxc3 Nf6 ( {Xu, Jun -- Christiansen, Johan Sebastian 1-0 Qatar Masters
+op, 2014     } 9. ... Qe7 10. Be2 Nf6 11. g4 $5 O-O 12. Nf1 c5 13. Ng3 Nc6 14.
+h4 {     was a highly creative and ultimately succesful approach that delivered
+    victory on move 45.} ) 10. f3 exf3 11. Qxf3 ( 11. gxf3 $5 Ng4 $5 12. Ne4
+{was a highly creative alternative      mentioned by Nepo in the post-mortem.} 
+        ( 12. fxg4 $4 Qh4+ 13. Ke2 Bxg4+ 14. Nf3 Bxf3+ 15. Kxf3 Qh5+ {oops     
+   } )     ) 11... O-O 12. h3 Qa5 13. Bb2 Qf5 14. Ba3 Re8 15. Qxf5 Bxf5 16. Kf2
+$5 { Nepo makes his first creative move with the king. He defends e3.} 16...
+Rd8 17. Kf3 $5 {Now he covers e4.} 17... c5 18. g4 Bg6 ( 18. ... Bd7 $6 19. g5
+{is awkward to meet.} ) 19. Bg2 ( 19. g5 Nfd7 20. Bg2          ( 20. h4 {is
+interesting.} )     20. ... Nc6 21. Kg3 Nb6 {intending ...Na5 was suggested by
+Anand and      Nepo conceded it is good for Black.} ) 19... h6 20. Kf4 $5 {Now
+the king clears the path of the bishop. "It was very hard for me to tell
+whether I was better or worse." (Anand) "I  decided to make a lot of useful
+moves."} 20... Nc6 21. Bxc6 bxc6 22. e4 Nd7 ( 22. ... cxd4 23. cxd4 c5 24. d5
+Re8 25. Rhe1 {was possible.      (press-conference)} ) 23. Nb3 Re8 24. Rhe1 Re6
+25. Re3 Rae8 26. Rae1 Rf6+ {Anand decides that  there's nothing better than
+perpetual here so he begins it now.} ( 26. ... Nf6 $2 {Attempting a win
+backfires.} 27. e5 $1 dxe5+ 28.      Rxe5 {and White is much better.} ) 27. Kg3
+Rfe6 28. Kf4 Rf6+ 29. Kg3 Rfe6 1/2-1/2
+
+[Event "10th Tal Mem 2016"]
+[Site "Moscow RUS"]
+[Date "2016.10.05"]
+[Round "8"]
+[White "Svidler, Peter"]
+[Black "Gelfand, Boris"]
+[Result "1/2-1/2"]
+[WhiteElo "2745"]
+[BlackElo "2743"]
+[Board "4"]
+[Whitetitle "GM"]
+[Whitecountry "RUS"]
+[Whitefideid "4102142"]
+[Blacktitle "GM"]
+[Blackcountry "ISR"]
+[Blackfideid "2805677"]
+[CurrentPosition "r1bq1rk1/p3ppbp/2p3pn/2pp4/4P3/2PP1N1P/PP3PP1/RNBQR1K1 b - - 0 9"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. Bxc6 bxc6 5. O-O Bg7 6. Re1 Nh6 7. c3 O-O 8.
+h3 d5 9. d3 c4 ( 9. ... Rb8 {This move was tried this year by O. Bortnyk as
+Black      against Iordascheau in the Chebanenko Rapid. That's the same GM     
+Bortnyk who just managed the first perfect score in Titled Tuesday!}      10.
+Bf4 dxe4 11. Bxb8 exf3 12. Qxf3 Qb6 13. Bf4 Qxb2 14. Nd2 Qxc3 15.      Rac1 Qa3
+16. Nc4 Qxa2 17. Be5 Bxe5 18. Nxe5 Nf5 19. Nxc6 e6 20. Rxc5      Bb7 21. Ne7+
+Nxe7 22. Qxb7 Nd5 23. Rc8 Rxc8 24. Qxc8+ Kg7 25. Qc4 Qb2      26. Qa4 Qc3 27.
+Qa1 Qxa1 28. Rxa1 Nf4 29. Ra3 Kf6 30. h4 h5 31. g3 Nd5     32. Rxa7 Nb4 33. Ra3
+Nc6 34. Kf1 Nb4 35. Ke2 Nd5 36. Ra7 Nc3+ 37. Kf3      Nd5 38. Rb7 Nc3 39. Ke3
+Nd1+ 40. Kf3 Nc3 41. Rb3 Nd5 42. Ke4 Ne7 43.      Ra3 Nf5 44. Ra5 Nd6+ 45. Kf4
+Nb7 46. Ra3 Nd6 47. Ra5 Nb7 48. Ra6 Nc5      49. Ra3 Nd7 50. f3 Nb6 51. g4 Nd5+
+52. Ke4 g5 53. hxg5+ Kxg5 54. gxh5      Nf6+ 55. Ke5 Nxh5 56. Ra4 Nf6 57. f4+
+Kg6 58. f5+ $1 {was a pretty      finish. If Black captures, Ra6 wins the
+knight on f6.} ) 10. dxc4 dxe4 11. Qxd8 Rxd8 12. Rxe4 Nf5 ( 12. ... e5 {was
+Gelfand's attempt against Anand in the fifth round.}     ) 13. Re1 c5 14. Nbd2
+Bb7 15. Ne4 Rac8 16. Ng3 Nd6 17. Rxe7 Bxf3 18. gxf3 Nxc4 19. Bg5 Nxb2 20. Rxa7
+{The simplifications have resulted in a dead  equal position. White is
+momentarily up a pawn, but Black is far too  active to have any troubles.}
+20... Ra8 21. Rb7 Rd1+ 22. Rxd1 Nxd1 23. Ne4 Nxc3 24. Nxc5 h6 25. Be3 Rxa2 26.
+Rb8+ Kh7 27. Rb7 Kg8 28. Rb8+ Kh7 29. Rb7 Kg8 1/2-1/2
+
+[Event "10th Tal Mem 2016"]
+[Site "Moscow RUS"]
+[Date "2016.10.05"]
+[Round "8"]
+[White "Aronian, Levon"]
+[Black "Li, Chao"]
+[Result "1/2-1/2"]
+[WhiteElo "2795"]
+[BlackElo "2746"]
+[Board "1"]
+[Whitetitle "GM"]
+[Whitecountry "ARM"]
+[Whitefideid "13300474"]
+[Whiteelochange "-1"]
+[Blacktitle "GM"]
+[Blackcountry "CHN"]
+[Blackfideid "8604436"]
+[Blackelochange "1"]
+[CurrentPosition "rn1qkbnr/ppp2ppp/4p3/3p1b2/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 1 4"]
+
+1. Nf3 d5 2. d4 Bf5 3. c4 e6 4. Nc3 Nc6 $5 {Li Chao transposes into a  Chigorin
+structure. Morozevich would be pleased.} 5. Bf4 Bd6 6. cxd5 exd5 7. Nxd5 Be4 $1
+{Otherwise Black's in some trouble. Black still might be in some trouble.} 8.
+Nc3 Bxf3 9. Bxd6 Qxd6 10. gxf3 Qxd4 11. e3 Qf6 $6 {This  is the first new move
+of the game, and it may be here that Li Chao gets in a bit of trouble.} (
+{Martynov, Pavel2 -- Warakomski, Tomasz 0-1 Krakow op-A 24th, 2014}      11.
+... Qb4 12. Qc2 Rd8 13. f4 Nge7 14. a3 Qa5 15. Rg1 O-O 16. Bd3 f5      17.
+O-O-O Kh8 18. Rg5 h6 19. Rh5 Kh7 20. Ne4 Rd5 21. Bc4 Nb4 22. Rxd5      Nbxd5
+23. Nc3 Nxc3 24. Qxc3 Qxc3+ 25. bxc3 {And Black's knight bested      White's
+bishop in the endgame.} ) 12. Nd5 Qd6 13. Qb3 Nge7 14. Nxe7 Nxe7 15. Rd1 Qf6
+16. Qa4+ Nc6 17. Qe4+ Kf8 18. Bb5 Re8 19. Qc2 Qxf3 20. Qc5+ Kg8 21. Rg1
+{Neither king has  managed to castle. I'm not sure White's king is safer, but
+at least it has managed to stay out of the way of Aronian's active rooks.}
+21... Qf6 22. Bxc6 bxc6 23. Rd2 ( 23. Qd4 Qxd4 24. Rxd4 g6 25. Rd7 {is similar
+to the game, but White      is ahead tempos.} ) 23... g6 24. Rg4 Kg7 25. Rc4
+Rd8 26. Rf4 Qe6 27. Rfd4 Rb8 28. Rd7 Qf6 29. b3 Rb7 30. Qe7 a5 31. R2d4 Rf8 32.
+Ke2 Qxe7 33. Rxe7 Kf6 34. Ree4 Ra8 $1 {Black seeks activity and exchanges. Rb4
+and a4 are possible ideas.} 35. Rf4+ Ke7 36. Rfe4+ Kf6 37. Rf4+ Ke7 38. Rde4+
+Kf8 39. Re6 g5 40. Rf3 g4 41. Rf4 Rb4 42. Ref6 Rxf4 43. Rxf4 h5 44. Rf5 a4 45.
+Rxh5 Ke7 46. b4 a3 47. Kd3 {White's king immediately targets the a3-pawn.}
+47... Rd8+ 48. Kc2 Ke6 49. Rc5 Rh8 50. Rxc6+ Ke5 51. Rxc7 Rxh2 52. Rxf7 g3 53.
+Kb3 Rxf2 ( 53. ... g2 {This was also possible, but less good.} 54. Rg7 Ke4 55. 
+    Kxa3 Kf3 56. b5 Kxf2 57. b6 g1=Q 58. Rxg1 Kxg1 59. Kb4 Rxa2 60. Kc5     
+Kf2 61. Kc6 Kxe3 62. b7 Rb2 63. Kc7 {is one example of the sort of      draw
+that will occur.} ) 54. Rg7 g2 55. Kxa3 Ke4 56. Rg3 Re2 57. Ka4 Rxa2+ 58. Kb5
+Kd3 59. Kc6 Rc2+ 60. Kb6 Rf2 {Rather than get a new scoresheet (they end on
+move 60), the  players agreed a draw here. The draw will be similar to the
+previous one  shown. Black's king is headed to f1, at which point, Black will
+win the  rook for the g2-pawn, but the b-pawn will easily draw the game for
+White.} 1/2-1/2
+
+[Event "10th Tal Mem 2016"]
+[Site "Moscow RUS"]
+[Date "2016.10.05"]
+[Round "8"]
+[White "Kramnik, Vladimir"]
+[Black "Tomashevsky, Evgeny"]
+[Result "1/2-1/2"]
+[WhiteElo "2808"]
+[BlackElo "2731"]
+[Board "3"]
+[Whitetitle "GM"]
+[Whitecountry "RUS"]
+[Whitefideid "4101588"]
+[Whiteelochange "-1"]
+[Blacktitle "GM"]
+[Blackcountry "RUS"]
+[Blackfideid "4147235"]
+[Blackelochange "1"]
+[CurrentPosition "r3k2r/pp1nqppp/2p2n2/2b1p3/4P3/5BPP/PPPN1P2/R1BQ1RK1 w kq - 3 11"]
+
+1. Nf3 Nf6 2. g3 d5 3. Bg2 c6 4. O-O Bg4 5. d3 Nbd7 6. h3 Bxf3 7. Bxf3 e5 8. e4
+dxe4 9. dxe4 Bc5 10. Nd2 Qe7 11. a4 ( {Botvinnik, Mikhail -- Szilagyi, Gyorgy
+1-0 IBM, 1966} 11. c3 {     Ancient. Ok, not ancient, but dusty. Botvinnik
+played two of the last      three games in this line.} 11. ... O-O 12. b4 Bb6
+13. a4 Rfd8 14. Qc2      Rac8 15. Be2 c5 $2 16. b5 Ne8 17. Nc4 {The c4-square
+granted Botvinnik     a clear plus. He won on move 36.} ) 11... a5 12. Qe2 O-O
+13. Nc4 Qe6 14. Kg2 Nb6 15. Ne3 Rfd8 16. b3 Nc8 17. Bb2 Bd4 $2 {The tactics
+don't work. At the end of the following  continuation, a5 is too weak.} 18.
+Rad1 Nd6 19. Bxd4 exd4 20. Rxd4 Ndxe4 21. Rxd8+ Rxd8 22. Nc4 {Kramnik wins a
+pawn, but Tomashevsky does get some activity.} 22... b5 23. axb5 cxb5 24. Nxa5
+Rd2 25. Qxb5 h6 ( 25. ... Rxc2 {This is also immediately possible.} 26. Qb8+
+Rc8 {     covers the back rank.} ) 26. Nc4 Rxc2 27. Qb8+ Kh7 28. Qe5 Qxe5 29.
+Nxe5 Rb2 30. Bd1 Nd5 {Unwinding is not easy for White. f2 is weak and there are
+many annoyances like  ...Ne3+.} 31. Nc4 ( 31. Kf3 $4 Nd2+ ) ( 31. h4 $4 Ne3+ )
+31... Ra2 32. Bf3 Ndc3 33. h4 g5 34. h5 Kg7 35. b4 Ra4 36. Bxe4 Nxe4 37. Rb1
+Nc3 38. Rc1 Ne2 39. Rc2 Nd4 ( 39. ... Rxb4 40. Nd6 Nd4 41. Rc7 Kf6 42. Nxf7 Nf5
+{is this superior      to the game? Probably not. Black should hold here as
+well. The Nf5      covers h6 and g4 will always create weaknesses for White.} )
+40. Rd2 Nc6 41. Ne3 Rxb4 42. Nf5+ Kh7 43. Rd6 {Kramnik is winning h6. It  seems
+like that should be enough to win the game at first, but Tomashevsky defends
+well, and holds.} 43... Ne5 44. Rxh6+ Kg8 45. Ra6 Ng4 46. Ra8+ Kh7 47. Ra7 Nh6
+$1 {Great defense. This knight is terrible in theory, but  in practice it is
+great. There seems to be no way through. against this  sturdy defender that
+blockades h6, contests f5 and defends f7.} 48. Nd6 ( 48. Nxh6 Kxh6 49. Rxf7
+Kxh5 {is an easy two-vs-one-pawn draw.} ) 48... Kg7 49. Kf3 g4+ 50. Kg2 Rb6 51.
+Ne8+ Kh7 52. Ra5 Re6 53. Nc7 Rf6 54. Kf1 Rf5 55. Rd5 Rf6 56. Rd7 Rf5 57. Nd5
+Kg7 58. Nf4 Re5 59. Rd5 Re4 60. Ng2 Kf6 61. Ne3 Ra4 62. Ke2 Ra3 63. Rc5 Rb3 64.
+Nd5+ Kg7 65. Nc3 Rb6 66. Rg5+ Kf8 67. Re5 Kg7 68. Ke3 Rb3 69. Rc5 Rb2 70. Rg5+
+Kf8 71. Rb5 Rc2 72. Ne4 Kg7 73. Rg5+ Kf8 74. Nf6 Rc3+ 75. Ke4 Rc4+ 76. Kd3 Ra4
+77. Nh7+ Ke7 78. Re5+ Kd6 79. Rb5 Kc6 80. Rb8 Ra2 81. Ke3 Ra5 82. Nf6 Rf5 {A 
+perfect defensive arrangement. The rook and knight combine to defend f7  and g4
+and attack f5.} 83. Ne4 Rxh5 {With this pawn go any legitimate  chances Kramnik
+had. He still has some practical ones as his pieces are  more active, but there
+is no reason for Tomashevsky to lose and he  doesn't.} 84. Rd8 Kc7 85. Re8 Rf5
+86. Rh8 Rf3+ 87. Kd4 Nf5+ 88. Ke5 Ne7 89. Rh7 Ng6+ 90. Kd4 Kd8 91. Ng5 Rxf2 92.
+Nxf7+ Ke8 93. Ng5 Rf5 94. Ne6 Rf7 95. Rh6 Ne7 96. Rh8+ Kd7 97. Nc5+ Kc7 98. Ra8
+Nc6+ 99. Kc4 Rf1 100. Ne4 Rd1 101. Re8 Re1 102. Kd5 Rd1+ 103. Ke6 Rd8 104. Rxd8
+Kxd8 105. Nc3 Nd4+ 106. Ke5 Nf3+ 107. Kf4 Nh2 108. Nd5 1/2-1/2
+
+[Event "10th Tal Mem 2016"]
+[Site "Moscow RUS"]
+[Date "2016.10.05"]
+[Round "8"]
+[White "Giri, Anish"]
+[Black "Mamedyarov, Shakhriyar"]
+[Result "1/2-1/2"]
+[WhiteElo "2755"]
+[BlackElo "2761"]
+[Board "5"]
+[Whitetitle "GM"]
+[Whitecountry "NED"]
+[Whitefideid "24116068"]
+[Blacktitle "GM"]
+[Blackcountry "AZE"]
+[Blackfideid "13401319"]
+[CurrentPosition "r1bq1rk1/1pp2pp1/p1np1n1p/2b1p3/2B1P3/2PP1N2/PP3PPP/R1BQRNK1 b - - 1 9"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O Nf6 5. d3 d6 6. c3 h6 7. Re1 O-O 8. Nbd2
+a6 9. Nf1 Na5 {This is a novelty, but it's not exactly an  earth-shattering
+one.} ( {Kramnik, Vladimir -- Eljanov, Pavel 1/2-1/2 Norway Chess 4th, 2016}   
+ 9. ... Ba7 10. Bb3 Re8 11. Ng3 Be6 12. Bxe6 Rxe6 13. d4 Re8 14. h3 d5      15.
+Nxe5 Nxe5 16. dxe5 Nxe4 17. Nxe4 dxe4 18. Qg4 Rxe5 19. Bxh6 g5 {     and this
+fascinating move ultimately lead to the Philidor position and     a draw on
+move 43.} ) 10. b4 Nxc4 11. bxc5 Na5 12. cxd6 cxd6 {The position emerging from
+the  prior forced moves is imbalanced in that each player has certain 
+advantages to work with, but balanced in that neither player is really 
+better.} 13. a4 b5 14. axb5 axb5 15. Rb1 Qc7 {The weak b5-pawn and the  weak-c3
+pawn neutralize each other and encourage further trades.} 16. Bd2 Re8 17. h3
+Nb7 18. Nh4 d5 19. exd5 Nxd5 20. Rxb5 Nxc3 21. Bxc3 Qxc3 22. Nf3 Ra5 23. Rxa5
+Qxa5 24. Qd2 Qb5 25. Qc3 f6 26. d4 {With this move all  the weaknesses
+dissapear.} 26... exd4 27. Nxd4 Qd7 28. Rxe8+ Qxe8 29. Ne3 Nd6 30. Qc5 Qe5 31.
+Qxe5 fxe5 32. Nc6 e4 33. Kh2 Kf7 34. Kg3 g5 35. h4 Nf5+ 36. Nxf5 Bxf5 37. hxg5
+hxg5 38. Ne5+ Kf6 39. Nc4 Be6 40. Ne3 1/2-1/2
+
+[Event "10th Tal Mem 2016"]
+[Site "Moscow RUS"]
+[Date "2016.10.06"]
+[Round "9"]
+[White "Gelfand, Boris"]
+[Black "Nepomniachtchi, Ian"]
+[Result "1/2-1/2"]
+[WhiteElo "2743"]
+[BlackElo "2740"]
+[ECO "A32"]
+[EventDate "2016.10.06"]
+[CurrentPosition "8/4np1k/p3q2p/1p3N2/8/1P5P/P4QP1/7K w - - 10 49"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+
+1. Nf3 Nf6 2. c4 c5 3. d4 cxd4 4. Nxd4 e6 5. Nc3 d5 6. e3 Be7 7. cxd5 Nxd5 8.
+Bb5+ Bd7 9. Nxd5 exd5 10. O-O {Surprisingly this natural move is the  first new
+move in the game. It doesn't change the evaluation though. White has a small
+plus.} 10... Nc6 11. Ne2 a6 12. Ba4 Bg4 13. Bb3 Na5 14. Ba4+ b5 15. Bc2 O-O 16.
+Qd3 g6 17. Nd4 Bf6 18. Bd1 Qd7 19. Bd2 Nc4 20. Bxg4 Qxg4 21. Bc3 Bg7 22. b3
+{White classically demonstrates the simple issue  with isolated pawns. The
+d4-square is an outpost, the c4-square is not.} 22... Ne5 23. Qd2 Rac8 24. Rac1
+Rc7 25. f4 {No rest for the weary!  Black's must find another home.} 25... Nd7
+26. h3 Qh5 27. Nf3 Bxc3 28. Rxc3 Rxc3 29. Qxc3 Qf5 30. Qc6 {The a6-pawn is
+weak.} 30... Nb8 {Black  defends the pawn but becomes positive.} 31. Qd6 Rc8
+32. Rd1 Qe4 33. Rxd5 Qxe3+ 34. Kh2 {Black has avoided losing a pawn, but the
+White pieces are  far more active.} 34... Nc6 35. Rc5 Qe8 36. f5 Na7 37. Ne5 $2
+{Now Nepo  is able to simplify. The problems are basically over.} ( 37. Rxc8
+Qxc8          ( 37. ... Nxc8 38. Qxa6 {Is the pawn enough to win? It's hard to 
+        say, but White can certainly try.} )     38. fxg6 hxg6 39. Ne5 {It's
+still difficult for Black to unwind.} ) 37... Rxc5 38. Qxc5 gxf5 39. Nf3 ( 39.
+Qxa7 Qxe5+ {gives Black the better of a draw.} ) 39... Nc6 40. Qxf5 Qb8+ 41.
+Kh1 Qd6 42. Qg4+ Kf8 43. Ng5 h6 44. Ne4 Qd5 45. Qf4 Kg7 46. Nd6 Qe6 47. Nf5+
+Kh7 48. Qf2 Ne7 1/2-1/2
+
+[Event "10th Tal Mem 2016"]
+[Site "Moscow RUS"]
+[Date "2016.10.06"]
+[Round "9"]
+[White "Anand, Viswanathan"]
+[Black "Aronian, Levon"]
+[Result "1/2-1/2"]
+[WhiteElo "2776"]
+[BlackElo "2795"]
+[ECO "C53"]
+[EventDate "2016.10.06"]
+[CurrentPosition "5rk1/2R3p1/7p/6p1/6P1/6KP/5P2/8 w - - 8 41"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d3 O-O 6. Nbd2 a5 7. O-O d6 8. Bb3
+Be6 9. Ba4 Qb8 10. Bxc6 bxc6 11. d4 Ba7 12. b3 Nd7 13. Bb2 a4 14. c4 Bg4 15.
+dxe5 dxe5 16. h3 Bxf3 17. Nxf3 Rd8 18. Qc2 f6 19. Bc3 Nf8 20. c5 Bxc5 21. Bxe5
+Ne6 22. Bg3 Qb5 23. Rac1 axb3 24. axb3 Rd3 25. b4 Bxb4 26. Qxc6 Qxc6 27. Rxc6
+Bd6 28. Bxd6 Rxd6 29. Rxd6 cxd6 30. Rd1 Ra4 31. Rxd6 Rxe4 32. g3 Ng5 33. Nxg5
+fxg5 34. Rd7 Re8 35. Kg2 Rf8 36. g4 h6 37. Kg3 Kh8 38. Ra7 Kg8 39. Rb7 Kh8 40.
+Rc7 Kg8 1/2-1/2
+
+[Event "10th Tal Mem 2016"]
+[Site "Moscow RUS"]
+[Date "2016.10.06"]
+[Round "9"]
+[White "Mamedyarov, Shakhriyar"]
+[Black "Kramnik, Vladimir"]
+[Result "1-0"]
+[WhiteElo "2761"]
+[BlackElo "2808"]
+[ECO "D37"]
+[EventDate "2016.10.06"]
+[CurrentPosition "2Q1Q3/p5p1/8/5k2/2b3p1/P1r5/5P1P/2q2BK1 b - - 1 42"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+[Annotator "Hess, R"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. Bf4 O-O 6. e3 Nbd7 7. a3 (7. c5 Nh5
+8. Bd3 Nxf4 9. exf4 b6 10. b4 a5 11. a3 c6 12. O-O Qc7 13. g3 Ba6 {is a
+well-known line. Kramnik himself has been on the black side of this position on
+quite a number of occasions.}) 7... c5 {This move is provoked by White's
+seventh move: if Black does not play it, he'll face it next. In encouraging
+this push, White creates an isolated queen pawn on d5, which is by no means the
+end of the world. Black obtains quick development, but in the long run an IQP
+can be really annoying to defend} 8. cxd5 Nxd5 9. Nxd5 exd5 10. dxc5 Nxc5 11.
+Be5 {Thematic, controlling the essential d4 square. When your opponent has an
+isolated pawn, it is generally important to blockade the square in front of it.
+This way the pawn can't be pushed and you can gang up on it with all your other
+pieces.} 11... Bf5 12. Be2 Bf6 13. O-O (13. Bxf6 {Mamedyarov played this
+against Aronian earlier in the tournament and achieved nothing:} Qxf6 14. Nd4
+Ne6 15. Nxf5 Qxf5 16. O-O Qe5 17. Qd2 d4 {with equality.}) 13... Bxe5 14. Nxe5
+Qf6 15. b4 (15. Qxd5 {"This d5-take is not so good." - Mamedyarov. As far as
+I'm aware, this hasn't been tested. But it very unclear.} b6 (15... Rac8 16. f4
+Rfd8 17. Qf3 (17. Qa2 Nd7 18. Bd3 Bxd3 19. Nxd3 Qb6 {and Black has full
+compensation, since the pawn will be regained.}) 17... Nb3 18. Rad1 Nd2 19.
+Qxb7 Nxf1 20. Rxd8+ Rxd8 21. Bxf1 {White can't be worse here, but perhaps an
+impending Rd1 maneuever will force a draw.}) 16. Nf3 (16. f4 Rad8 17. Qa2 (17.
+Qc6 Rd2 {wins back the pawn, and Black will get two on one on the queenside.})
+17... Rd2 {Black will need to prove that there is enough compensation for the
+pawn, but White's poisition looks really shaky here. Nobody puts baby in the
+corner, and that queen on a2 is mighty unhappy.}) 16... Qxb2 17. Qxf5 Qxe2 {
+with a very tiny edge for White.}) 15... Qxe5 16. bxc5 Rac8 17. Rc1 Rfd8 $146 {
+A novelty, apparently, but not at all an impressive one. This middlegame is
+clearly better for White.} (17... Be4 18. Qd4 Qg5 19. f3 Bf5 20. Rc3 Rfd8 21.
+Rfc1 Bd7 22. Kf2 Bc6 23. h4 Qe7 24. Bd3 Rc7 25. a4 Rdc8 26. a5 a6 27. Rb1 h6
+28. Rb4 Kf8 29. Rb6 Re8 30. Bf5 Qd8 31. Bd3 Re6 32. Rcb3 Qe7 33. Bf5 Re5 34.
+Bd3 Re6 35. Bf5 Re5 36. Bd3 {1/2-1/2 (36) Cheparinov,I (2687)-Kryvoruchko,Y 
+(2682) Varadero 2016}) 18. Qd4 f6 $6 {Mamedyarov was skeptical of this move.} (
+18... Qxd4 19. exd4 {is very uncomfortable for Black. Kramnik would be left
+with some vulnerable pawns on b7 and d5, whereas is more active and has no
+targets to attack. Fixing the white pawn structure is not recommended.}) 19. g4
+$5 {"After this move, I understand the position is interesting." - Mamedyarov}
+(19. Rfd1 {was clearly not aggressive enough for the active Mamedyarov.}) 19...
+Bg6 20. Rc3 Rc7 (20... Qxd4 21. exd4 Re8 22. Bf3 Be4 23. Bd1 $1 {This variation
+was given by Mamedyarov who liked White's position. I do as well: Kramnik is
+not doing so horribly here, but he lacks space and counterplay. It's hard to
+sit and wait.}) 21. Rfc1 Re7 22. Rd1 Qg5 $6 {I don't really like that Black's
+queen is now totally out of the picture, but I'm not finding any better moves.}
+(22... Qc7 23. Qa4 {pokes holes.}) 23. Qb4 Re4 24. Rd4 Rde8 { A blunder,
+allowing Mamedyarov to cash in a positional advantage for a material one.}
+(24... Rxd4 25. Qxd4 (25. exd4 Re8 26. Bf3 Re1+ 27. Kg2 Be4 { is getting a bit
+scary for White, who must tread carefully to maintain equality.}) 25... Be8
+{might have been key. It is hard for players to turn a potentially attacking
+piece (if the bishop got to e4) into a purely defensive one, but this bishop
+belongs on c6 where it defends both weaknesses b7 and d5. Importantly, the only
+way for White to remove the bishop is to trade it via Bb5. But such a trade is
+hard to orchestrate, given that Mamedyarov has committed his pawn to g4. If
+only pawns could move backwards...}) 25. Rcd3 $1 { Kramnik missed this.} 25...
+Kh8 $1 {Creative play from Kramnik.} 26. Rd2 $1 (26. Qxb7 R4e7 27. Qxe7 (27.
+Qxd5 Qxd5 28. Rxd5 Bxd3 29. Bxd3 Re5 {with a likely draw.}) 27... Rxe7 28. Rxd5
+h6 $3 {This was why Mamedyarov rejected Qxb7.} (28... Qh4 29. Rd8+ Be8 30. c6
+{should be winning. For example,} Kg8 31. Rc3 f5 32. c7 Rxc7 33. Rxe8+ Kf7 34.
+Rxc7+ Kxe8 35. Rxg7 {and rook, bishop, and two pawns clearly outmatch the lone
+queen.}) (28... f5 29. Rxf5 $1 {wins. Back rank mates are everywhere.}) 29.
+Rxg5 Bxd3 30. Bxd3 hxg5 {and Black is better.}) 26... h5 27. Qxb7 hxg4 {This
+gives White a tremendous advantage. More of a fight was} (27... Rxd4 28. Rxd4
+Rxe3 29. Rxd5 Re5 30. Qb8+ Kh7 31. Rxe5 fxe5 32. Qb4 {but Kramnik should still
+be lost here.}) 28. Rxd5 f5 29. Bf1 Rxe3 30. c6 (30. fxe3 Qxe3+ 31. Rf2 f4
+(31... g3 32. hxg3 Qxg3+ 33. Rg2 Qe3+ 34. Kh1 Qf3 35. Be2 $1 {This was the
+refutation Mamedyarov gave. He was thinking this line drew until he saw this.}
+Rxe2 36. Rd8+ {wins.}) 32. Qc7 g3 33. Qxf4 gxf2+ 34. Qxf2 {is of course still
+better for White, but now both kings are unsafe. Black has good chances of
+surviving.}) 30... Rc3 31. c7 {With the pawn on the seventh rank, the rest is
+quite straightforward.} 31... Qf4 32. Rd7 Rg8 33. R2d4 Qc1 34. Qb8 Kh7 35. Rd8
+Bf7 36. Rxg8 Bxg8 37. Rd8 Be6 (37... Bc4 38. Rh8+ Kg6 39. Qe8+ Kg5 40. Rh5+ Kf4
+41. Rxf5+ $1 Kxf5 42. c8=Q+ {was the key variation that Mamedyarov saw.}) 38.
+Rh8+ Kg6 39. Qe8+ Kf6 40. Qf8+ Kg6 41. Qd6 Rc6 42. c8=Q { Kramnik is forced to
+resign, since Mamedyarov has pinned all of his pieces.} 1-0
+
+[Event "10th Tal Mem 2016"]
+[Site "Moscow RUS"]
+[Date "2016.10.06"]
+[Round "9"]
+[White "Li, Chao"]
+[Black "Giri, Anish"]
+[Result "1/2-1/2"]
+[WhiteElo "2746"]
+[BlackElo "2755"]
+[ECO "E21"]
+[EventDate "2016.10.06"]
+[CurrentPosition "8/5N2/R7/4p3/4Pk1p/P3nP2/2r5/6K1 b - - 0 43"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+
+{"He could win. I think many, many chances." - Li Chao when sitting down  at
+the press conference.} 1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nf3 O-O 5. Bg5 c5 6.
+Rc1 h6 7. Bh4 cxd4 8. Nxd4 d5 9. e3 {I forget how to play, but when I'm
+playing, I know he  maybe also forget how to play.} 9... e5 10. Nb3 {This is
+the novelty,  but it is no better than prior play, all of which has scored
+badly for  White.} ( 10. Nf3 {This has been played in four master games. White
+got two      draws and two losses.} ) 10... g5 11. Bg3 Nc6 12. a3 Bxc3+ 13.
+bxc3 ( 13. Rxc3 d4 {is strong for Black. Black's king may be drafty, but at    
+least it's castled.} ) 13... dxc4 14. Qxd8 Rxd8 15. Bxc4 Ne4 16. f3 Nxg3 17.
+hxg3 {"I thought  this position was a little bit better for White, but it's a
+mistake. I  just wanted to play something like e4, Bd5, and move my knight to
+e3 [via  d2 and f1]. Something like this, but maybe I don't have enough time."
+- Li Chao} 17... Kg7 18. Ke2 b6 {"Here, I think a long time, and I forgot he 
+can play Ne7." - Li Chao} 19. e4 ( 19. Rhd1 {"A little bit better for Black,
+but better than my game."      - Li Chao} ) 19... Ne7 20. Rhd1 Bd7 21. Rd2 Ba4
+22. Rxd8 Rxd8 23. Nd2 h5 24. Ke3 ( 24. Rh1 Rc8 {Li Chao said he missed this
+move, intending b5, Rxc3      and Rxa3.} 25. Rxh5 b5 26. Bd3 Rxc3 27. Rxg5+ Ng6
+28. Nb1 {seems fine.     } ) 24... h4 ( 24. ... f5 {"simply better for Black
+because of f4." - Li Chao} 25.      exf5 $2 Nxf5+ {and White can't defend g3
+and d2.} ) 25. gxh4 gxh4 26. Bf1 Ng6 27. c4 Rc8 28. Nb1 Bd7 29. Nc3 Be6 30. Nb5
+( 30. Nd5 Bxd5 31. exd5 f5 ) 30... a6 31. Nd6 Rc6 32. Rd1 Kf6 33. Ne8+ Ke7 34.
+Ng7 Bxc4 35. Nf5+ Kf6 36. Bxc4 Rxc4 37. Rd6+ Kg5 38. Rxb6 Nf4 ( 38. ... Rc3+
+39. Kf2 Rxa3          ( 39. ... Nf4 {"I thought here I'm winning with ...Nf4."
+- Giri}          40. Nxh4 $1 {but then he saw this cute equalizing move.} 40.
+...          Kxh4 41. g3+ {forks the king and his cavalry.} )     40. Nd6 {"I
+think it's a complete draw here." - Giri. The engine      agrees.} ) ( 38. ...
+Rc2 39. Nd6 Rxg2 40. Nxf7+ Kh5 {"I wanted this position with     an extra
+pawn."} 41. Rb7 h3          ( 41. ... Ra2 {is strong.} )     42. Nh8 $4 {This
+funny move was suggested by Li Chao, but Giri gave      the refutation in the
+press conference.}          ( 42. Nxe5 $1 {is better and might draw.} )     42.
+... Nf4 43. Rh7+ Kg5 44. Rg7+ Kf6 45. Rxg2 hxg2 46. Kf2 Kg7 {and      the
+knight is trapped.} ) 39. Nh6 ( 39. Nd6 {"I think I should play 39.Nd6--better
+than 39.Nh6." - Li      Chao.} ) ( 39. Rxa6 Rc2 {is basically just mate.} )
+39... Nxg2+ ( 39. ... Rc7 $1 {"I could have played this followed by ...f6 with
+the     idea of ...Rc2." - Giri} 40. Kf2 f6 41. Nf5 Rc2+ {"looks     
+half-winning." - Giri} ) 40. Kf2 Rc2+ 41. Kg1 {"It's clear that we are at the
+point where Black is  either winning. or it's a draw. That's why I took my
+time." - Giri} 41... Ne3 $2 {"I was choosing here between Ne3 or f5 and I
+rejected Ne1  very, very quickly." - Giri} ( 41. ... Ne1 $1 42. Nxf7+ Kf4 43.
+Rf6+ Kg3 44. Nxe5 {Giri rejected      this because he didn't have ..Rc1 mate.} 
+        ( 44. Rg6+ Kxf3 45. Nxe5+ Kf4 {"wins on the spot ... I missed this     
+   move ...Kf4, and I missed this move ...Rc1 which made me reject         
+...Ne1, and I didn't come back to it." - Giri} )     44. ... Rc1 $1 {"but with
+a little more patience, I'm going to give      the mate anyway." - Giri} ) (
+41. ... f5 $2 {"a very pretty move." - Giri} 42. Nf7+          ( 42. exf5 $1
+Ne1 43. Rg6+ Kf4 44. f6 Nxf3+ 45. Kf1 {"This scared          me away." - Giri.
+The engine agrees. Draw.} )     42. ... Kf4 {"My king is covered." - Giri} )
+42. Nxf7+ Kf4 43. Rxa6 Nc4 44. a4 Ra2 45. a5 Kxf3 46. Rc6 Nxa5 1/2-1/2
+
+[Event "10th Tal Mem 2016"]
+[Site "Moscow RUS"]
+[Date "2016.10.06"]
+[Round "9"]
+[White "Tomashevsky, Evgeny"]
+[Black "Svidler, Peter"]
+[Result "1/2-1/2"]
+[WhiteElo "2731"]
+[BlackElo "2745"]
+[ECO "A48"]
+[EventDate "2016.10.06"]
+[CurrentPosition "8/4qpk1/1p1pr1p1/p1pQ3p/P1P5/1P1RP1PP/5PK1/8 w - - 10 55"]
+[SetUp "1"]
+[FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"]
+
+1. d4 Nf6 2. Nf3 g6 3. Bf4 Bg7 4. e3 O-O 5. c3 d6 6. h3 b6 7. Be2 c5 8. O-O Bb7
+9. Bh2 Nbd7 10. a4 a6 11. Nbd2 Ne4 12. Qb3 Nxd2 13. Nxd2 Qc7 14. Rfd1 Rab8 15.
+Qa3 Rfc8 16. Bf1 Nf6 17. c4 a5 18. d5 Re8 19. Nb1 e5 {Did  Svidler forget about
+en passant?! He acquiesces to a horribly weak  backwards d6-pawn! It's true
+that the d6-pawn is weak, but it's also  defensible and Tomashevsky can find no
+way to make progress elsewhere.} 20. dxe6 Rxe6 21. Nc3 Rd8 22. Qb3 Ne4 23. Nd5
+Bxd5 24. Rxd5 Be5 25. Bxe5 Rxe5 26. Rad1 Rxd5 27. Rxd5 Re8 28. Be2 Qd8 29. Qc2
+Re6 30. Rd1 h5 31. Bf3 Nf6 32. g3 Qc7 33. Kg2 Qd8 34. Rd2 Qe7 35. Qd1 Kg7 36.
+b3 Kg8 37. Bc6 Kg7 38. Qf3 Qc7 39. Ba8 Kf8 40. Qf4 Kg7 41. Qf3 Re8 42. Rd1 Qb8
+43. Bc6 Re6 44. Qe2 Qc7 45. Bf3 Qe7 46. Kg1 Kg8 47. Bg2 Kg7 48. Rd3 Ne4 49.
+Bxe4 Rxe4 50. Qf3 Re6 51. Kg2 Rf6 52. Qd5 Re6 53. Qf3 Rf6 54. Qd5 Re6 1/2-1/2
+
