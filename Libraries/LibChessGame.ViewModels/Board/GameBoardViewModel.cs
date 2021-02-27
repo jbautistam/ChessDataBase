@@ -24,7 +24,7 @@ namespace Bau.Libraries.LibChessGame.ViewModels.Board
 		private MovementFigureModel _actualMovement;
 		private bool _isAtVariation, _isMoving;
 
-		public GameBoardViewModel(ChessGameViewModel chessGameViewModel)
+		public GameBoardViewModel(ChessGameBaseViewModel chessGameViewModel)
 		{
 			// Inicializa los objetos
 			ChessGameMainViewModel = chessGameViewModel;
@@ -236,7 +236,7 @@ namespace Bau.Libraries.LibChessGame.ViewModels.Board
 		}
 
 		/// <summary>
-		///		Comprueba si puede ir al moviemiento siguiente o anterior
+		///		Comprueba si puede ir al movimiento siguiente o anterior
 		/// </summary>
 		private bool CanGoMovement(bool next)
 		{
@@ -316,9 +316,9 @@ namespace Bau.Libraries.LibChessGame.ViewModels.Board
 		}
 
 		/// <summary>
-		///		ViewModel de la ventana principal
+		///		ViewModel principal
 		/// </summary>
-		public ChessGameViewModel ChessGameMainViewModel { get; }
+		public ChessGameBaseViewModel ChessGameMainViewModel { get; }
 
 		/// <summary>
 		///		Juego cargado

@@ -25,7 +25,7 @@ namespace Bau.ChessDataBase.Studio
 		private void InitForm()
 		{	
 			// Asigna el icono a la ventana
-			Icon = System.Windows.Media.Imaging.BitmapFrame.Create(new Uri("pack://application:,,,./Resources/BauDbStudio.ico", UriKind.RelativeOrAbsolute)); 
+			Icon = System.Windows.Media.Imaging.BitmapFrame.Create(new Uri("pack://application:,,,./Resources/BauChessStudio.ico", UriKind.RelativeOrAbsolute)); 
 			// Inicializa el controlador
 			MainController = new Controllers.AppController("Bau.ChessDataBase.Studio", this, 
 														   System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Bau.ChessDataBase.Studio"));
@@ -36,19 +36,19 @@ namespace Bau.ChessDataBase.Studio
 			ViewModel.WorkspacesChanged += (sender, args) => ShowMenuWorkspaces();
 			// Añade los paneles
 			dckManager.AddPane("TreeFilesExplorer", "Archivos", new Views.TreeFilesExplorer(ViewModel.SolutionViewModel.TreeFoldersViewModel), 
-							   null, Controls.DockLayout.DockPosition.Left);
-			dckManager.AddPane("LogView", "Log", new Views.Tools.LogView(ViewModel.LogViewModel), null, Controls.DockLayout.DockPosition.Bottom);
+							   null, Controls.DockLayout.DockLayoutManager.DockPosition.Left);
+			dckManager.AddPane("LogView", "Log", new Views.Tools.LogView(ViewModel.LogViewModel), null, Controls.DockLayout.DockLayoutManager.DockPosition.Bottom);
 			dckManager.AddPane("SearchVew", "Buscar", new Views.Tools.Search.SearchView(ViewModel.SearchFilesViewModel), 
-							   null, Controls.DockLayout.DockPosition.Right);
+							   null, Controls.DockLayout.DockLayoutManager.DockPosition.Right);
 			// Abre los paneles predefinidos
-			dckManager.OpenGroup(Controls.DockLayout.DockPosition.Left);
+			dckManager.OpenGroup(Controls.DockLayout.DockLayoutManager.DockPosition.Left);
 			// Asigna los manejadores de eventos
 			MainController.ChessDataBaseController.OpenWindowRequired += (sender, args) => OpenWindow(args);
 			// Asigna los manejadores de eventos del docker de documentos
 			dckManager.Closing += (sender, args) => CloseWindow(args);
 			dckManager.ActiveDocumentChanged += (sender, args) => UpdateSelectedTab();
 			// Cambia el tema
-			SetTheme((Controls.DockLayout.DockTheme) MainController.ConfigurationController.LastThemeSelected);
+			SetTheme((Controls.DockLayout.DockLayoutManager.DockTheme) MainController.ConfigurationController.LastThemeSelected);
 			// Muestra el número de versión
 			lblVersion.Text = GetAssemblyVersion();
 			// Carga los menús de espacios de trabajo
@@ -99,6 +99,9 @@ namespace Bau.ChessDataBase.Studio
 				case Libraries.ChessDataBase.ViewModels.Solutions.Details.Games.GameBoardPgnViewModel viewModel:
 						AddTab(new Views.ChessBoard.ChessboardPgnView(viewModel), viewModel);
 					break;
+				case Libraries.ChessDataBase.ViewModels.Solutions.Details.Games.GameBoardViewModel viewModel:
+						AddTab(new Views.ChessBoard.ChessboardGameView(viewModel), viewModel);
+					break;
 			}
 		}
 
@@ -129,7 +132,7 @@ namespace Bau.ChessDataBase.Studio
 		/// <summary>
 		///		Cierra una ficha
 		/// </summary>
-		private void CloseWindow(Controls.ClosingEventArgs args)
+		private void CloseWindow(Controls.DockLayout.EventArguments.ClosingEventArgs args)
 		{
 			if (args.Document != null && args.Document.Tag != null && args.Document.Tag is IDetailViewModel detailViewModel && detailViewModel.IsUpdated)
 			{
@@ -199,14 +202,19 @@ namespace Bau.ChessDataBase.Studio
 		/// <summary>
 		///		Cambia el tema del layout
 		/// </summary>
-		private void SetTheme(Controls.DockLayout.DockTheme newTheme)
+		private void SetTheme(Controls.DockLayout.DockLayoutManager.DockTheme newTheme)
 		{
 			// Cambia el tema
 			dckManager.SetTheme(newTheme);
 			// Cambia los menús
-			mnuThemeAero.IsChecked = newTheme == Controls.DockLayout.DockTheme.Aero;
-			mnuThemeMetro.IsChecked = newTheme == Controls.DockLayout.DockTheme.Metro;
-			mnuThemeVs2010.IsChecked = newTheme == Controls.DockLayout.DockTheme.VS2010Theme;
+			mnuThemeAero.IsChecked = newTheme == Controls.DockLayout.DockLayoutManager.DockTheme.Aero;
+			mnuThemeMetro.IsChecked = newTheme == Controls.DockLayout.DockLayoutManager.DockTheme.Metro;
+			mnuThemeVs2010.IsChecked = newTheme == Controls.DockLayout.DockLayoutManager.DockTheme.VS2010Theme;
+			mnuThemeExpressionDark.IsChecked = newTheme == Controls.DockLayout.DockLayoutManager.DockTheme.ExpressionDark;
+			mnuThemeExpressionLight.IsChecked = newTheme == Controls.DockLayout.DockLayoutManager.DockTheme.ExpressionLight;
+			mnuThemeVs2013Blue.IsChecked = newTheme == Controls.DockLayout.DockLayoutManager.DockTheme.VS2013BlueTheme;
+			mnuThemeVs2013Dark.IsChecked = newTheme == Controls.DockLayout.DockLayoutManager.DockTheme.VS2013DarkTheme;
+			mnuThemeVs2013Light.IsChecked = newTheme == Controls.DockLayout.DockLayoutManager.DockTheme.VS2013LightTheme;
 			// Cambia la configuración
 			MainController.ConfigurationController.LastThemeSelected = (int) newTheme;
 		}
@@ -388,17 +396,42 @@ namespace Bau.ChessDataBase.Studio
 
 		private void ThemeAero_Click(object sender, RoutedEventArgs e)
 		{
-			SetTheme(Controls.DockLayout.DockTheme.Aero);
+			SetTheme(Controls.DockLayout.DockLayoutManager.DockTheme.Aero);
 		}
 
 		private void ThemeMetro_Click(object sender, RoutedEventArgs e)
 		{
-			SetTheme(Controls.DockLayout.DockTheme.Metro);
+			SetTheme(Controls.DockLayout.DockLayoutManager.DockTheme.Metro);
 		}
 
 		private void ThemeVS2010_Click(object sender, RoutedEventArgs e)
 		{
-			SetTheme(Controls.DockLayout.DockTheme.VS2010Theme);
+			SetTheme(Controls.DockLayout.DockLayoutManager.DockTheme.VS2010Theme);
+		}
+
+		private void mnuThemeExpressionDark_Click(object sender, RoutedEventArgs e)
+		{
+			SetTheme(Controls.DockLayout.DockLayoutManager.DockTheme.ExpressionDark);
+		}
+
+		private void mnuThemeExpressionLight_Click(object sender, RoutedEventArgs e)
+		{
+			SetTheme(Controls.DockLayout.DockLayoutManager.DockTheme.ExpressionLight);
+		}
+
+		private void mnuThemeVs2013Light_Click(object sender, RoutedEventArgs e)
+		{
+			SetTheme(Controls.DockLayout.DockLayoutManager.DockTheme.VS2013LightTheme);
+		}
+
+		private void mnuThemeVs2013Blue_Click(object sender, RoutedEventArgs e)
+		{
+			SetTheme(Controls.DockLayout.DockLayoutManager.DockTheme.VS2013BlueTheme);
+		}
+
+		private void mnuThemeVs2013Dark_Click(object sender, RoutedEventArgs e)
+		{
+			SetTheme(Controls.DockLayout.DockLayoutManager.DockTheme.VS2013DarkTheme);
 		}
 
 		private void Window_Unloaded(object sender, RoutedEventArgs e)
@@ -426,24 +459,10 @@ namespace Bau.ChessDataBase.Studio
 			e.Cancel = !CanExitApp();
 		}
 
-		private void dckManager_Drop(object sender, DragEventArgs e)
+		private void dckManager_OpenFileRequired(object sender, Controls.DockLayout.EventArguments.OpenFileRequiredArgs e)
 		{
-			if (e.Data.GetDataPresent(DataFormats.FileDrop))
-				try
-				{
-					string [] files = (string []) e.Data.GetData(DataFormats.FileDrop);
-
-						// Abre los archivos
-						foreach (string file in files)
-							if (!string.IsNullOrWhiteSpace(file) && System.IO.File.Exists(file))
-								OpenFile(file);
-						// Indica que se ha tratado el evento
-						e.Handled = true;
-				}
-				catch (Exception exception)
-				{
-					MainController.ChessDataBaseController.Logger.Default.LogItems.Error("Error when drop files", exception);
-				}
+			if (!string.IsNullOrWhiteSpace(e.FileName) && System.IO.File.Exists(e.FileName))
+				OpenFile(e.FileName);
 		}
 
 		private void AboutMenuItem_Click(object sender, RoutedEventArgs e)

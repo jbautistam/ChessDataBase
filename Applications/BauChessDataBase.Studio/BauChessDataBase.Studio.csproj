@@ -6,7 +6,7 @@
     <UseWPF>true</UseWPF>
     <RootNamespace>Bau.ChessDataBase.Studio</RootNamespace>
     <Authors>Jose Antonio Bautista</Authors>
-    <ApplicationIcon>Resources\BauDbStudio.ico</ApplicationIcon>
+    <ApplicationIcon>BauChessStudio.ico</ApplicationIcon>
     <AssemblyVersion>1.0.15.0</AssemblyVersion>
     <FileVersion>1.0.15.0</FileVersion>
     <Version>1.0.13</Version>
@@ -18,65 +18,43 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Controls\**" />
+    <EmbeddedResource Remove="Controls\**" />
+    <None Remove="Controls\**" />
+    <Page Remove="Controls\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Remove="Views\Tools\FindView.xaml.cs" />
     <Compile Remove="Views\Tools\FindViewModel.cs" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="Resources\BauDbStudio.ico" />
+    <None Remove="Resources\BauChessStudio.ico" />
     <None Remove="Resources\ChessBoard\ArrowFirst.png" />
     <None Remove="Resources\ChessBoard\ArrowLast.png" />
     <None Remove="Resources\ChessBoard\ArrowNext.png" />
     <None Remove="Resources\ChessBoard\ArrowPrevious.png" />
     <None Remove="Resources\ChessBoard\BishopBlack.gif" />
     <None Remove="Resources\ChessBoard\BishopWhite.gif" />
-    <None Remove="Resources\ChessBoard\Blog.png" />
     <None Remove="Resources\ChessBoard\BoardDark.gif" />
     <None Remove="Resources\ChessBoard\BoardLight.gif" />
-    <None Remove="Resources\ChessBoard\Close.png" />
-    <None Remove="Resources\ChessBoard\Copy.png" />
-    <None Remove="Resources\ChessBoard\Cut.png" />
-    <None Remove="Resources\ChessBoard\DefaultCover.png" />
-    <None Remove="Resources\ChessBoard\Delete.png" />
-    <None Remove="Resources\ChessBoard\Document.png" />
-    <None Remove="Resources\ChessBoard\Download.png" />
-    <None Remove="Resources\ChessBoard\EntryInteresting.png" />
-    <None Remove="Resources\ChessBoard\EntryNotRead.png" />
-    <None Remove="Resources\ChessBoard\EntryRead.png" />
-    <None Remove="Resources\ChessBoard\Exit.png" />
-    <None Remove="Resources\ChessBoard\File.png" />
-    <None Remove="Resources\ChessBoard\Folder.png" />
     <None Remove="Resources\ChessBoard\Image.png" />
     <None Remove="Resources\ChessBoard\KingBlack.gif" />
     <None Remove="Resources\ChessBoard\KingWhite.gif" />
     <None Remove="Resources\ChessBoard\KnightBlack.gif" />
     <None Remove="Resources\ChessBoard\KnightWhite.gif" />
-    <None Remove="Resources\ChessBoard\NewItem.png" />
     <None Remove="Resources\ChessBoard\News.png" />
     <None Remove="Resources\ChessBoard\NextAction.png" />
     <None Remove="Resources\ChessBoard\NextPage.png" />
     <None Remove="Resources\ChessBoard\PageBase.png" />
-    <None Remove="Resources\ChessBoard\Paste.png" />
     <None Remove="Resources\ChessBoard\PawnBlack.gif" />
     <None Remove="Resources\ChessBoard\PawnWhite.gif" />
-    <None Remove="Resources\ChessBoard\Play.png" />
-    <None Remove="Resources\ChessBoard\PreviousPage.png" />
-    <None Remove="Resources\ChessBoard\Process.png" />
-    <None Remove="Resources\ChessBoard\Project.png" />
-    <None Remove="Resources\ChessBoard\Properties.gif" />
     <None Remove="Resources\ChessBoard\QueenBlack.gif" />
     <None Remove="Resources\ChessBoard\QueenWhite.gif" />
-    <None Remove="Resources\ChessBoard\Reference.png" />
-    <None Remove="Resources\ChessBoard\Refresh.png" />
     <None Remove="Resources\ChessBoard\RookBlack.gif" />
     <None Remove="Resources\ChessBoard\RookWhite.gif" />
-    <None Remove="Resources\ChessBoard\Save.png" />
-    <None Remove="Resources\ChessBoard\SaveAs.png" />
-    <None Remove="Resources\ChessBoard\Section.png" />
-    <None Remove="Resources\ChessBoard\Solution.png" />
     <None Remove="Resources\ChessBoard\Tag.png" />
-    <None Remove="Resources\ChessBoard\Template.png" />
-    <None Remove="Resources\ChessBoard\WebBrowser.png" />
     <None Remove="Resources\Images\ArrowDown.png" />
     <None Remove="Resources\Images\ArrowRight.png" />
     <None Remove="Resources\Images\ArrowUp.png" />
@@ -132,74 +110,43 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Resources\BauChessStudio.ico" />
     <Resource Include="Resources\ChessBoard\ArrowFirst.png" />
     <Resource Include="Resources\ChessBoard\ArrowLast.png" />
     <Resource Include="Resources\ChessBoard\ArrowNext.png" />
     <Resource Include="Resources\ChessBoard\ArrowPrevious.png" />
     <Resource Include="Resources\ChessBoard\BishopBlack.gif" />
     <Resource Include="Resources\ChessBoard\BishopWhite.gif" />
-    <Resource Include="Resources\ChessBoard\Blog.png" />
     <Resource Include="Resources\ChessBoard\BoardDark.gif">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Resources\ChessBoard\BoardLight.gif">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\ChessBoard\Close.png" />
-    <Resource Include="Resources\ChessBoard\Copy.png" />
-    <Resource Include="Resources\ChessBoard\Cut.png" />
-    <Resource Include="Resources\ChessBoard\DefaultCover.png" />
-    <Resource Include="Resources\ChessBoard\Delete.png" />
-    <Resource Include="Resources\ChessBoard\Document.png" />
-    <Resource Include="Resources\ChessBoard\Download.png" />
-    <Resource Include="Resources\ChessBoard\EntryInteresting.png" />
-    <Resource Include="Resources\ChessBoard\EntryNotRead.png" />
-    <Resource Include="Resources\ChessBoard\EntryRead.png" />
-    <Resource Include="Resources\ChessBoard\Exit.png" />
-    <Resource Include="Resources\ChessBoard\File.png" />
-    <Resource Include="Resources\ChessBoard\Folder.png" />
     <Resource Include="Resources\ChessBoard\Image.png" />
     <Resource Include="Resources\ChessBoard\KingBlack.gif" />
     <Resource Include="Resources\ChessBoard\KingWhite.gif" />
     <Resource Include="Resources\ChessBoard\KnightBlack.gif" />
     <Resource Include="Resources\ChessBoard\KnightWhite.gif" />
-    <Resource Include="Resources\ChessBoard\NewItem.png" />
     <Resource Include="Resources\ChessBoard\News.png" />
     <Resource Include="Resources\ChessBoard\NextAction.png" />
     <Resource Include="Resources\ChessBoard\NextPage.png" />
     <Resource Include="Resources\ChessBoard\PageBase.png" />
-    <Resource Include="Resources\ChessBoard\Paste.png" />
     <Resource Include="Resources\ChessBoard\PawnBlack.gif" />
     <Resource Include="Resources\ChessBoard\PawnWhite.gif" />
-    <Resource Include="Resources\ChessBoard\Play.png" />
-    <Resource Include="Resources\ChessBoard\PreviousPage.png" />
-    <Resource Include="Resources\ChessBoard\Process.png" />
-    <Resource Include="Resources\ChessBoard\Project.png" />
-    <Resource Include="Resources\ChessBoard\Properties.gif" />
     <Resource Include="Resources\ChessBoard\QueenBlack.gif" />
     <Resource Include="Resources\ChessBoard\QueenWhite.gif" />
-    <Resource Include="Resources\ChessBoard\Reference.png" />
-    <Resource Include="Resources\ChessBoard\Refresh.png" />
     <Resource Include="Resources\ChessBoard\RookBlack.gif" />
     <Resource Include="Resources\ChessBoard\RookWhite.gif" />
-    <Resource Include="Resources\ChessBoard\Save.png" />
-    <Resource Include="Resources\ChessBoard\SaveAs.png" />
-    <Resource Include="Resources\ChessBoard\Section.png" />
-    <Resource Include="Resources\ChessBoard\Solution.png" />
     <Resource Include="Resources\ChessBoard\Tag.png" />
-    <Resource Include="Resources\ChessBoard\Template.png" />
-    <Resource Include="Resources\ChessBoard\WebBrowser.png" />
     <Resource Include="Resources\Images\CaseSensitive.png" />
     <Resource Include="Resources\Images\Chart.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Extended.Wpf.Toolkit" Version="3.8.2" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\..\..\..\Controls\WPF\BauControls\src\BauControls.csproj" />
     <ProjectReference Include="..\..\..\..\Controls\WPF\CodeEditor\src\CodeEditor.csproj" />
+    <ProjectReference Include="..\..\..\..\Controls\WPF\DockLayout\src\DockLayout.csproj" />
     <ProjectReference Include="..\..\..\..\Libraries\Architecture\Mvvm\src\BauMvvm.Views.Wpf\BauMvvm.Views.Wpf.csproj" />
     <ProjectReference Include="..\..\..\..\Libraries\Architecture\Mvvm\src\BauMvvm.Views\BauMvvm.Views.csproj" />
     <ProjectReference Include="..\..\..\..\Libraries\Common\LibSystem.Windows\LibSystem.Windows.csproj" />
@@ -209,7 +156,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Resources\BauDbStudio.ico" />
     <Resource Include="Resources\Images\ArrowDown.png" />
     <Resource Include="Resources\Images\ArrowRight.png" />
     <Resource Include="Resources\Images\ArrowUp.png" />
@@ -268,6 +214,9 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Update="Views\ChessBoard\ChessboardGameView.xaml.cs">
+      <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\ChessBoard\Controls\ChessBoardView.xaml.cs">
       <DependentUpon>ChessBoardView.xaml</DependentUpon>
@@ -778,6 +727,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Page Update="Views\ChessBoard\ChessboardGameView.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\ChessBoard\Controls\ChessBoardView.xaml">
       <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
       <SubType>Designer</SubType>

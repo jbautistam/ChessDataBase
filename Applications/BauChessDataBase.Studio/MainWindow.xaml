@@ -6,8 +6,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Bau.ChessDataBase.Studio"
 		xmlns:commandsLocal="clr-namespace:Bau.ChessDataBase.Studio.Converters"
-		xmlns:avalonDock="http://schemas.xceed.com/wpf/xaml/avalondock"
-		xmlns:avalonDockExtended="clr-namespace:Bau.ChessDataBase.Studio.Controls"
+		xmlns:dockLayout="clr-namespace:Bau.Controls.DockLayout;assembly=DockLayout"
         mc:Ignorable="d"
         Title="{Binding Path=Text}" Height="450" Width="800" Loaded="Window_Loaded" Unloaded="Window_Unloaded" WindowStartupLocation="CenterScreen" WindowState="Maximized" Closing="Window_Closing">
 	<Window.CommandBindings>
@@ -42,9 +41,9 @@
 						</MenuItem.Icon>
 					</MenuItem>
 					<Separator/>
-					<MenuItem Header="Ventana del explorador" Click="OpenWebBrowser_Click" >
+					<MenuItem Header="Juego" Command="{Binding Path=NewGameCommand}" >
 						<MenuItem.Icon>
-							<Image Width="16" Height="16" Source="/Resources/Images/FileXml.png" />
+							<Image Width="16" Height="16" Source="/Resources/ChessBoard/KingBlack.gif" />
 						</MenuItem.Icon>
 					</MenuItem>
 				</MenuItem>
@@ -145,13 +144,18 @@
 			</MenuItem>
 
 			<MenuItem Header="_Ventana">
-				<MenuItem Header="Cambiar tema" Click="CloseAllWindows_Click">
+				<MenuItem Header="Cambiar tema">
 					<MenuItem.Icon>
 						<Image Width="16" Height="16" Source="/BauControls;component/Themes/Images/NewItem.png" />
 					</MenuItem.Icon>
 					<MenuItem Header="Aero" Click="ThemeAero_Click" IsCheckable="True" x:Name="mnuThemeAero"/>
 					<MenuItem Header="Metro" Click="ThemeMetro_Click" IsCheckable="True" x:Name="mnuThemeMetro"/>
+					<MenuItem Header="Expression dark" Click="mnuThemeExpressionDark_Click" IsCheckable="True" x:Name="mnuThemeExpressionDark"/>
+					<MenuItem Header="Expression light" Click="mnuThemeExpressionLight_Click" IsCheckable="True" x:Name="mnuThemeExpressionLight"/>
 					<MenuItem Header="VS 2010" Click="ThemeVS2010_Click" IsCheckable="True" x:Name="mnuThemeVs2010"/>
+					<MenuItem Header="VS 2013 light" Click="mnuThemeVs2013Light_Click" IsCheckable="True" x:Name="mnuThemeVs2013Light"/>
+					<MenuItem Header="VS 2013 blue" Click="mnuThemeVs2013Blue_Click" IsCheckable="True" x:Name="mnuThemeVs2013Blue"/>
+					<MenuItem Header="VS 2013 dark" Click="mnuThemeVs2013Dark_Click" IsCheckable="True" x:Name="mnuThemeVs2013Dark"/>
 				</MenuItem>
 				<MenuItem Header="_Cerrar todos los documentos" Click="CloseAllWindows_Click">
 					<MenuItem.Icon>
@@ -189,14 +193,8 @@
 			</Button>
 		</ToolBar>
 
-		<avalonDockExtended:DockLayout x:Name="dckManager" Grid.Row="2" Grid.Column="0" Drop="dckManager_Drop" AllowDrop="True">
-			<avalonDock:DockingManager.Theme>
-				<avalonDock:AeroTheme></avalonDock:AeroTheme>
-			</avalonDock:DockingManager.Theme>
-
-			<avalonDock:LayoutRoot>
-			</avalonDock:LayoutRoot>
-		</avalonDockExtended:DockLayout>
+		<dockLayout:DockLayoutManager x:Name="dckManager" Grid.Row="2" Grid.Column="0" OpenFileRequired="dckManager_OpenFileRequired" >
+		</dockLayout:DockLayoutManager>
 
 		<!-- Barra de estado -->
 		<StatusBar Grid.Row="3" Grid.Column="0">

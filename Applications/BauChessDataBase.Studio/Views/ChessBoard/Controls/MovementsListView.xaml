@@ -46,7 +46,7 @@
 				</DataTemplate>
 			</ListBox.Resources>
 		</ListBox>
-		<Border Grid.Row="1" Grid.Column="0" Margin="2" Padding="5" BorderBrush="Black" BorderThickness="1" Background="#FF40B9E6">
+		<Border Grid.Row="1" Grid.Column="0" Margin="2" Padding="5" BorderBrush="Black" BorderThickness="1" >
 			<TextBlock Text="{Binding Path=MovementsList.ActualMovement.RemarksText}" TextWrapping="Wrap" FontSize="16" />
 		</Border>
 	</Grid>

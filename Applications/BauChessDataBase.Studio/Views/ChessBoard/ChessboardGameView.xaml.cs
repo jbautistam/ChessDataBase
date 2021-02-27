@@ -10,9 +10,9 @@ namespace Bau.ChessDataBase.Studio.Views.ChessBoard
 	/// <summary>
 	///		Control de usuario para mostrar el tablero con un archivo PGN
 	/// </summary>
-	public partial class ChessboardPgnView : UserControl
+	public partial class ChessboardGameView : UserControl
 	{
-		public ChessboardPgnView(GameBoardPgnViewModel viewModel)
+		public ChessboardGameView(GameBoardViewModel viewModel)
 		{
 			// Inicializa el viewModel
 			DataContext = ViewModel = viewModel;
@@ -23,31 +23,20 @@ namespace Bau.ChessDataBase.Studio.Views.ChessBoard
 		/// <summary>
 		///		Inicializa el formulario
 		/// </summary>
-		private async Task InitFormAsync()
+		private void InitForm()
 		{
 			// Inicializa el tablero
 			udtListMovements.ViewModel = ViewModel.ChessGameViewModel.GameBoardViewModel;
 			udtMovementInfoView.Init(ViewModel.ChessGameViewModel.GameBoardViewModel);
 			udtBoard.Init(ViewModel.ChessGameViewModel.GameBoardViewModel);
-			// Carga el juego predeterminado
-			await LoadGameAsync();
-		}
-
-		/// <summary>
-		///		Carga el juego
-		/// </summary>
-		private async Task LoadGameAsync()
-		{
-			(bool isLoaded, string error) = await ViewModel.ChessGameViewModel.LoadFileAsync();
-
-				if (!isLoaded)
-					MessageBox.Show(error);
+			// Inicializa el juego
+			ViewModel.ChessGameViewModel.Init();
 		}
 
 		/// <summary>
 		///		ViewModel
 		/// </summary>
-		public GameBoardPgnViewModel ViewModel { get; }
+		public GameBoardViewModel ViewModel { get; }
 
 		private void lstMovements_SelectionChanged(object sender, SelectionChangedEventArgs e)
 		{
@@ -55,9 +44,9 @@ namespace Bau.ChessDataBase.Studio.Views.ChessBoard
 				lstView.ScrollIntoView(ViewModel.ChessGameViewModel.GameBoardViewModel.MovementsList.SelectedMovement);
 		}
 
-		private async void UserControl_Initialized(object sender, EventArgs e)
+		private void UserControl_Initialized(object sender, EventArgs e)
 		{
-			await InitFormAsync();
+			InitForm();
 		}
 	}
 }

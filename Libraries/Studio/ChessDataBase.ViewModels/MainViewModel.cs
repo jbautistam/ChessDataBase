@@ -44,6 +44,7 @@ namespace Bau.Libraries.ChessDataBase.ViewModels
 									.AddListener(this, nameof(SelectedDetailsViewModel));
 			RefreshCommand = new BaseCommand(_ => Refresh());
 			OpenConfigurationCommand = new BaseCommand(_ => OpenConfigurationView());
+			NewGameCommand = new BaseCommand(_ => OpenNewGameView());
 		}
 
 		/// <summary>
@@ -143,6 +144,11 @@ namespace Bau.Libraries.ChessDataBase.ViewModels
 			MainController.OpenDialog(ConfigurationViewModel);
 		}
 
+		private void OpenNewGameView()
+		{
+			MainController.OpenWindow(new Solutions.Details.Games.GameBoardViewModel(SolutionViewModel));
+		}
+
 		/// <summary>
 		///		Lanza el evento de modificación de los workspaces
 		/// </summary>
@@ -240,5 +246,10 @@ namespace Bau.Libraries.ChessDataBase.ViewModels
 		///		Comando para abrir la ventana de configuración
 		/// </summary>
 		public BaseCommand OpenConfigurationCommand { get; }
+
+		/// <summary>
+		///		Comando para abrir un juego nuevo
+		/// </summary>
+		public BaseCommand NewGameCommand { get; }
 	}
 }

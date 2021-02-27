@@ -2,21 +2,18 @@
 
 namespace Bau.Libraries.ChessDataBase.ViewModels.Solutions.Details.Games
 {
-	public class GameBoardPgnViewModel : BauMvvm.ViewModels.BaseObservableObject, Interfaces.IDetailViewModel
+	public class GameBoardViewModel : BauMvvm.ViewModels.BaseObservableObject, Interfaces.IDetailViewModel
 	{
 		// Variables privadas
-		private LibChessGame.ViewModels.ChessPgnGameViewModel _chessGameViewModel;
+		private LibChessGame.ViewModels.ChessGameViewModel _chessGameViewModel;
 
-		public GameBoardPgnViewModel(SolutionViewModel solutionViewModel, string fileName) : base(false)
+		public GameBoardViewModel(SolutionViewModel solutionViewModel) : base(false)
 		{
 			// Asigna las propiedades
 			SolutionViewModel = solutionViewModel;
-			Header = System.IO.Path.GetFileName(fileName);
-			ChessGameViewModel = new LibChessGame.ViewModels.ChessPgnGameViewModel(fileName, 
-																				   SolutionViewModel.MainViewModel.ConfigurationViewModel.PathBoardImages,
-																				   SolutionViewModel.MainViewModel.ConfigurationViewModel.PathPiecesImages);
-			// Añade el archivo a los últimos archivos abiertos
-			SolutionViewModel.MainViewModel.ConfigurationViewModel.LastFilesViewModel.Add(fileName);
+			Header = "Game";
+			ChessGameViewModel = new LibChessGame.ViewModels.ChessGameViewModel(SolutionViewModel.MainViewModel.ConfigurationViewModel.PathBoardImages,
+																				SolutionViewModel.MainViewModel.ConfigurationViewModel.PathPiecesImages);
 			// Asigna los comandos
 			OpenFileCommand = new BauMvvm.ViewModels.BaseCommand(_ => OpenFile());
 		}
@@ -26,7 +23,7 @@ namespace Bau.Libraries.ChessDataBase.ViewModels.Solutions.Details.Games
 		/// </summary>
 		private void OpenFile()
 		{
-			SolutionViewModel.MainViewModel.MainController.OpenWindow(new Files.FileViewModel(SolutionViewModel, ChessGameViewModel.FileName));
+			//SolutionViewModel.MainViewModel.MainController.OpenWindow(new Files.FileViewModel(SolutionViewModel, ChessGameViewModel.FileName));
 		}
 
 		/// <summary>
@@ -58,7 +55,7 @@ namespace Bau.Libraries.ChessDataBase.ViewModels.Solutions.Details.Games
 		/// <summary>
 		///		ViewModel del juego
 		/// </summary>
-		public LibChessGame.ViewModels.ChessPgnGameViewModel ChessGameViewModel
+		public LibChessGame.ViewModels.ChessGameViewModel ChessGameViewModel
 		{
 			get { return _chessGameViewModel; }
 			set { CheckObject(ref _chessGameViewModel, value); }
@@ -69,7 +66,7 @@ namespace Bau.Libraries.ChessDataBase.ViewModels.Solutions.Details.Games
 		/// </summary>
 		public string TabId 
 		{ 
-			get { return $"PgnView_{ChessGameViewModel.FileName}"; }
+			get { return $"GameView_{Guid.NewGuid().ToString()}"; }
 		}
 
 		/// <summary>
